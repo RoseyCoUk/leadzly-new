@@ -78,39 +78,39 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| TRST-01 | Phase TBD | Pending |
-| TRST-02 | Phase TBD | Pending |
-| TRST-03 | Phase TBD | Pending |
-| TRST-04 | Phase TBD | Pending |
-| TRST-05 | Phase TBD | Pending |
-| TRST-06 | Phase TBD | Pending |
-| PAGE-01 | Phase TBD | Pending |
-| PAGE-02 | Phase TBD | Pending |
-| PAGE-03 | Phase TBD | Pending |
-| PAGE-04 | Phase TBD | Pending |
-| BOOK-01 | Phase TBD | Pending |
-| BOOK-02 | Phase TBD | Pending |
-| BOOK-03 | Phase TBD | Pending |
-| DSGN-01 | Phase TBD | Pending |
-| DSGN-02 | Phase TBD | Pending |
-| DSGN-03 | Phase TBD | Pending |
-| DSGN-04 | Phase TBD | Pending |
-| SECT-01 | Phase TBD | Pending |
-| SECT-02 | Phase TBD | Pending |
-| SECT-03 | Phase TBD | Pending |
-| NAV-01 | Phase TBD | Pending |
-| NAV-02 | Phase TBD | Pending |
-| NAV-03 | Phase TBD | Pending |
-| QWIN-01 | Phase TBD | Pending |
-| QWIN-02 | Phase TBD | Pending |
-| QWIN-03 | Phase TBD | Pending |
-| QWIN-04 | Phase TBD | Pending |
+| NAV-01 | Phase 1 — Foundation & Hygiene | Pending |
+| NAV-02 | Phase 1 — Foundation & Hygiene | Pending |
+| NAV-03 | Phase 1 — Foundation & Hygiene | Pending |
+| QWIN-01 | Phase 1 — Foundation & Hygiene | Pending |
+| QWIN-02 | Phase 1 — Foundation & Hygiene | Pending |
+| QWIN-04 | Phase 1 — Foundation & Hygiene | Pending |
+| PAGE-01 | Phase 2 — Page Restructure & Scaffolding | Pending |
+| PAGE-02 | Phase 2 — Page Restructure & Scaffolding | Pending |
+| PAGE-03 | Phase 2 — Page Restructure & Scaffolding | Pending |
+| PAGE-04 | Phase 2 — Page Restructure & Scaffolding | Pending |
+| DSGN-02 | Phase 2 — Page Restructure & Scaffolding | Pending |
+| TRST-01 | Phase 3 — Trust & Social Proof | Pending |
+| TRST-02 | Phase 3 — Trust & Social Proof | Pending |
+| TRST-03 | Phase 3 — Trust & Social Proof | Pending |
+| TRST-04 | Phase 3 — Trust & Social Proof | Pending |
+| TRST-05 | Phase 3 — Trust & Social Proof | Pending |
+| TRST-06 | Phase 3 — Trust & Social Proof | Pending |
+| SECT-01 | Phase 4 — Conversion Sections | Pending |
+| SECT-02 | Phase 4 — Conversion Sections | Pending |
+| SECT-03 | Phase 4 — Conversion Sections | Pending |
+| DSGN-01 | Phase 4 — Conversion Sections | Pending |
+| BOOK-01 | Phase 5 — Booking Experience & CTAs | Pending |
+| BOOK-02 | Phase 5 — Booking Experience & CTAs | Pending |
+| BOOK-03 | Phase 5 — Booking Experience & CTAs | Pending |
+| QWIN-03 | Phase 5 — Booking Experience & CTAs | Pending |
+| DSGN-03 | Phase 6 — Design Polish & Mobile | Pending |
+| DSGN-04 | Phase 6 — Design Polish & Mobile | Pending |
 
 **Coverage:**
 - v1 requirements: 27 total
-- Mapped to phases: 0 (roadmap pending)
-- Unmapped: 27 ⚠️
+- Mapped to phases: 27
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-24*
-*Last updated: 2026-04-24 after initial definition*
+*Last updated: 2026-04-24 after roadmap creation*
