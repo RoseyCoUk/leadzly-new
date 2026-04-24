@@ -1,20 +1,35 @@
+---
+gsd_state_version: 1.0
+milestone: v1.0
+milestone_name: milestone
+status: planning
+last_updated: "2026-04-24T21:12:12.815Z"
+progress:
+  total_phases: 6
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 2
+---
+
 # Project State
 
 ## Project Reference
+
 See: .planning/PROJECT.md
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 1 — Foundation & Hygiene
+**Current focus:** Phase 01 — foundation-hygiene
 
 ---
 
 ## Current Status
 
-**Phase:** 1 — Foundation & Hygiene
-**Status:** Not started
+**Phase:** 2
+**Status:** Ready to plan
 **Last updated:** 2026-04-24
 
 **Progress bar:**
+
 ```
 Phase 1 [----------] 0%
 Phase 2 [----------] 0%
@@ -54,6 +69,7 @@ Phase 6 [----------] 0%
 ## Accumulated Context
 
 ### Key Decisions
+
 - Vanilla JS only — no build system, no npm, no frameworks (locked in PROJECT.md)
 - Inline Calendly embed via widget script loaded from Calendly CDN
 - All ROI calculator logic is client-side JS, no server call
@@ -62,6 +78,7 @@ Phase 6 [----------] 0%
 - Counter animation in hero uses IntersectionObserver + requestAnimationFrame
 
 ### Technical Notes
+
 - Stack: `index.html` + `style.css`, `base.css`, `page.css` + vanilla JS (new file to be added)
 - Brand colours: Green `#16a34a`, Dark navy `#0f172a`, Light green `#22c55e`, Green bg `#f0fdf4`
 - Font: Inter (already loaded via Google Fonts — no new imports)
@@ -70,11 +87,13 @@ Phase 6 [----------] 0%
 - GA4 already installed via Partytown (do not re-add analytics)
 
 ### Todos
+
 - [ ] Source or create placeholder testimonial content (8–12 entries) before Phase 3
 - [ ] Source or create placeholder case study content (4–5 entries) before Phase 3
 - [ ] Confirm favicon asset exists or create one before Phase 1
 
 ### Blockers
+
 - None currently
 
 ---
