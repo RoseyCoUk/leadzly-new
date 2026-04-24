@@ -10,7 +10,7 @@
 
 | # | Phase | Goal | Requirements | Plans |
 |---|-------|------|--------------|-------|
-| 1 | Foundation & Hygiene | Site is clean, crawlable, and navigable before any structural work | NAV-01, NAV-02, NAV-03, QWIN-01, QWIN-02, QWIN-04 | TBD |
+| 1 | Foundation & Hygiene | Site is clean, crawlable, and navigable before any structural work | NAV-01, NAV-02, NAV-03, QWIN-01, QWIN-02, QWIN-04 | 2 plans |
 | 2 | Page Restructure & Scaffolding | Page sections exist in the correct order with structural HTML in place | PAGE-01, PAGE-02, PAGE-03, PAGE-04, DSGN-02 | TBD |
 | 3 | Trust & Social Proof | Visitors can read real testimonials, case studies, and credibility signals | TRST-01, TRST-02, TRST-03, TRST-04, TRST-05, TRST-06 | TBD |
 | 4 | Conversion Sections | Visitors encounter a comparison table, FAQ, ROI calculator, and polished typography | SECT-01, SECT-02, SECT-03, DSGN-01 | TBD |
@@ -35,7 +35,9 @@
 4. A custom favicon appears in the browser tab and bookmark bar
 5. A GDPR cookie consent banner appears on first visit and does not reappear after the user accepts
 
-**Plans:** TBD
+**Plans:** 2 plans
+- [ ] 01-PLAN-meta-favicon.md — Add missing OG tags (og:image, og:url) + favicon link tags; verify pre-implemented NAV requirements
+- [ ] 01-PLAN-gdpr-banner.md — GDPR cookie consent banner with real GA4 gating via localStorage
 
 ---
 
@@ -129,7 +131,7 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Hygiene | 0/? | Not started | — |
+| 1. Foundation & Hygiene | 0/2 | Not started | — |
 | 2. Page Restructure & Scaffolding | 0/? | Not started | — |
 | 3. Trust & Social Proof | 0/? | Not started | — |
 | 4. Conversion Sections | 0/? | Not started | — |
@@ -174,3 +176,4 @@
 
 ---
 *Roadmap created: 2026-04-24*
+*Last updated: 2026-04-24 — Phase 1 planned (2 plans)*
