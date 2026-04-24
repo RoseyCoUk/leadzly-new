@@ -18,7 +18,10 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag("js", new Date());
-    gtag("config", "G-RHWLZ0HHLV");
+    // GA4 config only fires if consent was already given (returning visitor)
+    if (localStorage.getItem('leadzly_cookie_consent') === 'accepted') {
+      gtag("config", "G-RHWLZ0HHLV");
+    }
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,6 +42,73 @@
   <link rel="stylesheet" href="./base.css">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./page.css">
+  <style>
+/* ===== GDPR Cookie Banner ===== */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: var(--color-dark);
+  color: var(--color-text-inverse);
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(100%);
+  transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  flex-wrap: wrap;
+}
+.cookie-banner--visible {
+  transform: translateY(0);
+}
+.cookie-banner__text {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-inverse);
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 200px;
+}
+.cookie-banner__accept {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-6);
+  cursor: pointer;
+  transition: background var(--transition-interactive),
+              transform var(--transition-interactive);
+  white-space: nowrap;
+}
+.cookie-banner__accept:hover {
+  background: var(--color-primary-hover);
+  transform: translateY(-1px);
+}
+.cookie-banner__accept:active {
+  transform: translateY(0);
+}
+@media (max-width: 480px) {
+  .cookie-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-4);
+  }
+  .cookie-banner__accept {
+    width: 100%;
+  }
+}
+  </style>
 </head>
 <body>
   <!-- Skip to content -->
@@ -397,6 +467,12 @@
     </div>
   </footer>
 
+  <!-- ===== GDPR Cookie Banner ===== -->
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
+    <p class="cookie-banner__text">We use cookies to understand how visitors use our site and to improve your experience.</p>
+    <button class="cookie-banner__accept" id="cookie-accept">Accept</button>
+  </div>
+
   <script>
     // Theme toggle
     (function() {
@@ -490,6 +566,43 @@
         }
       });
     });
+
+    // GDPR Cookie Banner
+    (function() {
+      var CONSENT_KEY = 'leadzly_cookie_consent';
+      var banner = document.getElementById('cookie-banner');
+      var acceptBtn = document.getElementById('cookie-accept');
+
+      if (!banner || !acceptBtn) return;
+
+      // If already accepted: keep banner hidden, GA4 already fired in <head>
+      if (localStorage.getItem(CONSENT_KEY) === 'accepted') return;
+
+      // First visit: reveal banner with slide-up animation
+      banner.removeAttribute('hidden');
+      // rAF ensures the hidden removal paints before adding the transition class
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          banner.classList.add('cookie-banner--visible');
+        });
+      });
+
+      acceptBtn.addEventListener('click', function() {
+        // Persist consent
+        localStorage.setItem(CONSENT_KEY, 'accepted');
+
+        // Fire GA4 immediately for this session
+        if (typeof gtag === 'function') {
+          gtag("config", "G-RHWLZ0HHLV");
+        }
+
+        // Slide banner down and remove from DOM after animation
+        banner.classList.remove('cookie-banner--visible');
+        banner.addEventListener('transitionend', function() {
+          banner.setAttribute('hidden', '');
+        }, { once: true });
+      });
+    })();
   </script>
 </body>
 </html>
