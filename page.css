@@ -919,7 +919,7 @@
 /* ---- PAIN POINTS ---- */
 .pain-points {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #f1f5f9;
+  background: var(--section-tint);
 }
 
 .pain-points__grid {
@@ -975,7 +975,7 @@
 /* ---- MULTI-CHANNEL BREAKDOWN ---- */
 .channels {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #0f172a;
+  background: var(--section-dark);
 }
 
 /* Dark section text overrides */
@@ -1040,7 +1040,7 @@
 /* ---- INDUSTRIES SERVED ---- */
 .industries {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #f0fdf4;
+  background: var(--section-green);
 }
 
 .industries__chips {
@@ -1073,26 +1073,26 @@
 /* ---- SCAFFOLD SECTIONS ---- */
 .testimonials {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #f1f5f9;
+  background: var(--section-tint);
 }
 
 .comparison {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #0f172a;
+  background: var(--section-dark);
 }
 
 .faq {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #ffffff;
+  background: var(--section-white);
 }
 
 .booking {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #f0fdf4;
+  background: var(--section-green);
 }
 
 /* Case Studies inherits from .results patterns — add class alias */
 .case-studies {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: #ffffff;
+  background: var(--section-white);
 }
