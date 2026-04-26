@@ -879,25 +879,13 @@
 
 /* ============ PHASE 2: SECTION BACKGROUNDS & ALTERNATION (DSGN-02) ============ */
 
-/* Pain Points — light grey */
-.pain-points {
-  background: var(--color-surface);
-}
+/* Pain Points — light grey (full rule in NEW SECTION STYLES block below) */
 
-/* Case Studies — white (renamed from .results) */
-.case-studies {
-  background: var(--color-bg);
-}
+/* Case Studies — white (full rule in NEW SECTION STYLES block below) */
 
-/* Testimonials scaffold — light grey */
-.testimonials {
-  background: var(--color-surface);
-}
+/* Testimonials scaffold — light grey (full rule in NEW SECTION STYLES block below) */
 
-/* Comparison scaffold — dark navy */
-.comparison {
-  background: var(--color-dark);
-}
+/* Comparison scaffold — dark navy (full rule in NEW SECTION STYLES block below) */
 /* Text colour overrides for dark comparison section */
 .comparison .section-label {
   color: var(--color-primary);
@@ -912,15 +900,9 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* FAQ — white */
-.faq {
-  background: var(--color-bg);
-}
+/* FAQ — white (full rule in NEW SECTION STYLES block below) */
 
-/* Booking scaffold — green-tinted */
-.booking {
-  background: var(--color-primary-soft);
-}
+/* Booking scaffold — green-tinted (full rule in NEW SECTION STYLES block below) */
 
 /* Scaffold placeholder text (Phase 2 only — phases 3–5 replace these) */
 .scaffold-placeholder {
@@ -930,4 +912,187 @@
   color: var(--color-text-faint);
   padding: var(--space-8) 0;
   font-style: italic;
+}
+
+/* ============ PHASE 2: NEW SECTION STYLES ============ */
+
+/* ---- PAIN POINTS ---- */
+.pain-points {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-surface);
+}
+
+.pain-points__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+@media (min-width: 640px) {
+  .pain-points__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .pain-points__grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.pain-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-sm);
+}
+
+.pain-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-lg);
+  background: var(--color-primary-highlight);
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+  flex-shrink: 0;
+}
+
+.pain-card__title {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+  line-height: 1.4;
+}
+
+.pain-card__desc {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---- MULTI-CHANNEL BREAKDOWN ---- */
+.channels {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-dark);
+}
+
+/* Dark section text overrides */
+.channels .section-label {
+  color: var(--color-primary);
+}
+.channels .section-title {
+  color: #ffffff;
+}
+.channels .section-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.channels__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+@media (min-width: 640px) {
+  .channels__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .channels__grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.channel-card {
+  background: var(--color-dark-surface);
+  border: 1px solid var(--color-dark-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+}
+
+.channel-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-lg);
+  background: rgba(22, 163, 74, 0.15);
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+  flex-shrink: 0;
+}
+
+.channel-card__title {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: var(--space-3);
+}
+
+.channel-card__desc {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---- INDUSTRIES SERVED ---- */
+.industries {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-primary-soft);
+}
+
+.industries__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  justify-content: center;
+}
+
+.industry-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+  background: #ffffff;
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  box-shadow: var(--shadow-sm);
+  white-space: nowrap;
+}
+
+.industry-chip svg {
+  flex-shrink: 0;
+}
+
+/* ---- SCAFFOLD SECTIONS ---- */
+.testimonials {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-surface);
+}
+
+.comparison {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-dark);
+}
+
+.faq {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-bg);
+}
+
+.booking {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-primary-soft);
+}
+
+/* Case Studies inherits from .results patterns — add class alias */
+.case-studies {
+  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
+  background: var(--color-bg);
 }
