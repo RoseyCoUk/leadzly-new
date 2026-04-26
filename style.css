@@ -59,10 +59,13 @@
   --color-dark-border:      #334155;
 
   /* Section alternation palette — used by page.css section backgrounds */
-  --section-white:  #ffffff;       /* clean white sections */
-  --section-tint:   #f2f5f1;       /* warm green-neutral, clearly different from white */
-  --section-green:  #eaf7ee;       /* soft lime-green accent sections */
-  --section-dark:   #0f172a;       /* dark navy anchor sections (channels, comparison) */
+  --section-white:       #ffffff;    /* clean white sections */
+  --section-tint:        #f2f5f1;    /* warm green-neutral, clearly different from white */
+  --section-green:       #eaf7ee;    /* soft lime-green accent sections */
+  --section-dark:        #152947;    /* medium-dark navy in light mode (noticeably lighter than dark mode) */
+  --section-dark-card:   #1e3d66;    /* card bg inside dark sections — elevated above section floor */
+  --section-dark-border: #2a5080;    /* card border inside dark sections */
+  --section-icon-bg:     #dcfce7;    /* icon circle bg — light green in light mode */
 
   /* Semantic */
   --color-error:            #dc2626;
@@ -119,11 +122,14 @@
   --color-dark-surface:     #111118;
   --color-dark-border:      #2a2a38;
 
-  /* Section alternation — dark mode: cash-app-style green-tinted darks */
-  --section-white:  #0d0f0d;       /* near-black with faint green undertone */
-  --section-tint:   #131913;       /* step lighter, visible green tint */
-  --section-green:  #0b2218;       /* deep forest green — the distinctive accent */
-  --section-dark:   #060a12;       /* darkest navy — clearly anchors dark sections */
+  /* Section alternation — dark mode */
+  --section-white:       #0d0f0d;
+  --section-tint:        #131913;
+  --section-green:       #0b2218;
+  --section-dark:        #060a12;    /* darkest navy in dark mode */
+  --section-dark-card:   #111118;    /* card bg inside dark sections */
+  --section-dark-border: #2a2a38;    /* card border inside dark sections */
+  --section-icon-bg:     rgba(22, 163, 74, 0.18); /* icon circle bg — translucent green on dark */
 
   --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.25);
   --shadow-md: 0 4px 12px oklch(0 0 0 / 0.35);
@@ -153,10 +159,13 @@
     --color-dark:             #0a0a0f;
     --color-dark-surface:     #111118;
     --color-dark-border:      #2a2a38;
-    --section-white:  #0d0f0d;
-    --section-tint:   #131913;
-    --section-green:  #0b2218;
-    --section-dark:   #060a12;
+    --section-white:       #0d0f0d;
+    --section-tint:        #131913;
+    --section-green:       #0b2218;
+    --section-dark:        #060a12;
+    --section-dark-card:   #111118;
+    --section-dark-border: #2a2a38;
+    --section-icon-bg:     rgba(22, 163, 74, 0.18);
     --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.25);
     --shadow-md: 0 4px 12px oklch(0 0 0 / 0.35);
     --shadow-lg: 0 12px 32px oklch(0 0 0 / 0.45);
