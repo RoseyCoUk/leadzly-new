@@ -30,7 +30,7 @@
 ### Design Polish
 
 - [ ] **DSGN-01**: Hero h1 uses font-weight 900 and clamps to at least 3.5rem; every section has a consistent eyebrow label (small caps, green) above the heading
-- [ ] **DSGN-02**: Page sections alternate between white, light grey (#fafafa), dark navy (#0f172a), and green-tinted (#f0fdf4) backgrounds to create visual rhythm
+- [x] **DSGN-02**: Page sections alternate between white, light grey (#fafafa), dark navy (#0f172a), and green-tinted (#f0fdf4) backgrounds to create visual rhythm
 - [ ] **DSGN-03**: All cards lift on hover (translateY(-4px) + box-shadow) and show a green border highlight; sections fade up on scroll via IntersectionObserver
 - [ ] **DSGN-04**: All grids collapse to single column on mobile; process steps stack vertically without arrows; comparison table scrolls horizontally on small screens
 
@@ -88,7 +88,7 @@
 | PAGE-02 | Phase 2 — Page Restructure & Scaffolding | Complete |
 | PAGE-03 | Phase 2 — Page Restructure & Scaffolding | Complete |
 | PAGE-04 | Phase 2 — Page Restructure & Scaffolding | Complete |
-| DSGN-02 | Phase 2 — Page Restructure & Scaffolding | Pending |
+| DSGN-02 | Phase 2 — Page Restructure & Scaffolding | Complete |
 | TRST-01 | Phase 3 — Trust & Social Proof | Pending |
 | TRST-02 | Phase 3 — Trust & Social Proof | Pending |
 | TRST-03 | Phase 3 — Trust & Social Proof | Pending |

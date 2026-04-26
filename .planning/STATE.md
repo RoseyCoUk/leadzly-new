@@ -25,8 +25,8 @@ See: .planning/PROJECT.md
 ## Current Status
 
 **Phase:** 2
-**Current Plan:** 02-01 (complete) — next: 02-02
-**Status:** Executing Phase 02 — Plan 01 complete
+**Current Plan:** 02-02 (awaiting checkpoint:human-verify — Task 3)
+**Status:** Executing Phase 02 — Plan 02 tasks 1 and 2 complete, checkpoint pending
 **Last updated:** 2026-04-26
 
 **Progress bar:**
@@ -80,6 +80,8 @@ Phase 6 [----------] 0%
 - Counter animation in hero uses IntersectionObserver + requestAnimationFrame
 - About section placed between pricing and faq with Phase 3 relocation comment (TRST-06 will move it) [02-01]
 - Hero "See Our Results" CTA updated from #results to #case-studies alongside nav and footer links [02-01]
+- Duplicate CSS selectors resolved by merging Task 1 background-only rules into Task 2 full rules — one authoritative block per selector [02-02]
+- industry-chip uses explicit background:#ffffff (not --color-primary-highlight) for contrast on green-tinted section bg [02-02]
 
 ### Technical Notes
 
@@ -104,10 +106,10 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Execute plan 02-02 — CSS alternating section backgrounds
+**Next action:** Resume plan 02-02 after human-verify checkpoint (Task 3) — user must open index.html in browser and confirm backgrounds and text colours
 
 **Context for next session:**
-Plan 02-01 is complete. The 14-section DOM order is established in index.html. Plan 02-02 adds CSS rules to page.css for alternating backgrounds across all sections (white, light grey, dark navy, green-tinted). The channels section needs dark navy background with white text — existing .cta-banner and .footer patterns show the correct approach.
+Plan 02-02 Tasks 1 and 2 are complete. page.css now has DSGN-02 background alternation and full CSS for pain-points, channels, industries, and scaffold sections. Awaiting human browser verification of visual output before marking plan complete. On approval, mark 02-02 complete and proceed to Phase 3.
 
 ---
 *State initialised: 2026-04-24*

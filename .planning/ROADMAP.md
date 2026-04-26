@@ -57,7 +57,7 @@
 
 **Plans:** 1/2 plans executed
 - [x] 02-01-PLAN.md — HTML restructure: reorder existing sections, insert pain points / multi-channel / industries, add scaffold sections for case studies, testimonials, comparison, FAQ, booking
-- [ ] 02-02-PLAN.md — CSS: background alternation (DSGN-02) + full styles for pain-points, channels, industries grids and cards
+- [x] 02-02-PLAN.md — CSS: background alternation (DSGN-02) + full styles for pain-points, channels, industries grids and cards
 
 ---
 
