@@ -885,7 +885,7 @@
 
 /* Testimonials scaffold — light grey (full rule in NEW SECTION STYLES block below) */
 
-/* Comparison scaffold — dark navy (full rule in NEW SECTION STYLES block below) */
+/* Comparison scaffold — dark navy #0f172a (full rule in NEW SECTION STYLES block below) */
 /* Text colour overrides for dark comparison section */
 .comparison .section-label {
   color: var(--color-primary);
@@ -919,7 +919,7 @@
 /* ---- PAIN POINTS ---- */
 .pain-points {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-surface);
+  background: #f1f5f9;
 }
 
 .pain-points__grid {
@@ -975,7 +975,7 @@
 /* ---- MULTI-CHANNEL BREAKDOWN ---- */
 .channels {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-dark);
+  background: #0f172a;
 }
 
 /* Dark section text overrides */
@@ -1040,7 +1040,7 @@
 /* ---- INDUSTRIES SERVED ---- */
 .industries {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-primary-soft);
+  background: #f0fdf4;
 }
 
 .industries__chips {
@@ -1073,26 +1073,26 @@
 /* ---- SCAFFOLD SECTIONS ---- */
 .testimonials {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-surface);
+  background: #f1f5f9;
 }
 
 .comparison {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-dark);
+  background: #0f172a;
 }
 
 .faq {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-bg);
+  background: #ffffff;
 }
 
 .booking {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-primary-soft);
+  background: #f0fdf4;
 }
 
 /* Case Studies inherits from .results patterns — add class alias */
 .case-studies {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--color-bg);
+  background: #ffffff;
 }
