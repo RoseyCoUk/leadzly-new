@@ -11,7 +11,7 @@
 | # | Phase | Goal | Requirements | Plans |
 |---|-------|------|--------------|-------|
 | 1 | Foundation & Hygiene | Site is clean, crawlable, and navigable before any structural work | NAV-01, NAV-02, NAV-03, QWIN-01, QWIN-02, QWIN-04 | 2 plans |
-| 2 | Page Restructure & Scaffolding | Page sections exist in the correct order with structural HTML in place | PAGE-01, PAGE-02, PAGE-03, PAGE-04, DSGN-02 | TBD |
+| 2 | Page Restructure & Scaffolding | Page sections exist in the correct order with structural HTML in place | PAGE-01, PAGE-02, PAGE-03, PAGE-04, DSGN-02 | 2 plans |
 | 3 | Trust & Social Proof | Visitors can read real testimonials, case studies, and credibility signals | TRST-01, TRST-02, TRST-03, TRST-04, TRST-05, TRST-06 | TBD |
 | 4 | Conversion Sections | Visitors encounter a comparison table, FAQ, ROI calculator, and polished typography | SECT-01, SECT-02, SECT-03, DSGN-01 | TBD |
 | 5 | Booking Experience & CTAs | Visitors can book a call inline and CTAs are present throughout the page | BOOK-01, BOOK-02, BOOK-03, QWIN-03 | TBD |
@@ -55,7 +55,9 @@
 4. An industries section with a 12-chip grid (icon + label) is visible
 5. Sections visibly alternate between white, light grey, dark navy, and green-tinted backgrounds as the user scrolls
 
-**Plans:** TBD
+**Plans:** 2 plans
+- [ ] 02-01-PLAN.md — HTML restructure: reorder existing sections, insert pain points / multi-channel / industries, add scaffold sections for case studies, testimonials, comparison, FAQ, booking
+- [ ] 02-02-PLAN.md — CSS: background alternation (DSGN-02) + full styles for pain-points, channels, industries grids and cards
 
 ---
 
@@ -132,7 +134,7 @@
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Hygiene | 0/2 | Not started | — |
-| 2. Page Restructure & Scaffolding | 0/? | Not started | — |
+| 2. Page Restructure & Scaffolding | 0/2 | Not started | — |
 | 3. Trust & Social Proof | 0/? | Not started | — |
 | 4. Conversion Sections | 0/? | Not started | — |
 | 5. Booking Experience & CTAs | 0/? | Not started | — |
@@ -176,4 +178,4 @@
 
 ---
 *Roadmap created: 2026-04-24*
-*Last updated: 2026-04-24 — Phase 1 planned (2 plans)*
+*Last updated: 2026-04-26 — Phase 2 planned (2 plans)*
