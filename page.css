@@ -876,3 +876,58 @@
   color: rgba(255,255,255,0.4);
 }
 .footer__legal a:hover { color: rgba(255,255,255,0.7); }
+
+/* ============ PHASE 2: SECTION BACKGROUNDS & ALTERNATION (DSGN-02) ============ */
+
+/* Pain Points — light grey */
+.pain-points {
+  background: var(--color-surface);
+}
+
+/* Case Studies — white (renamed from .results) */
+.case-studies {
+  background: var(--color-bg);
+}
+
+/* Testimonials scaffold — light grey */
+.testimonials {
+  background: var(--color-surface);
+}
+
+/* Comparison scaffold — dark navy */
+.comparison {
+  background: var(--color-dark);
+}
+/* Text colour overrides for dark comparison section */
+.comparison .section-label {
+  color: var(--color-primary);
+}
+.comparison .section-title {
+  color: #ffffff;
+}
+.comparison .section-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+.comparison .scaffold-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* FAQ — white */
+.faq {
+  background: var(--color-bg);
+}
+
+/* Booking scaffold — green-tinted */
+.booking {
+  background: var(--color-primary-soft);
+}
+
+/* Scaffold placeholder text (Phase 2 only — phases 3–5 replace these) */
+.scaffold-placeholder {
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-faint);
+  padding: var(--space-8) 0;
+  font-style: italic;
+}
