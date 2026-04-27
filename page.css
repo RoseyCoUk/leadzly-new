@@ -906,7 +906,7 @@ main > section + section::before {
 
 /* ============ FOOTER ============ */
 .footer {
-  background: #0d1f12;
+  background: #141414;
   padding: clamp(var(--space-12), 6vw, var(--space-20)) 0 0;
   color: rgba(255,255,255,0.7);
 }
