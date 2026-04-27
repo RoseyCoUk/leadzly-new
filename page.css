@@ -314,7 +314,19 @@
   .hero__visual {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: var(--space-3);
+    padding: var(--space-8);
+    width: 100%;
+  }
+  .hero__card {
+    width: 100%;
+    max-width: 420px;
+  }
+  .hero__card-secondary {
+    width: 100%;
+    max-width: 420px;
   }
 }
 .hero__card {
