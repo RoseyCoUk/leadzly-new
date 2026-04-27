@@ -1149,11 +1149,6 @@ main > section + section::before {
 }
 
 /* ---- SCAFFOLD SECTIONS ---- */
-.testimonials {
-  padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
-  background: var(--section-tint);
-}
-
 .comparison {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
   background: var(--section-tint);
@@ -1169,15 +1164,52 @@ main > section + section::before {
   background: var(--section-green);
 }
 
-/* Case Studies */
-.case-studies {
+/* ============ PROVEN ACROSS INDUSTRIES ============ */
+.proven {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
   background: var(--section-white);
 }
-.case-studies__cta {
-  display: flex;
-  justify-content: center;
-  margin-top: var(--space-8);
+.proven__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+@media (min-width: 640px) {
+  .proven__grid { grid-template-columns: repeat(2, 1fr); }
+}
+.proven__card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+.proven__card-tag {
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  padding: var(--space-1) var(--space-3);
+  margin-bottom: var(--space-3);
+}
+.proven__card-outcome {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.3;
+  margin-bottom: var(--space-2);
+}
+.proven__card-detail {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--color-text-muted);
+  line-height: 1.6;
 }
 
 /* ============ TRUST BAR ============ */
