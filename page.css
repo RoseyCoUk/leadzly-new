@@ -121,13 +121,13 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: oklch(from var(--color-bg) l c h / 0.92);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   transition: box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .nav--scrolled {
-  box-shadow: 0 1px 3px oklch(0.2 0.01 250 / 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 .nav__inner {
   max-width: var(--content-wide);
@@ -469,14 +469,14 @@
 }
 .service-card {
   background: var(--color-surface);
-  border: 1px solid oklch(from var(--color-text) l c h / 0.06);
+  border: 1px solid rgba(17, 24, 39, 0.08);
   border-radius: var(--radius-xl);
   padding: var(--space-8);
   transition: box-shadow var(--transition-interactive), border-color var(--transition-interactive);
 }
 .service-card:hover {
   box-shadow: var(--shadow-md);
-  border-color: oklch(from var(--color-primary) l c h / 0.2);
+  border-color: rgba(22, 163, 74, 0.2);
 }
 .service-card__icon {
   display: inline-flex;
@@ -594,7 +594,7 @@
 }
 .result-card {
   background: var(--color-surface);
-  border: 1px solid oklch(from var(--color-text) l c h / 0.06);
+  border: 1px solid rgba(17, 24, 39, 0.08);
   border-radius: var(--radius-xl);
   padding: var(--space-8);
   position: relative;
@@ -687,7 +687,7 @@
 }
 .pricing-card {
   background: var(--color-bg);
-  border: 1px solid oklch(from var(--color-text) l c h / 0.08);
+  border: 1px solid rgba(17, 24, 39, 0.1);
   border-radius: var(--radius-xl);
   padding: var(--space-8);
   display: flex;
@@ -783,7 +783,7 @@
   padding: var(--space-4) var(--space-6);
   background: var(--color-primary-soft);
   border-radius: var(--radius-lg);
-  border: 1px solid oklch(from var(--color-primary) l c h / 0.15);
+  border: 1px solid rgba(22, 163, 74, 0.15);
   max-width: var(--content-default);
   margin-inline: auto;
 }
