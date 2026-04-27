@@ -91,10 +91,17 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Vanilla JS only | Keeps zero build complexity — site stays as drop-in HTML files | — Pending |
-| All 5 priorities in scope | Full improvement plan delivers maximum conversion uplift vs partial | — Pending |
-| Inline Calendly embed | External link breaks the booking flow; inline keeps prospect on-page | — Pending |
-| Floating sticky CTA | Ensures CTA is always reachable without scrolling to top | — Pending |
+| Vanilla JS only | Keeps zero build complexity — site stays as drop-in HTML files | Confirmed |
+| All 5 priorities in scope | Full improvement plan delivers maximum conversion uplift vs partial | Confirmed |
+| Inline Calendly embed | External link breaks the booking flow; inline keeps prospect on-page | Confirmed |
+| Floating sticky CTA | Ensures CTA is always reachable without scrolling to top | Confirmed |
+| No dark mode | Added complexity without payoff on a focused B2B landing page; felt inconsistent with the green/white brand | Phase 2 — removed entirely |
+| Light-only palette: white / #f8fafb / #f0fdf4 | Three tones only — no dark mid-page sections. Clean, professional, consistent with competitors like Belkins | Phase 2 — implemented |
+| Green solid nav (#16a34a) | White nav was too plain against the hero; green nav immediately anchors brand colour at top of page | Phase 2 — implemented |
+| Hero: split layout (white+dot-grid left / green right) + meeting card | Typography-only hero on pure white was too bare; no real photos available; meeting card communicates value prop visually | Phase 2 — implemented |
+| Removed fake social proof | Placeholder result cards and SVG logos would undermine credibility with sceptical B2B buyers; replaced with honest coming-soon state | Phase 2 — removed |
+| Multi-channel section: light not dark | Dark navy mid-page sections broke the clean light palette; channels section converted to white with green-tinted cards | Phase 2 — implemented |
+| No real case study data yet | Client is still gathering documented outcomes; case studies section holds coming-soon state with direct CTA | Phase 2 — noted, Phase 3 work |
 
 ## Evolution
 
@@ -114,4 +121,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-24 after initialization*
+*Last updated: 2026-04-27 after Phase 2 completion*

@@ -2,19 +2,24 @@
 phase: 02-page-restructure-scaffolding
 plan: 02
 subsystem: ui
-tags: [css, backgrounds, alternation, design-system, sections, static]
+status: complete
+checkpoint_resolved: true
+tags: [css, backgrounds, alternation, design-system, sections, hero, dark-mode-removal, static]
 
 # Dependency graph
 requires:
   - "02-01: 14-section DOM order established in index.html"
 provides:
-  - "DSGN-02 background alternation pattern applied across all 14 sections"
-  - "Full CSS for .pain-points (light grey bg, 3-col grid, white cards with green icon circles)"
-  - "Full CSS for .channels (dark navy bg, 4-col grid, dark-surface cards, white text overrides)"
-  - "Full CSS for .industries (green-tinted bg, flex-wrap chip layout, white pill chips)"
-  - "Scaffold section CSS for .testimonials, .comparison, .faq, .booking (padding + backgrounds)"
-  - ".case-studies CSS alias for former .results class (padding + white bg)"
-  - ".scaffold-placeholder utility class for Phase 2 placeholder text"
+  - "Light-only design system (dark mode fully removed from style.css)"
+  - "DSGN-02 background alternation: 3 tones (white / #f8fafb / #f0fdf4), no dark mid-page sections"
+  - "Full CSS for .pain-points (light grey, 3-col grid, white cards)"
+  - "Full CSS for .channels (converted to white bg, green-tinted cards — NOT dark navy)"
+  - "Full CSS for .industries (light green bg, white pill chips)"
+  - "Scaffold section CSS for .testimonials, .comparison, .faq, .booking"
+  - "Hero redesigned: split layout (white+dot-grid left / light-green right), meeting card visual"
+  - "Green nav: solid #16a34a, white links, white logo, white btn--white CTA"
+  - "Trust bar: light green bg, real badges only (fake SVG logos removed)"
+  - "Case studies: honest coming-soon state (fake result cards removed)"
 affects: [03-trust-social-proof, 04-conversion-sections, 05-booking-ctas, 06-design-polish]
 
 # Tech tracking
