@@ -53,22 +53,24 @@ Exceptions: Logo strip images in trust bar — minimum height 32px, maximum heig
 
 ## Typography
 
-All font sizes use fluid clamp tokens from `style.css`. Executor MUST use tokens, not hardcoded px.
+All font sizes use fluid clamp tokens from `style.css`. Executor MUST use tokens, not hardcoded px. Maximum 4 size tokens and 2 weight values are permitted in this phase.
 
 | Role | Token | Min/Max | Weight | Line Height | Usage in this phase |
 |------|-------|---------|--------|-------------|---------------------|
-| Eyebrow / section label | `--text-xs` | 12px / 14px | 600 | n/a (single line) | `.section-label` on every section header |
-| Body / card supporting text | `--text-sm` | 14px / 16px | 400 | 1.6 | Card detail lines, trust bar text |
-| Body / section subtitle | `--text-base` | 16px / 18px | 400 | 1.7 | `.section-subtitle`, `.about__text` |
+| Eyebrow / section label | `--text-xs` | 12px / 14px | 700 | n/a (single line) | `.section-label` on every section header |
+| Body / card supporting text + section subtitle | `--text-sm` | 14px / 16px | 400 | 1.6 | Card detail lines, trust bar text, `.section-subtitle`, `.about__text` |
 | Card outcome / heading | `--text-lg` | 18px / 24px | 700 | 1.3 | Industry card outcome line, `.about__diff-title` |
-| Section title | `--text-xl` | 24px / 36px | 800 | 1.15 | `.section-title` on all section headers |
-| Aggregate stat display | `--text-2xl` | 32px / 56px | 800 | 1.1 | "100+ meetings/month" stat in trust bar or section subheading |
+| Section title + stat display | `--text-xl` | 24px / 36px | 700 | 1.15 | `.section-title` on all section headers, "100+ meetings/month" stat badge |
+
+**Tokens removed from this phase:**
+- `--text-base` (16px–18px) — merged into `--text-sm`; `.section-subtitle` and `.about__text` use `--text-sm` weight 400 at line-height 1.6
+- `--text-2xl` (32px–56px) — merged into `--text-xl`; stat display renders at `--text-xl` weight 700
 
 **Font families:**
 - Display headings (`.section-title`, stat numbers): `var(--font-display)` → Plus Jakarta Sans
 - Body, labels, card text: `var(--font-body)` → Inter
 
-**Weights used in this phase: 400 (regular) and 700/800 (bold/extrabold). No other weights.**
+**Weights used in this phase: 400 (regular) and 700 (bold). No other weights.**
 
 ---
 
@@ -114,7 +116,7 @@ New CSS classes to be authored in `page.css` for this phase. All existing shared
     .trust-bar__logos       — flex row of greyscale logo images
       img                   — filter: grayscale(100%), opacity: 0.6, max-height: 40px
     .trust-bar__divider     — 1px vertical line, color-border, hidden on mobile
-    .trust-bar__badge       — inline flex, gap --space-2, --text-sm weight 600
+    .trust-bar__badge       — inline flex, gap --space-2, --text-sm weight 700
       .trust-bar__badge--stat    — "100+ meetings/month"
       .trust-bar__badge--guarantee — "30-Day Guarantee"
 ```
@@ -124,7 +126,7 @@ New CSS classes to be authored in `page.css` for this phase. All existing shared
 - Logo row gap: `var(--space-6)`
 - Logos: `filter: grayscale(100%)`, `opacity: 0.6`, `max-height: 40px`, `width: auto`
 - On hover (logos): `opacity: 1`, `filter: grayscale(0%)`, `transition: var(--transition-interactive)` — subtle brand reveal
-- Badges: green text `var(--color-primary)`, weight 600, font-size `--text-sm`
+- Badges: green text `var(--color-primary)`, weight 700, font-size `--text-sm`
 - Dividers between sections: visible `var(--color-divider)` 1px vertical, `display: none` below 640px
 
 ### Proven Across Industries Section — `.proven` (replaces `.case-studies`)
@@ -152,7 +154,7 @@ New CSS classes to be authored in `page.css` for this phase. All existing shared
 - Card border-radius: `var(--radius-lg)`
 - Card shadow: `var(--shadow-sm)`
 - Card already receives `.fade-in` class (Phase 6 wires the animation JS)
-- Industry tag chip: background `var(--color-primary-soft)`, color `var(--color-primary)`, font-size `--text-xs`, weight 600, border-radius `var(--radius-full)`, padding `var(--space-1) var(--space-3)`
+- Industry tag chip: background `var(--color-primary-soft)`, color `var(--color-primary)`, font-size `--text-xs`, weight 700, border-radius `var(--radius-full)`, padding `var(--space-1) var(--space-3)`
 - Outcome line: font-size `--text-lg`, weight 700, color `var(--color-text)`, margin-top `var(--space-3)`
 - Detail line: font-size `--text-sm`, weight 400, color `var(--color-text-muted)`, line-height 1.6, margin-top `var(--space-2)`
 
@@ -272,4 +274,5 @@ Testimonials scaffold (`#testimonials`) is deleted entirely (D-01).
 
 *Phase: 03-trust-social-proof*
 *UI-SPEC created: 2026-04-27*
+*UI-SPEC revised: 2026-04-27 — typography fix: reduced to 4 size tokens, 2 weight values*
 *Sources: 03-CONTEXT.md (13 decisions), REQUIREMENTS.md (TRST-01–TRST-06), style.css (tokens), page.css (component patterns), base.css (typography base)*
