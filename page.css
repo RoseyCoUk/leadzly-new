@@ -220,8 +220,20 @@
 
 /* ============ HERO ============ */
 .hero {
-  background: #ffffff;
   padding-top: 80px;
+  background-color: #ffffff;
+  /* dot grid texture on the white left side */
+  background-image: radial-gradient(circle, rgba(22, 163, 74, 0.10) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+@media (min-width: 900px) {
+  .hero {
+    /* split: white+dots left, clean green right */
+    background-image:
+      radial-gradient(circle, rgba(22, 163, 74, 0.10) 1px, transparent 1px),
+      linear-gradient(to right, transparent 50%, var(--color-primary-soft) 50%);
+    background-size: 24px 24px, 100% 100%;
+  }
 }
 .hero__content {
   width: 100%;
@@ -430,28 +442,30 @@
 
 /* ============ TRUST BAR ============ */
 .trust {
-  padding: clamp(var(--space-10), 5vw, var(--space-16)) 0;
-  border-bottom: 1px solid var(--color-divider);
+  padding: clamp(var(--space-8), 4vw, var(--space-12)) 0;
+  background: var(--color-primary-soft);
+  border-bottom: 1px solid var(--color-primary-highlight);
 }
 .trust__badges {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: var(--space-6);
+  gap: var(--space-4);
 }
 .trust__badge {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
   font-family: var(--font-body);
-  font-size: var(--text-xs);
+  font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--color-text-muted);
-  padding: var(--space-2) var(--space-4);
+  color: var(--color-primary-active);
+  padding: var(--space-3) var(--space-5);
   border-radius: var(--radius-full);
-  background: var(--color-surface);
-  border: 1px solid var(--color-divider);
+  background: #ffffff;
+  border: 1px solid var(--color-primary-highlight);
+  box-shadow: var(--shadow-sm);
 }
 .trust__badge svg { color: #f59e0b; fill: #f59e0b; stroke: #f59e0b; }
 
