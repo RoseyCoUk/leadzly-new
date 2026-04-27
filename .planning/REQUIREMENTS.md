@@ -9,8 +9,8 @@
 
 - [ ] **TRST-01**: Page displays 8–12 testimonial cards each with name, job title, company type, location, and star rating
 - [ ] **TRST-02**: Testimonials are laid out in a 3-column grid with a carousel/scroll on mobile
-- [ ] **TRST-03**: Page displays 4–5 case study cards each with industry tag, timeframe badge, 2–3 key metrics, problem→action→result story, and a client quote
-- [ ] **TRST-04**: Case study cards have a dark header showing industry and metrics
+- [x] **TRST-03**: Page displays 4–5 case study cards each with industry tag, timeframe badge, 2–3 key metrics, problem→action→result story, and a client quote
+- [x] **TRST-04**: Case study cards have a dark header showing industry and metrics
 - [x] **TRST-05**: A trust bar appears directly below the hero with: Clutch rating, "Rated #1 Sales Agency NI" badge, greyscale client logo strip, and "30-Day Guarantee" badge
 - [ ] **TRST-06**: About section is moved higher up the page and emphasises the NI-based, no-offshore team angle
 
@@ -91,8 +91,8 @@
 | DSGN-02 | Phase 2 — Page Restructure & Scaffolding | Complete |
 | TRST-01 | Phase 3 — Trust & Social Proof | Pending |
 | TRST-02 | Phase 3 — Trust & Social Proof | Pending |
-| TRST-03 | Phase 3 — Trust & Social Proof | Pending |
-| TRST-04 | Phase 3 — Trust & Social Proof | Pending |
+| TRST-03 | Phase 3 — Trust & Social Proof | Complete |
+| TRST-04 | Phase 3 — Trust & Social Proof | Complete |
 | TRST-05 | Phase 3 — Trust & Social Proof | Complete |
 | TRST-06 | Phase 3 — Trust & Social Proof | Pending |
 | SECT-01 | Phase 4 — Conversion Sections | Pending |
