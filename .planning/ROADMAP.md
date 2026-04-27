@@ -12,7 +12,7 @@
 |---|-------|------|--------------|-------|
 | 1 | Foundation & Hygiene | Site is clean, crawlable, and navigable before any structural work | NAV-01, NAV-02, NAV-03, QWIN-01, QWIN-02, QWIN-04 | 2 plans |
 | 2 | Page Restructure & Scaffolding | 1/2 | In Progress|  |
-| 3 | Trust & Social Proof | Visitors can read real testimonials, case studies, and credibility signals | TRST-01, TRST-02, TRST-03, TRST-04, TRST-05, TRST-06 | TBD |
+| 3 | Trust & Social Proof | Visitors see a trust bar, proven-results section, and elevated About — enough social proof to displace scepticism | TRST-03, TRST-04, TRST-05, TRST-06 | 3 plans |
 | 4 | Conversion Sections | Visitors encounter a comparison table, FAQ, ROI calculator, and polished typography | SECT-01, SECT-02, SECT-03, DSGN-01 | TBD |
 | 5 | Booking Experience & CTAs | Visitors can book a call inline and CTAs are present throughout the page | BOOK-01, BOOK-02, BOOK-03, QWIN-03 | TBD |
 | 6 | Design Polish & Mobile | Every section is visually refined, animated, and works perfectly on mobile | DSGN-03, DSGN-04 | TBD |
@@ -63,18 +63,21 @@
 
 ### Phase 3: Trust & Social Proof
 
-**Goal:** Visitors can read at least 8 real testimonials, 4 case studies with metrics, and see a credibility trust bar and an elevated About section — enough social proof to displace scepticism.
+**Goal:** Visitors see a trust bar below the hero with partner logos and a 30-day guarantee, a "Proven Across Industries" section with 4 real industry cards and an aggregate stat, and an About section elevated earlier in the page flow — enough social proof to displace scepticism without fabricating testimonials or case studies.
 **Depends on:** Phase 2
-**Requirements:** TRST-01, TRST-02, TRST-03, TRST-04, TRST-05, TRST-06
+**Requirements:** TRST-03, TRST-04, TRST-05, TRST-06 (TRST-01 and TRST-02 superseded by D-01 — testimonials section deleted, not built)
 **UI hint**: yes
 
 **Success Criteria:**
-1. A testimonials section shows 8–12 cards, each displaying a name, job title, company, location, and star rating in a 3-column grid (single column on mobile)
-2. A case studies section shows 4–5 cards each with a dark header containing the industry tag and key metrics, plus a problem-action-result story and client quote
-3. A trust bar directly below the hero shows a Clutch rating, "Rated #1 Sales Agency NI" badge, greyscale client logos, and a 30-Day Guarantee badge
-4. An About section appears earlier in the page flow and explicitly emphasises the NI-based, no-offshore team as a differentiator
+1. A trust bar directly below the hero shows 5 greyscale partner logos, a "100+ meetings/month" stat badge, and a "30-Day Guarantee" badge
+2. A "Proven Across Industries" section at #case-studies shows 4 industry cards (Digital Marketing, AI & Automation, SaaS & Software, E-Commerce), each with a green tag chip, bold outcome line, and supporting detail line
+3. The About section appears between Services and Multi-Channel — earlier in the page than its original position after pricing
+4. No testimonials scaffold section exists on the page
 
-**Plans:** TBD
+**Plans:** 3 plans
+- [ ] 03-01-PLAN.md — Logo assets copy + trust bar HTML/CSS (TRST-05)
+- [ ] 03-02-PLAN.md — Proven Across Industries section HTML/CSS + testimonials deletion (TRST-03, TRST-04)
+- [ ] 03-03-PLAN.md — About section repositioning + human verify checkpoint (TRST-06)
 
 ---
 
@@ -135,7 +138,7 @@
 |-------|----------------|--------|-----------|
 | 1. Foundation & Hygiene | 0/2 | Not started | — |
 | 2. Page Restructure & Scaffolding | 0/2 | Not started | — |
-| 3. Trust & Social Proof | 0/? | Not started | — |
+| 3. Trust & Social Proof | 0/3 | Planned | — |
 | 4. Conversion Sections | 0/? | Not started | — |
 | 5. Booking Experience & CTAs | 0/? | Not started | — |
 | 6. Design Polish & Mobile | 0/? | Not started | — |
@@ -157,8 +160,8 @@
 | PAGE-03 | Phase 2 | Pending |
 | PAGE-04 | Phase 2 | Pending |
 | DSGN-02 | Phase 2 | Pending |
-| TRST-01 | Phase 3 | Pending |
-| TRST-02 | Phase 3 | Pending |
+| TRST-01 | Phase 3 | Superseded by D-01 (testimonials deleted) |
+| TRST-02 | Phase 3 | Superseded by D-01 (testimonials deleted) |
 | TRST-03 | Phase 3 | Pending |
 | TRST-04 | Phase 3 | Pending |
 | TRST-05 | Phase 3 | Pending |
@@ -178,4 +181,4 @@
 
 ---
 *Roadmap created: 2026-04-24*
-*Last updated: 2026-04-26 — Phase 2 planned (2 plans)*
+*Last updated: 2026-04-27 — Phase 3 planned (3 plans); TRST-01/TRST-02 superseded by D-01*
