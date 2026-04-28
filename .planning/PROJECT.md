@@ -57,11 +57,11 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 
 ### Active (v1.1)
 
-- [ ] META-01: Canonical URL tag
-- [ ] META-02: Meta robots tag
-- [ ] META-03: Twitter Card meta tags
-- [ ] META-04: robots.txt
-- [ ] META-05: sitemap.xml
+- [x] META-01: Canonical URL tag — Validated in Phase 07: meta-hygiene
+- [x] META-02: Meta robots tag — Validated in Phase 07: meta-hygiene
+- [x] META-03: Twitter Card meta tags — Validated in Phase 07: meta-hygiene
+- [x] META-04: robots.txt — Validated in Phase 07: meta-hygiene
+- [x] META-05: sitemap.xml — Validated in Phase 07: meta-hygiene
 - [ ] SCHEMA-01: Organization + LocalBusiness JSON-LD
 - [ ] SCHEMA-02: FAQPage JSON-LD
 - [ ] SCHEMA-03: Service JSON-LD
@@ -139,4 +139,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-28 — Milestone v1.1 started*
+*Last updated: 2026-04-28 — Phase 07 complete (meta-hygiene: canonical, robots, Twitter Cards, robots.txt, sitemap.xml)*
