@@ -41,15 +41,15 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 - [ ] Multiple CTA touchpoints with varied copy throughout the page
 
 **Priority 4 — Design Polish**
-- [ ] Typography: larger hero h1 (font-weight 900, clamp ≥3.5rem), consistent eyebrow labels above each section
+- [x] Typography: hero h1 font-weight 800, clamp ≥3.5rem; consistent green eyebrow labels above each section — Validated Phase 4
 - [ ] Section background alternation (white / light grey / dark navy / green-tinted) for visual rhythm
 - [ ] Hover/interaction states: card lift (translateY(-4px)), green border highlight, scroll fade-up animations
 - [ ] Mobile responsiveness: all grids → single column, process steps stack, comparison table scrolls, floating CTA hides if overlapping
 
 **Priority 5 — New Sections**
-- [ ] Comparison table: Leadzly vs In-House vs Other Agencies (dark navy, 8 rows, green highlight column)
-- [ ] FAQ accordion (7 questions, max-width 720px centred, one open at a time)
-- [ ] ROI calculator (3 inputs → projected revenue output, inline, no separate page)
+- [x] Comparison table: Leadzly vs In-House vs Other Agencies (light green background, 8 rows, green highlight column) — Validated Phase 4
+- [x] FAQ accordion (7 questions, max-width 720px centred, one open at a time) — Validated Phase 4
+- [x] ROI calculator (3 inputs → projected revenue output, inline, no separate page) — Validated Phase 4
 
 **Quick Wins**
 - [ ] Meta description and Open Graph tags
@@ -121,4 +121,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-27 after Phase 2 completion*
+*Last updated: 2026-04-28 after Phase 4 completion*
