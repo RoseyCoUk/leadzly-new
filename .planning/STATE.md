@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: SEO & Performance
-current_plan: Not started
-status: Roadmap defined — ready to plan Phase 7
-last_updated: "2026-04-28T00:00:00.000Z"
+current_plan: 1
+status: executing
+last_updated: "2026-04-28T23:32:17.075Z"
 last_activity: 2026-04-28
 progress:
   total_phases: 3
-  completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  completed_phases: 1
+  total_plans: 2
+  completed_plans: 2
 ---
 
 # Project State
@@ -20,15 +20,15 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** v1.1 SEO & Performance — roadmap defined, Phase 7 next
+**Current focus:** Phase 07 — meta-hygiene
 
 ---
 
 ## Current Status
 
-**Phase:** Phase 7 — Meta Hygiene (not started)
-**Current Plan:** —
-**Status:** Roadmap defined — run `/gsd:plan-phase 7` to begin
+**Phase:** Phase 7 — Meta Hygiene (in progress)
+**Current Plan:** 2
+**Status:** Executing Phase 07
 **Last updated:** 2026-04-28
 
 **Progress bar:**
@@ -61,6 +61,8 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 | Google Fonts weight variants | ~8 | 3 (400/600/700) | — |
 
 ---
+| Phase 07-meta-hygiene P01 | 5 | 2 tasks | 1 files |
+| Phase 07-meta-hygiene P02 | 5 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -111,6 +113,9 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 - .pricing-card--featured:hover on desktop uses scale(1.03) translateY(-4px) compound transform to preserve existing desktop scale [06-01]
 - Hero and trust-bar sections excluded from fade-in — above fold at load, JS guard skips them regardless, no visual gain from adding [06-02]
 - 13 below-fold sections tagged with fade-in in a single batch commit — JS IntersectionObserver stagger (60ms) produces rapid cascade, not simultaneous appearance [06-02]
+- Twitter card type summary chosen (not summary_large_image) — logo is square, summary_large_image expects 2:1 landscape ratio [07-01]
+- twitter:site omitted from Twitter Card tags — Leadzly X handle unconfirmed, optional tag excluded per plan [07-01]
+- Canonical href uses trailing slash https://leadzly.co/ — consistent with og:url and upcoming sitemap.xml [07-01]
 
 ### Technical Notes
 
@@ -127,7 +132,7 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 ### Todos
 
 - [ ] Confirm exact FAQ question/answer text before writing SCHEMA-02 (source from index.html FAQ section)
-- [ ] Confirm OG image URL for Twitter Card meta tags (twitter:image must be absolute URL)
+- [x] Confirm OG image URL for Twitter Card meta tags (twitter:image must be absolute URL) — resolved: https://leadzly.co/Leadzly-logo_with-text.png [07-01]
 
 ### Blockers
 
@@ -145,12 +150,12 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 
 ## Session Continuity
 
-**Next action:** Run `/gsd:plan-phase 7` to plan Phase 7 (Meta Hygiene).
+**Next action:** Execute Phase 07 Plan 02 (robots.txt + sitemap.xml — META-04, META-05).
 Last activity: 2026-04-28
 
 **Context for next session:**
-v1.1 roadmap defined. 3 phases: Phase 7 (META-01–05), Phase 8 (SCHEMA-01–03), Phase 9 (PERF-01–05). All 13 requirements mapped. Phase 7 unblocked and ready to plan. Phase 8 depends on Phase 7 (head edits are in the same file — sequential to avoid conflicts). Phase 9 also independent but sequenced after 7 for the same reason.
+Phase 07 Plan 01 complete: canonical (META-01), robots meta (META-02), and 4 Twitter Card tags (META-03) added to index.html head at lines 37–42. Plan 02 is next: create robots.txt and sitemap.xml at project root (META-04, META-05). Both are plain text/XML new files — no HTML changes needed.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — v1.1 roadmap created (Phases 7–9)*
+*Last session: 2026-04-28 — Phase 07 Plan 01 complete (META-01, META-02, META-03)*

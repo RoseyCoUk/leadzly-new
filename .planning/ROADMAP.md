@@ -23,7 +23,7 @@ Full details: [.planning/milestones/v1.0-ROADMAP.md](./milestones/v1.0-ROADMAP.m
 
 ### v1.1 SEO & Performance
 
-- [ ] **Phase 7: Meta Hygiene** — Canonical, robots, Twitter Cards, robots.txt, sitemap.xml added to head and root
+- [x] **Phase 7: Meta Hygiene** — Canonical, robots, Twitter Cards, robots.txt, sitemap.xml added to head and root (completed 2026-04-28)
 - [ ] **Phase 8: Structured Data** — Organization/LocalBusiness, FAQPage, and Service JSON-LD blocks live in head
 - [ ] **Phase 9: Performance & Core Web Vitals** — Font weights trimmed, SVGs lazy-loaded, CLS eliminated, CSS minified
 
@@ -43,8 +43,8 @@ Full details: [.planning/milestones/v1.0-ROADMAP.md](./milestones/v1.0-ROADMAP.m
   5. `sitemap.xml` is accessible at `https://leadzly.co/sitemap.xml` with the homepage URL and a valid `<lastmod>` date
 **Plans**: 2 plans
 Plans:
-- [ ] 07-01-PLAN.md — Add canonical, robots meta, and Twitter Card tags to index.html head (META-01, META-02, META-03)
-- [ ] 07-02-PLAN.md — Create robots.txt and sitemap.xml at project root (META-04, META-05)
+- [x] 07-01-PLAN.md — Add canonical, robots meta, and Twitter Card tags to index.html head (META-01, META-02, META-03)
+- [x] 07-02-PLAN.md — Create robots.txt and sitemap.xml at project root (META-04, META-05)
 **UI hint**: no
 
 ### Phase 8: Structured Data
@@ -84,7 +84,7 @@ Plans:
 | 4. Conversion Sections | v1.0 | 4/4 | Complete | 2026-04-28 |
 | 5. Booking Experience & CTAs | v1.0 | 4/4 | Complete | 2026-04-28 |
 | 6. Design Polish & Mobile | v1.0 | 2/2 | Complete | 2026-04-28 |
-| 7. Meta Hygiene | v1.1 | 0/2 | Not started | — |
+| 7. Meta Hygiene | v1.1 | 2/2 | Complete   | 2026-04-28 |
 | 8. Structured Data | v1.1 | 0/? | Not started | — |
 | 9. Performance & Core Web Vitals | v1.1 | 0/? | Not started | — |
 
