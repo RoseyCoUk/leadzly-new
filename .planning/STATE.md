@@ -4,12 +4,12 @@ milestone: v1.0
 milestone_name: milestone
 current_plan: 3
 status: executing
-last_updated: "2026-04-27T00:00:00.000Z"
+last_updated: "2026-04-28T00:01:39.966Z"
 progress:
   total_phases: 6
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 5
-  completed_plans: 6
+  completed_plans: 7
 ---
 
 # Project State
@@ -92,6 +92,8 @@ Phase 6 [----------] 0%
 - id="case-studies" preserved on .proven section so all nav and footer anchor links continue to work [03-02]
 - Testimonials scaffold section deleted entirely — no empty sections remain on page [03-02]
 - fade-in class added to all 4 proven cards as Phase 6 animation hook — zero cost now, saves rework later [03-02]
+- About section moved from post-Pricing to between Services and Multi-Channel — credibility narrative now precedes evidence sections (TRST-06) [03-03]
+- id="about" preserved after repositioning — all nav and footer anchor links remain functional [03-03]
 
 ### Technical Notes
 
@@ -116,11 +118,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Execute plan 03-03 (next Phase 3 plan)
+**Next action:** Human visual verification of 03-03 checkpoint, then Phase 4 begins
 
 **Context for next session:**
-Plan 03-02 complete. Proven Across Industries section live with 4 industry cards (Digital Marketing, AI & Automation, SaaS & Software, E-Commerce). Section has id="case-studies" — nav anchor intact. Testimonials scaffold deleted. All .proven CSS uses design tokens, no hex values. fade-in hooks on cards ready for Phase 6 animations. Large logo files (Elevateo 3.4MB, Boltloop 2MB, Rosey Co 2.6MB) should be compressed before launch.
+Plan 03-03 Task 1 complete (commit 9170700). About section repositioned between Services and Multi-Channel. Checkpoint awaiting human browser verification of all Phase 3 changes (trust bar, proven industries section, About repositioning). Once approved, Phase 3 is complete and Phase 4 (conversion sections) can begin.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-27 — Completed 03-trust-social-proof 03-02-PLAN.md*
+*Last session: 2026-04-27 — Checkpoint reached: 03-trust-social-proof 03-03-PLAN.md (awaiting human-verify)*
