@@ -629,9 +629,9 @@ main > section + section::before {
   }
   .how__visual svg {
     width: 100%;
-    max-width: 640px;
+    max-width: 860px;
     height: auto;
-    filter: drop-shadow(0 4px 16px rgba(0,0,0,0.08));
+    filter: drop-shadow(0 6px 24px rgba(0,0,0,0.10));
     border-radius: 12px;
   }
 }
@@ -1151,13 +1151,13 @@ main > section + section::before {
   .channels__visual {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   .channels__visual svg {
     width: 100%;
-    max-width: 340px;
+    max-width: 480px;
     height: auto;
-    filter: drop-shadow(0 4px 20px rgba(0,0,0,0.10));
+    filter: drop-shadow(0 6px 24px rgba(0,0,0,0.10));
     border-radius: 12px;
   }
 }
@@ -1398,24 +1398,6 @@ main > section + section::before {
   background: var(--section-white);
 }
 
-/* ---- PROVEN DASHBOARD VISUAL ---- */
-.proven__visual {
-  display: none;
-}
-@media (min-width: 768px) {
-  .proven__visual {
-    display: flex;
-    justify-content: center;
-    margin-bottom: var(--space-8);
-  }
-  .proven__visual svg {
-    width: 100%;
-    max-width: 640px;
-    height: auto;
-    filter: drop-shadow(0 4px 16px rgba(0,0,0,0.08));
-    border-radius: 12px;
-  }
-}
 
 .proven__grid {
   display: grid;
