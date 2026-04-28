@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: 2
+current_plan: 3
 status: executing
-last_updated: "2026-04-28T01:27:15.806Z"
+last_updated: "2026-04-28T01:31:52.713Z"
 progress:
   total_phases: 6
   completed_phases: 2
   total_plans: 9
-  completed_plans: 9
+  completed_plans: 10
 ---
 
 # Project State
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md
 ## Current Status
 
 **Phase:** 4
-**Current Plan:** 3
+**Current Plan:** 4
 **Status:** Executing Phase 04
-**Last updated:** 2026-04-27
+**Last updated:** 2026-04-28
 
 **Progress bar:**
 
@@ -72,6 +72,7 @@ Phase 6 [----------] 0%
 | Phase 03-trust-social-proof P02 | 12 | 2 tasks | 2 files |
 | Phase 04-conversion-sections P01 | 5 | 2 tasks | 1 files |
 | Phase 04-conversion-sections P02 | 8 | 2 tasks | 2 files |
+| Phase 04-conversion-sections P03 | 8 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -101,6 +102,8 @@ Phase 6 [----------] 0%
 - comparison__cell--leadzly uses display: table-cell to ensure consistent cell rendering alongside other td elements [04-02]
 - color-primary-highlight used for Leadzly thead cell — green tint visually separates the column header at a glance [04-02]
 - .comparison section-title/subtitle/label have explicit colour overrides — dark background requires white text for readability [04-02]
+- FAQ IIFE added as separate script block — isolates concern from existing nav/cookie script block [04-03]
+- max-height: 400px used for FAQ answer CSS transition target (not auto) — required for CSS transition to animate; sufficient for all answer lengths [04-03]
 
 ### Technical Notes
 
@@ -125,11 +128,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Continue Phase 4 — Plan 03 (FAQ accordion)
+**Next action:** Continue Phase 4 — Plan 04 (ROI calculator)
 
 **Context for next session:**
-Phase 4 Plan 02 complete — comparison table built: 8 rows on dark navy background (var(--color-dark)), Leadzly column with green highlight (var(--color-primary-highlight) header, var(--color-primary-soft) cells), mobile overflow-x scroll. SECT-01 satisfied. Plans 03–04 (FAQ accordion, ROI calculator) remain.
+Phase 4 Plan 03 complete — FAQ accordion built: 7 accessible items with aria-expanded/aria-controls/role=region, max-height CSS animation (0→400px, 300ms cubic-bezier), chevron rotate(180deg) on active, vanilla JS IIFE one-at-a-time toggle. SECT-02 satisfied. Plan 04 (ROI calculator) remains.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-27 — Completed: 04-conversion-sections 04-02-PLAN.md*
+*Last session: 2026-04-28 — Completed: 04-conversion-sections 04-03-PLAN.md*
