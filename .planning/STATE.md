@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: Not started
-status: planning
-last_updated: "2026-04-28T04:45:50.116Z"
+current_plan: 2
+status: executing
+last_updated: "2026-04-28T15:30:41.513Z"
 progress:
   total_phases: 6
   completed_phases: 3
-  total_plans: 9
-  completed_plans: 11
+  total_plans: 13
+  completed_plans: 12
 ---
 
 # Project State
@@ -19,15 +19,15 @@ progress:
 See: .planning/PROJECT.md
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 04 — conversion-sections
+**Current focus:** Phase 05 — booking-experience-ctas
 
 ---
 
 ## Current Status
 
 **Phase:** 5
-**Current Plan:** Not started
-**Status:** Ready to plan
+**Current Plan:** 1
+**Status:** Executing Phase 05
 **Last updated:** 2026-04-28
 
 **Progress bar:**
@@ -37,7 +37,7 @@ Phase 1 [----------] 0%
 Phase 2 [██████████] 100%
 Phase 3 [██████████] 100%
 Phase 4 [██████████] 100%
-Phase 5 [----------] 0%
+Phase 5 [███-------] 33%
 Phase 6 [----------] 0%
 ```
 
@@ -74,6 +74,7 @@ Phase 6 [----------] 0%
 | Phase 04-conversion-sections P02 | 8 | 2 tasks | 2 files |
 | Phase 04-conversion-sections P03 | 8 | 2 tasks | 2 files |
 | Phase 04-conversion-sections P04 | 30 | 3 tasks | 2 files |
+| Phase 05-booking-experience-ctas P01 | 73 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -108,6 +109,9 @@ Phase 6 [----------] 0%
 - Comparison table reverted from dark navy to var(--color-primary-soft) light green — consistent with page light theme after human visual review [04-04]
 - FAQ answer transition upgraded to 0.4s ease with 600px ceiling; font-size reduced to 0.95rem; padding-left 1.5rem added [04-04]
 - ROI inputs given explicit height: 48px for cross-browser rendering parity across all three number inputs [04-04]
+- Calendly CDN loaded once in <head> — widget.css link + widget.js async script [05-01]
+- Booking grid uses 1fr/1.2fr split — calendar column slightly wider to accommodate embed [05-01]
+- Calendly height 700px desktop / 650px mobile — eliminates internal scrollbar in widget [05-01]
 
 ### Technical Notes
 
@@ -132,10 +136,10 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Continue Phase 4 — Plan 04 (ROI calculator)
+**Next action:** Continue Phase 5 — Plan 02 (floating sticky CTA)
 
 **Context for next session:**
-Phase 4 Plan 03 complete — FAQ accordion built: 7 accessible items with aria-expanded/aria-controls/role=region, max-height CSS animation (0→400px, 300ms cubic-bezier), chevron rotate(180deg) on active, vanilla JS IIFE one-at-a-time toggle. SECT-02 satisfied. Plan 04 (ROI calculator) remains.
+Phase 5 Plan 01 complete — Booking section two-column grid built: benefits list left, live Calendly inline embed right (700px height), CDN loaded in head. BOOK-01 satisfied. Plan 02 (floating sticky CTA button) remains.
 
 ---
 *State initialised: 2026-04-24*
