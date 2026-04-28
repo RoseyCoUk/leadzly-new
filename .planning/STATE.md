@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: 2
+current_plan: 3
 status: executing
-last_updated: "2026-04-28T17:43:46Z"
+last_updated: "2026-04-28T18:00:00Z"
 progress:
   total_phases: 6
   completed_phases: 4
   total_plans: 15
-  completed_plans: 16
+  completed_plans: 17
 ---
 
 # Project State
@@ -26,8 +26,8 @@ See: .planning/PROJECT.md
 ## Current Status
 
 **Phase:** 6
-**Current Plan:** 1
-**Status:** Executing Phase 06
+**Current Plan:** 2 (complete)
+**Status:** Executing Phase 06 — Plans 01 and 02 complete
 **Last updated:** 2026-04-28
 
 **Progress bar:**
@@ -38,7 +38,7 @@ Phase 2 [██████████] 100%
 Phase 3 [██████████] 100%
 Phase 4 [██████████] 100%
 Phase 5 [██████████] 100%
-Phase 6 [----------] 0%
+Phase 6 [██████████] 100%
 ```
 
 ---
@@ -52,7 +52,7 @@ Phase 6 [----------] 0%
 | 3 | Trust & Social Proof | Not started | — |
 | 4 | Conversion Sections | Not started | — |
 | 5 | Booking Experience & CTAs | Not started | — |
-| 6 | Design Polish & Mobile | Not started | — |
+| 6 | Design Polish & Mobile | In Progress (2/2 plans done) | 2026-04-28 |
 
 ---
 
@@ -79,6 +79,7 @@ Phase 6 [----------] 0%
 | Phase 05-booking-experience-ctas P03 | 5 | 2 tasks | 2 files |
 | Phase 05-booking-experience-ctas P04 | 1 | 1 tasks | 1 files |
 | Phase 06-design-polish-mobile P01 | 2 | 2 tasks | 1 files |
+| Phase 06-design-polish-mobile P02 | 5 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -127,6 +128,8 @@ Phase 6 [----------] 0%
 - No will-change added to card hover rules — avoids GPU layer overhead on mobile [06-01]
 - .about__diff-item requires border: 1px solid transparent baseline for border-color hover transition to be visible [06-01]
 - .pricing-card--featured:hover on desktop uses scale(1.03) translateY(-4px) compound transform to preserve existing desktop scale [06-01]
+- Hero and trust-bar sections excluded from fade-in — above fold at load, JS guard skips them regardless, no visual gain from adding [06-02]
+- 13 below-fold sections tagged with fade-in in a single batch commit — JS IntersectionObserver stagger (60ms) produces rapid cascade, not simultaneous appearance [06-02]
 
 ### Technical Notes
 
@@ -151,11 +154,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Continue Phase 6 — Plan 02 (section animations) next.
+**Next action:** Phase 6 complete — ready to proceed to Phase 7 (Meta & SEO) or any remaining phases.
 
 **Context for next session:**
-Phase 6 Plan 01 complete. Card hover lift effects added to all 8 card classes (translateY(-4px) + shadow-lg + primary border). .fade-in animation upgraded to include translateY(20px) slide-up. Featured pricing card desktop hover preserved at scale(1.03) translateY(-4px). DSGN-04 mobile breakpoints confirmed present via grep. Two commits: 028b4c6 (fade-in upgrade), 39f1402 (8 card hover rules).
+Phase 6 complete. Plan 01: card hover lift on 8 card classes (translateY(-4px) + shadow-lg + primary border), .fade-in upgraded with translateY(20px). Plan 02: fade-in class added to 13 below-fold sections; human verification passed across desktop (1440px) and mobile (375px). Commits: 028b4c6 (fade-in upgrade), 39f1402 (8 card hover rules), 48ebd6e (13 section fade-in tags). Phase 6 DSGN-03 and DSGN-04 requirements complete.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — Completed: 06-design-polish-mobile 06-01-PLAN.md*
+*Last session: 2026-04-28 — Completed: 06-design-polish-mobile 06-02-PLAN.md*
