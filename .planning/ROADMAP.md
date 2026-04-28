@@ -13,7 +13,7 @@
 | 1 | Foundation & Hygiene | Site is clean, crawlable, and navigable before any structural work | NAV-01, NAV-02, NAV-03, QWIN-01, QWIN-02, QWIN-04 | 2 plans |
 | 2 | Page Restructure & Scaffolding | 1/2 | In Progress|  |
 | 3 | Trust & Social Proof | 3/3 | Complete   | 2026-04-28 |
-| 4 | Conversion Sections | Visitors encounter a comparison table, FAQ, ROI calculator, and polished typography | SECT-01, SECT-02, SECT-03, DSGN-01 | TBD |
+| 4 | Conversion Sections | Visitors encounter a comparison table, FAQ, ROI calculator, and polished typography | SECT-01, SECT-02, SECT-03, DSGN-01 | 4 plans |
 | 5 | Booking Experience & CTAs | Visitors can book a call inline and CTAs are present throughout the page | BOOK-01, BOOK-02, BOOK-03, QWIN-03 | TBD |
 | 6 | Design Polish & Mobile | Every section is visually refined, animated, and works perfectly on mobile | DSGN-03, DSGN-04 | TBD |
 
@@ -94,7 +94,11 @@
 3. An ROI calculator accepts 3 inputs (average deal value, current meetings/month, target meetings/month) and outputs projected additional monthly revenue and annual pipeline — all calculated in-browser with no server call
 4. Every section on the page has a consistent eyebrow label (small caps, green) above the main heading, and the hero h1 is bold at ≥3.5rem
 
-**Plans:** TBD
+**Plans:** 4 plans
+- [ ] 04-01-PLAN.md — DSGN-01: hero h1 clamp fix (2.4rem → 3.5rem) + .section-label weight fix (600 → 700)
+- [ ] 04-02-PLAN.md — SECT-01: comparison table HTML + CSS (dark navy background, 8 rows, Leadzly column green)
+- [ ] 04-03-PLAN.md — SECT-02: FAQ accordion HTML + CSS + JS IIFE (7 questions, one-at-a-time, max-height animation)
+- [ ] 04-04-PLAN.md — SECT-03: ROI calculator HTML + CSS + JS IIFE + human verify checkpoint (all Phase 4 changes)
 
 ---
 
@@ -139,7 +143,7 @@
 | 1. Foundation & Hygiene | 0/2 | Not started | — |
 | 2. Page Restructure & Scaffolding | 2/2 | Complete | 2026-04-27 |
 | 3. Trust & Social Proof | 3/3 | Complete | 2026-04-27 |
-| 4. Conversion Sections | 0/? | Not started | — |
+| 4. Conversion Sections | 0/4 | Not started | — |
 | 5. Booking Experience & CTAs | 0/? | Not started | — |
 | 6. Design Polish & Mobile | 0/? | Not started | — |
 
@@ -181,4 +185,4 @@
 
 ---
 *Roadmap created: 2026-04-24*
-*Last updated: 2026-04-27 — Phase 3 planned (3 plans); TRST-01/TRST-02 superseded by D-01*
+*Last updated: 2026-04-27 — Phase 4 planned (4 plans): 04-01 DSGN-01, 04-02 SECT-01, 04-03 SECT-02, 04-04 SECT-03+checkpoint*
