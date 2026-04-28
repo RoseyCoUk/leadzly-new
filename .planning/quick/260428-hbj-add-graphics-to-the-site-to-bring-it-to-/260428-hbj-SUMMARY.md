@@ -124,17 +124,19 @@ None — all SVG data values (47 meetings, £94k, 94% show rate) match the marke
 
 ---
 
-## Awaiting Human Verification
+## Revisions (post human-verify)
 
-The plan includes a `checkpoint:human-verify` gate before final sign-off. The three SVG mockups should be verified visually at:
+- Removed `.proven__visual` metrics dashboard from Proven Across Industries section (user feedback — not needed there)
+- Extended How It Works CRM board viewBox from 640×380 → 640×500, added 5th row of pipeline cards across all 4 columns, added stats footer bar
+- Removed `max-width: 480px` cap from `.channels__visual svg` — now fills full column width at desktop
+- Increased How It Works max-width from 860px → 960px
 
-1. `>= 1280px` viewport — How It Works CRM pipeline board below the 4 steps
-2. `>= 1280px` viewport — Multi-Channel section with sequence card to the right of channel cards
-3. `>= 768px` viewport — Proven/Results metrics dashboard above case study cards
-4. `375px` (mobile) — all three SVGs hidden, existing layouts intact
+## Final Commits
+
+- `ffc028f` feat: add CRM pipeline board SVG to How It Works
+- `44e4593` feat: add outreach sequence UI mockup to Multi-Channel section
+- `287c859` feat: add metrics dashboard SVG to Proven/Results
+- `5d5296e` fix: remove proven dashboard, enlarge CRM pipeline and outreach sequence visuals
+- `9126d98` fix: extend HIT pipeline board to 640×500, remove channels max-width cap
 
 ## Self-Check: PASSED
-
-- `index.html` exists and contains all three visual divs
-- `page.css` contains all three visual CSS blocks
-- Commits ffc028f, 44e4593, 287c859 confirmed in git log
