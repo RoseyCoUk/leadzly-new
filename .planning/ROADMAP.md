@@ -137,8 +137,8 @@
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Hygiene | 0/2 | Not started | — |
-| 2. Page Restructure & Scaffolding | 0/2 | Not started | — |
-| 3. Trust & Social Proof | 0/3 | Planned | — |
+| 2. Page Restructure & Scaffolding | 2/2 | Complete | 2026-04-27 |
+| 3. Trust & Social Proof | 3/3 | Complete | 2026-04-27 |
 | 4. Conversion Sections | 0/? | Not started | — |
 | 5. Booking Experience & CTAs | 0/? | Not started | — |
 | 6. Design Polish & Mobile | 0/? | Not started | — |
