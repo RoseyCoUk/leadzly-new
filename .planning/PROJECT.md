@@ -36,9 +36,9 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 - [ ] Industries served grid (12 industry chips with icons)
 
 **Priority 3 — Booking Experience**
-- [ ] Inline Calendly embed section (two-column: sell the call + live calendar)
-- [ ] Floating sticky CTA button (bottom-right, pulsing green dot, animates in after 3s)
-- [ ] Multiple CTA touchpoints with varied copy throughout the page
+- [x] Inline Calendly embed section (two-column: sell the call + live calendar) — Validated Phase 5
+- [x] Floating sticky CTA button (bottom-right, pulsing green dot, animates in after 3s) — Validated Phase 5
+- [x] Multiple CTA touchpoints with varied copy throughout the page — Validated Phase 5
 
 **Priority 4 — Design Polish**
 - [x] Typography: hero h1 font-weight 800, clamp ≥3.5rem; consistent green eyebrow labels above each section — Validated Phase 4
@@ -55,9 +55,9 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 - [ ] Meta description and Open Graph tags
 - [ ] Favicon
 - [ ] Scroll animations (IntersectionObserver fade-up)
-- [ ] Counter animation in hero (numbers count up on scroll)
+- [x] Counter animation in hero (numbers count up on scroll) — Validated Phase 5
 - [ ] Cookie/privacy banner (GDPR compliance)
-- [ ] Consistent CTA copy across all touchpoints
+- [x] Consistent CTA copy across all touchpoints — Validated Phase 5
 - [ ] rel="noopener" on all external links
 - [ ] Mobile layout audit and fixes
 
