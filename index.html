@@ -1138,5 +1138,26 @@
     observer.observe(card);
   })();
   </script>
+
+  <!-- ===== FLOATING STICKY CTA (BOOK-02) ===== -->
+  <div class="floating-cta" id="floating-cta" role="complementary" aria-label="Book a strategy call">
+    <a href="https://calendly.com/allan-chan-leadzly"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="floating-cta__btn btn btn--primary">
+      <span class="floating-cta__dot" aria-hidden="true"></span>
+      Book a Call
+    </a>
+  </div>
+
+  <script>
+  // Floating CTA — animate in after 3 seconds
+  (function() {
+    setTimeout(function() {
+      var btn = document.getElementById('floating-cta');
+      if (btn) btn.classList.add('floating-cta--visible');
+    }, 3000);
+  })();
+  </script>
 </body>
 </html>
