@@ -50,7 +50,7 @@
 
 - [ ] **QWIN-01**: Page has `<meta>` description, Open Graph tags (title, description, image, URL)
 - [ ] **QWIN-02**: Page has a custom favicon
-- [ ] **QWIN-03**: Hero stat numbers count up via animation when scrolled into view
+- [x] **QWIN-03**: Hero stat numbers count up via animation when scrolled into view
 - [ ] **QWIN-04**: A GDPR-compliant cookie/privacy consent banner exists
 
 ## v2 Requirements
@@ -102,7 +102,7 @@
 | BOOK-01 | Phase 5 — Booking Experience & CTAs | Complete |
 | BOOK-02 | Phase 5 — Booking Experience & CTAs | Complete |
 | BOOK-03 | Phase 5 — Booking Experience & CTAs | Complete |
-| QWIN-03 | Phase 5 — Booking Experience & CTAs | Pending |
+| QWIN-03 | Phase 5 — Booking Experience & CTAs | Complete |
 | DSGN-03 | Phase 6 — Design Polish & Mobile | Pending |
 | DSGN-04 | Phase 6 — Design Polish & Mobile | Pending |
 

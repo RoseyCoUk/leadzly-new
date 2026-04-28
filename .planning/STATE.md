@@ -4,12 +4,12 @@ milestone: v1.0
 milestone_name: milestone
 current_plan: 1
 status: executing
-last_updated: "2026-04-28T15:36:24.925Z"
+last_updated: "2026-04-28T15:40:06.570Z"
 progress:
   total_phases: 6
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 13
-  completed_plans: 14
+  completed_plans: 15
 ---
 
 # Project State
@@ -77,6 +77,7 @@ Phase 6 [----------] 0%
 | Phase 05-booking-experience-ctas P01 | 73 | 2 tasks | 2 files |
 | Phase 05-booking-experience-ctas P02 | 5 | 2 tasks | 2 files |
 | Phase 05-booking-experience-ctas P03 | 5 | 2 tasks | 2 files |
+| Phase 05-booking-experience-ctas P04 | 1 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -119,6 +120,9 @@ Phase 6 [----------] 0%
 - Hero secondary CTA changed from #services to #booking — reduces friction by directing mid-page visitors straight to calendar embed [05-03]
 - All three pricing card CTAs unified as 'Start Filling Your Calendar' — consistent intent signal at the pricing decision point [05-03]
 - ROI CTA uses .roi__cta wrapper div with CSS token margin — layout isolation, no inline styles [05-03]
+- Hero stat counter uses animated flag + observer.disconnect() to play exactly once per page load — no replay on re-scroll [05-04]
+- ease-out cubic (1 - Math.pow(1-progress,3)) chosen for natural deceleration — data feels live and real [05-04]
+- data-count-to / data-count-suffix attributes keep animation targets declarative in HTML — no hardcoded values in scripts [05-04]
 
 ### Technical Notes
 
@@ -143,11 +147,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Phase 5 complete — advance to Phase 6 or confirm if additional plans remain
+**Next action:** Human verify checkpoint — open index.html in browser and verify all Phase 5 deliverables (BOOK-01, BOOK-02, BOOK-03, QWIN-03). On approval, advance to Phase 6.
 
 **Context for next session:**
-Phase 5 Plan 03 complete — CTA copy variants deployed: 4 distinct CTAs across hero, pricing, and ROI sections. Hero secondary CTA now links to #booking. ROI section has its own forecast CTA. BOOK-03 satisfied.
+Phase 5 Plan 04 implementation complete — hero stat counter IIFE added: numbers count up 0→target over 1200ms ease-out cubic on first scroll-into-view. Awaiting human verify checkpoint for full Phase 5 sign-off (4 plans: Calendly embed, floating CTA, CTA copy variants, stat counter animation).
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — Completed: 05-booking-experience-ctas 05-03-PLAN.md*
+*Last session: 2026-04-28 — Completed: 05-booking-experience-ctas 05-04-PLAN.md (awaiting human-verify checkpoint)*
