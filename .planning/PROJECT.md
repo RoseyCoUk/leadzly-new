@@ -43,8 +43,8 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 **Priority 4 — Design Polish**
 - [x] Typography: hero h1 font-weight 800, clamp ≥3.5rem; consistent green eyebrow labels above each section — Validated Phase 4
 - [ ] Section background alternation (white / light grey / dark navy / green-tinted) for visual rhythm
-- [ ] Hover/interaction states: card lift (translateY(-4px)), green border highlight, scroll fade-up animations
-- [ ] Mobile responsiveness: all grids → single column, process steps stack, comparison table scrolls, floating CTA hides if overlapping
+- [x] Hover/interaction states: card lift (translateY(-4px)), green border highlight, scroll fade-up animations — Validated Phase 6
+- [x] Mobile responsiveness: all grids → single column, process steps stack, comparison table scrolls, floating CTA hides if overlapping — Validated Phase 6
 
 **Priority 5 — New Sections**
 - [x] Comparison table: Leadzly vs In-House vs Other Agencies (light green background, 8 rows, green highlight column) — Validated Phase 4
@@ -54,12 +54,12 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 **Quick Wins**
 - [ ] Meta description and Open Graph tags
 - [ ] Favicon
-- [ ] Scroll animations (IntersectionObserver fade-up)
+- [x] Scroll animations (IntersectionObserver fade-up) — Validated Phase 6
 - [x] Counter animation in hero (numbers count up on scroll) — Validated Phase 5
 - [ ] Cookie/privacy banner (GDPR compliance)
 - [x] Consistent CTA copy across all touchpoints — Validated Phase 5
 - [ ] rel="noopener" on all external links
-- [ ] Mobile layout audit and fixes
+- [x] Mobile layout audit and fixes — Validated Phase 6
 
 ### Out of Scope
 
