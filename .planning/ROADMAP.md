@@ -41,7 +41,10 @@ Full details: [.planning/milestones/v1.0-ROADMAP.md](./milestones/v1.0-ROADMAP.m
   3. Sharing leadzly.co on Twitter/X renders a summary card with title, description, and image
   4. `robots.txt` is accessible at `https://leadzly.co/robots.txt` and references the sitemap URL
   5. `sitemap.xml` is accessible at `https://leadzly.co/sitemap.xml` with the homepage URL and a valid `<lastmod>` date
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 07-01-PLAN.md — Add canonical, robots meta, and Twitter Card tags to index.html head (META-01, META-02, META-03)
+- [ ] 07-02-PLAN.md — Create robots.txt and sitemap.xml at project root (META-04, META-05)
 **UI hint**: no
 
 ### Phase 8: Structured Data
@@ -81,9 +84,9 @@ Full details: [.planning/milestones/v1.0-ROADMAP.md](./milestones/v1.0-ROADMAP.m
 | 4. Conversion Sections | v1.0 | 4/4 | Complete | 2026-04-28 |
 | 5. Booking Experience & CTAs | v1.0 | 4/4 | Complete | 2026-04-28 |
 | 6. Design Polish & Mobile | v1.0 | 2/2 | Complete | 2026-04-28 |
-| 7. Meta Hygiene | v1.1 | 0/? | Not started | — |
+| 7. Meta Hygiene | v1.1 | 0/2 | Not started | — |
 | 8. Structured Data | v1.1 | 0/? | Not started | — |
 | 9. Performance & Core Web Vitals | v1.1 | 0/? | Not started | — |
 
 ---
-*v1.0 shipped: 2026-04-28 | v1.1 active — next: /gsd:plan-phase 7*
+*v1.0 shipped: 2026-04-28 | v1.1 active — Phase 7 planned, ready to execute*
