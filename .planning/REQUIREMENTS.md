@@ -51,16 +51,16 @@
 
 | REQ-ID | Phase | Plan |
 |--------|-------|------|
-| META-01 | — | — |
-| META-02 | — | — |
-| META-03 | — | — |
-| META-04 | — | — |
-| META-05 | — | — |
-| SCHEMA-01 | — | — |
-| SCHEMA-02 | — | — |
-| SCHEMA-03 | — | — |
-| PERF-01 | — | — |
-| PERF-02 | — | — |
-| PERF-03 | — | — |
-| PERF-04 | — | — |
-| PERF-05 | — | — |
+| META-01 | Phase 7 | — |
+| META-02 | Phase 7 | — |
+| META-03 | Phase 7 | — |
+| META-04 | Phase 7 | — |
+| META-05 | Phase 7 | — |
+| SCHEMA-01 | Phase 8 | — |
+| SCHEMA-02 | Phase 8 | — |
+| SCHEMA-03 | Phase 8 | — |
+| PERF-01 | Phase 9 | — |
+| PERF-02 | Phase 9 | — |
+| PERF-03 | Phase 9 | — |
+| PERF-04 | Phase 9 | — |
+| PERF-05 | Phase 9 | — |

@@ -3,11 +3,11 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: SEO & Performance
 current_plan: Not started
-status: Defining requirements
+status: Roadmap defined — ready to plan Phase 7
 last_updated: "2026-04-28T00:00:00.000Z"
 last_activity: 2026-04-28
 progress:
-  total_phases: 0
+  total_phases: 3
   completed_phases: 0
   total_plans: 0
   completed_plans: 0
@@ -20,26 +20,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** v1.0 complete — planning next milestone
+**Current focus:** v1.1 SEO & Performance — roadmap defined, Phase 7 next
 
 ---
 
 ## Current Status
 
-**Phase:** Not started (defining requirements)
+**Phase:** Phase 7 — Meta Hygiene (not started)
 **Current Plan:** —
-**Status:** Milestone v1.1 started — defining requirements
+**Status:** Roadmap defined — run `/gsd:plan-phase 7` to begin
 **Last updated:** 2026-04-28
 
 **Progress bar:**
 
 ```
-Phase 1 [----------] 0%
-Phase 2 [██████████] 100%
-Phase 3 [██████████] 100%
-Phase 4 [██████████] 100%
-Phase 5 [██████████] 100%
-Phase 6 [██████████] 100%
+v1.1 Phase 7 [----------]   0%  Meta Hygiene
+v1.1 Phase 8 [----------]   0%  Structured Data
+v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 ```
 
 ---
@@ -48,12 +45,9 @@ Phase 6 [██████████] 100%
 
 | Phase | Name | Status | Completed |
 |-------|------|--------|-----------|
-| 1 | Foundation & Hygiene | Not started | — |
-| 2 | Page Restructure & Scaffolding | Not started | — |
-| 3 | Trust & Social Proof | Not started | — |
-| 4 | Conversion Sections | Not started | — |
-| 5 | Booking Experience & CTAs | Not started | — |
-| 6 | Design Polish & Mobile | In Progress (2/2 plans done) | 2026-04-28 |
+| 7 | Meta Hygiene | Not started | — |
+| 8 | Structured Data | Not started | — |
+| 9 | Performance & Core Web Vitals | Not started | — |
 
 ---
 
@@ -61,26 +55,12 @@ Phase 6 [██████████] 100%
 
 | Metric | Baseline | Target | Current |
 |--------|----------|--------|---------|
-| Booking CTA clicks | Unknown | +50% | — |
-| Page sections count | ~6 | 15 | — |
-| Testimonials visible | 1 | 8–12 | — |
-| Case studies visible | 0 | 4–5 | — |
 | Lighthouse Performance | Unknown | 90+ | — |
+| CLS score | Unknown | 0 (controllable sources) | — |
+| Structured data errors | Unknown | 0 | — |
+| Google Fonts weight variants | ~8 | 3 (400/600/700) | — |
 
 ---
-| Phase 02-page-restructure-scaffolding P01 | 12 | 1 tasks | 1 files |
-| Phase 03-trust-social-proof P01 | 12 | 2 tasks | 7 files |
-| Phase 03-trust-social-proof P02 | 12 | 2 tasks | 2 files |
-| Phase 04-conversion-sections P01 | 5 | 2 tasks | 1 files |
-| Phase 04-conversion-sections P02 | 8 | 2 tasks | 2 files |
-| Phase 04-conversion-sections P03 | 8 | 2 tasks | 2 files |
-| Phase 04-conversion-sections P04 | 30 | 3 tasks | 2 files |
-| Phase 05-booking-experience-ctas P01 | 73 | 2 tasks | 2 files |
-| Phase 05-booking-experience-ctas P02 | 5 | 2 tasks | 2 files |
-| Phase 05-booking-experience-ctas P03 | 5 | 2 tasks | 2 files |
-| Phase 05-booking-experience-ctas P04 | 1 | 1 tasks | 1 files |
-| Phase 06-design-polish-mobile P01 | 2 | 2 tasks | 1 files |
-| Phase 06-design-polish-mobile P02 | 5 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -134,18 +114,20 @@ Phase 6 [██████████] 100%
 
 ### Technical Notes
 
-- Stack: `index.html` + `style.css`, `base.css`, `page.css` + vanilla JS (new file to be added)
+- Stack: `index.html` + `style.css`, `base.css`, `page.css` + vanilla JS (inline IIFEs, no separate file)
 - Brand colours: Green `#16a34a`, Dark navy `#0f172a`, Light green `#22c55e`, Green bg `#f0fdf4`
 - Font: Inter (already loaded via Google Fonts — no new imports)
 - Logos: `Leadzly-logo_with-text.svg` and `Leadzly-logo_without-text.svg` already in repo
 - Calendly URL: `https://calendly.com/allan-chan-leadzly` — used for all CTAs and inline embed
 - GA4 already installed via Partytown (do not re-add analytics)
+- v1.1 note: JSON-LD blocks go in `<head>` before closing `</head>` tag
+- v1.1 note: robots.txt and sitemap.xml are new files at project root (served by Vercel as static assets)
+- v1.1 note: page.css minification is hand-applied — no build tool; version bump via query string on link tag in index.html
 
 ### Todos
 
-- [ ] Source or create placeholder testimonial content (8–12 entries) before Phase 3
-- [ ] Source or create placeholder case study content (4–5 entries) before Phase 3
-- [ ] Confirm favicon asset exists or create one before Phase 1
+- [ ] Confirm exact FAQ question/answer text before writing SCHEMA-02 (source from index.html FAQ section)
+- [ ] Confirm OG image URL for Twitter Card meta tags (twitter:image must be absolute URL)
 
 ### Blockers
 
@@ -163,12 +145,12 @@ Phase 6 [██████████] 100%
 
 ## Session Continuity
 
-**Next action:** Phase 6 complete — ready to proceed to Phase 7 (Meta & SEO) or any remaining phases.
+**Next action:** Run `/gsd:plan-phase 7` to plan Phase 7 (Meta Hygiene).
 Last activity: 2026-04-28
 
 **Context for next session:**
-Phase 6 complete. Plan 01: card hover lift on 8 card classes (translateY(-4px) + shadow-lg + primary border), .fade-in upgraded with translateY(20px). Plan 02: fade-in class added to 13 below-fold sections; human verification passed across desktop (1440px) and mobile (375px). Commits: 028b4c6 (fade-in upgrade), 39f1402 (8 card hover rules), 48ebd6e (13 section fade-in tags). Phase 6 DSGN-03 and DSGN-04 requirements complete.
+v1.1 roadmap defined. 3 phases: Phase 7 (META-01–05), Phase 8 (SCHEMA-01–03), Phase 9 (PERF-01–05). All 13 requirements mapped. Phase 7 unblocked and ready to plan. Phase 8 depends on Phase 7 (head edits are in the same file — sequential to avoid conflicts). Phase 9 also independent but sequenced after 7 for the same reason.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — Completed: 06-design-polish-mobile 06-02-PLAN.md*
+*Last session: 2026-04-28 — v1.1 roadmap created (Phases 7–9)*
