@@ -771,6 +771,49 @@
     </div>
   </section>
 
+  <!-- ============ ROI CALCULATOR (SECT-03) ============ -->
+  <section class="roi" id="roi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">ROI Calculator</span>
+        <h2 class="section-title">What Could Leadzly Be Worth to You?</h2>
+        <p class="section-subtitle">Adjust the numbers below to see your projected pipeline uplift.</p>
+      </div>
+      <div class="roi__card">
+        <div class="roi__inputs">
+          <div class="roi__field">
+            <label class="roi__label" for="roi-deal-value">Average deal value (&pound;)</label>
+            <input class="roi__input" type="number" id="roi-deal-value" min="0" step="500" value="5000" aria-describedby="roi-deal-value-hint">
+            <span class="roi__hint" id="roi-deal-value-hint">The average value of a closed deal in your pipeline</span>
+          </div>
+          <div class="roi__field">
+            <label class="roi__label" for="roi-current-meetings">Current qualified meetings/month</label>
+            <input class="roi__input" type="number" id="roi-current-meetings" min="0" step="1" value="4" aria-describedby="roi-current-meetings-hint">
+            <span class="roi__hint" id="roi-current-meetings-hint">How many qualified sales meetings you&rsquo;re booking today</span>
+          </div>
+          <div class="roi__field">
+            <label class="roi__label" for="roi-target-meetings">Target meetings/month with Leadzly</label>
+            <input class="roi__input" type="number" id="roi-target-meetings" min="0" step="1" value="20" aria-describedby="roi-target-meetings-hint">
+            <span class="roi__hint" id="roi-target-meetings-hint">Realistic target &mdash; our Growth plan averages 20+ meetings/month</span>
+          </div>
+        </div>
+        <div class="roi__outputs">
+          <div class="roi__output">
+            <span class="roi__output-label">Additional monthly pipeline</span>
+            <span class="roi__output-value" id="roi-monthly">&pound;8,000</span>
+            <span class="roi__output-sub">Based on additional meetings &times; deal value &times; 10% close rate assumption</span>
+          </div>
+          <div class="roi__output">
+            <span class="roi__output-label">Projected annual pipeline uplift</span>
+            <span class="roi__output-value" id="roi-annual">&pound;96,000</span>
+            <span class="roi__output-sub">Monthly uplift &times; 12</span>
+          </div>
+        </div>
+        <p class="roi__disclaimer">Estimates assume a 10% meeting-to-close conversion rate. Actual results vary. This calculator is for illustration only.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ BOOKING (scaffold — content in Phase 5) ============ -->
   <section class="booking" id="booking">
     <div class="container">
@@ -988,6 +1031,36 @@
         }
       });
     });
+  })();
+  </script>
+  <script>
+  // ROI Calculator
+  (function() {
+    var dealInput = document.getElementById('roi-deal-value');
+    var currentInput = document.getElementById('roi-current-meetings');
+    var targetInput = document.getElementById('roi-target-meetings');
+    var monthlyOutput = document.getElementById('roi-monthly');
+    var annualOutput = document.getElementById('roi-annual');
+
+    var CONVERSION_RATE = 0.10;
+
+    function calculate() {
+      var deal = parseFloat(dealInput.value) || 0;
+      var current = parseFloat(currentInput.value) || 0;
+      var target = parseFloat(targetInput.value) || 0;
+      var additional = Math.max(0, target - current);
+      var monthly = additional * deal * CONVERSION_RATE;
+      var annual = monthly * 12;
+      monthlyOutput.textContent = '£' + monthly.toLocaleString('en-GB');
+      annualOutput.textContent = '£' + annual.toLocaleString('en-GB');
+    }
+
+    if (dealInput && currentInput && targetInput) {
+      [dealInput, currentInput, targetInput].forEach(function(el) {
+        el.addEventListener('input', calculate);
+      });
+      calculate(); // initialise on load
+    }
   })();
   </script>
 </body>
