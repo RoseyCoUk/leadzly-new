@@ -23,8 +23,8 @@
 
 ### Booking Experience
 
-- [ ] **BOOK-01**: An inline Calendly embed section exists with a two-column layout (left: sell the call with bullet benefits; right: live calendar widget)
-- [ ] **BOOK-02**: A floating sticky CTA button exists in the bottom-right corner with a pulsing green dot, animates in after 3 seconds, and hides on mobile if overlapping content
+- [x] **BOOK-01**: An inline Calendly embed section exists with a two-column layout (left: sell the call with bullet benefits; right: live calendar widget)
+- [x] **BOOK-02**: A floating sticky CTA button exists in the bottom-right corner with a pulsing green dot, animates in after 3 seconds, and hides on mobile if overlapping content
 - [ ] **BOOK-03**: Every major section includes a CTA with varied copy ("Book a Free Strategy Call", "Get Your Meetings Forecast", "See If We're a Fit", "Start Filling Your Calendar")
 
 ### Design Polish
@@ -99,8 +99,8 @@
 | SECT-02 | Phase 4 — Conversion Sections | Complete |
 | SECT-03 | Phase 4 — Conversion Sections | Complete |
 | DSGN-01 | Phase 4 — Conversion Sections | Complete |
-| BOOK-01 | Phase 5 — Booking Experience & CTAs | Pending |
-| BOOK-02 | Phase 5 — Booking Experience & CTAs | Pending |
+| BOOK-01 | Phase 5 — Booking Experience & CTAs | Complete |
+| BOOK-02 | Phase 5 — Booking Experience & CTAs | Complete |
 | BOOK-03 | Phase 5 — Booking Experience & CTAs | Pending |
 | QWIN-03 | Phase 5 — Booking Experience & CTAs | Pending |
 | DSGN-03 | Phase 6 — Design Polish & Mobile | Pending |

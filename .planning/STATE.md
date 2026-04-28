@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: 2
+current_plan: 1
 status: executing
-last_updated: "2026-04-28T15:30:41.513Z"
+last_updated: "2026-04-28T15:33:31.272Z"
 progress:
   total_phases: 6
   completed_phases: 3
   total_plans: 13
-  completed_plans: 12
+  completed_plans: 13
 ---
 
 # Project State
@@ -75,6 +75,7 @@ Phase 6 [----------] 0%
 | Phase 04-conversion-sections P03 | 8 | 2 tasks | 2 files |
 | Phase 04-conversion-sections P04 | 30 | 3 tasks | 2 files |
 | Phase 05-booking-experience-ctas P01 | 73 | 2 tasks | 2 files |
+| Phase 05-booking-experience-ctas P02 | 5 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -112,6 +113,8 @@ Phase 6 [----------] 0%
 - Calendly CDN loaded once in <head> — widget.css link + widget.js async script [05-01]
 - Booking grid uses 1fr/1.2fr split — calendar column slightly wider to accommodate embed [05-01]
 - Calendly height 700px desktop / 650px mobile — eliminates internal scrollbar in widget [05-01]
+- Floating CTA reveal uses CSS transition on --visible modifier class (opacity + translateY) toggled by JS IIFE setTimeout 3000ms [05-02]
+- Floating CTA hidden via display none at max-width 639px — no overlap on mobile [05-02]
 
 ### Technical Notes
 
@@ -136,10 +139,10 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Continue Phase 5 — Plan 02 (floating sticky CTA)
+**Next action:** Continue Phase 5 — Plan 03 or next plan (if any)
 
 **Context for next session:**
-Phase 5 Plan 01 complete — Booking section two-column grid built: benefits list left, live Calendly inline embed right (700px height), CDN loaded in head. BOOK-01 satisfied. Plan 02 (floating sticky CTA button) remains.
+Phase 5 Plan 02 complete — Floating sticky CTA button added: fixed bottom-right, 3s entrance delay via JS IIFE, pulsing green dot keyframe animation, hidden on mobile (<640px). BOOK-02 satisfied.
 
 ---
 *State initialised: 2026-04-24*
