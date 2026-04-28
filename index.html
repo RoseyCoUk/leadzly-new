@@ -109,6 +109,8 @@
   }
 }
   </style>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </head>
 <body>
   <!-- Skip to content -->
@@ -822,8 +824,49 @@
         <h2 class="section-title">Ready to Fill Your Calendar?</h2>
         <p class="section-subtitle">Pick a time that works for you — no pressure, no pitch decks.</p>
       </div>
-      <!-- Calendly embed added in Phase 5 (BOOK-01) -->
-      <p class="scaffold-placeholder">Booking calendar coming in Phase 5.</p>
+      <div class="booking__grid">
+        <div class="booking__content">
+          <h3 class="booking__subheading">What to expect on the call</h3>
+          <ul class="booking__benefits" role="list">
+            <li class="booking__benefit">
+              <span class="booking__benefit-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>We'll audit your current outbound setup — no fluff</span>
+            </li>
+            <li class="booking__benefit">
+              <span class="booking__benefit-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>You'll get a bespoke meetings forecast for your ICP</span>
+            </li>
+            <li class="booking__benefit">
+              <span class="booking__benefit-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>We'll show you exactly how we'd run your outreach</span>
+            </li>
+            <li class="booking__benefit">
+              <span class="booking__benefit-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>No obligation — cancel or reschedule any time</span>
+            </li>
+            <li class="booking__benefit">
+              <span class="booking__benefit-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span>30-minute call, respects your time</span>
+            </li>
+          </ul>
+          <p class="booking__reassurance">No hard sell. No obligation.</p>
+        </div>
+        <div class="booking__calendar-wrap">
+          <div class="calendly-inline-widget"
+               data-url="https://calendly.com/allan-chan-leadzly"
+               style="min-width:320px;height:700px;"></div>
+        </div>
+      </div>
     </div>
   </section>
 
