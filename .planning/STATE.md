@@ -4,7 +4,8 @@ milestone: v1.0
 milestone_name: milestone
 current_plan: Not started
 status: completed
-last_updated: "2026-04-28T18:07:26.834Z"
+last_updated: "2026-04-28T21:45:34.295Z"
+last_activity: 2026-04-28
 progress:
   total_phases: 6
   completed_phases: 5
@@ -16,10 +17,10 @@ progress:
 
 ## Project Reference
 
-See: .planning/PROJECT.md
+See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 06 — design-polish-mobile
+**Current focus:** v1.0 complete — planning next milestone
 
 ---
 
@@ -27,7 +28,7 @@ See: .planning/PROJECT.md
 
 **Phase:** 06
 **Current Plan:** Not started
-**Status:** Milestone complete
+**Status:** v1.0 milestone complete
 **Last updated:** 2026-04-28
 
 **Progress bar:**
@@ -163,7 +164,7 @@ Phase 6 [██████████] 100%
 ## Session Continuity
 
 **Next action:** Phase 6 complete — ready to proceed to Phase 7 (Meta & SEO) or any remaining phases.
-Last activity: 2026-04-28 - Completed quick task 260428-hbj: add graphics to the site to bring it to life
+Last activity: 2026-04-28
 
 **Context for next session:**
 Phase 6 complete. Plan 01: card hover lift on 8 card classes (translateY(-4px) + shadow-lg + primary border), .fade-in upgraded with translateY(20px). Plan 02: fade-in class added to 13 below-fold sections; human verification passed across desktop (1440px) and mobile (375px). Commits: 028b4c6 (fade-in upgrade), 39f1402 (8 card hover rules), 48ebd6e (13 section fade-in tags). Phase 6 DSGN-03 and DSGN-04 requirements complete.

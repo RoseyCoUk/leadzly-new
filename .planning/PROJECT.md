@@ -2,7 +2,9 @@
 
 ## What This Is
 
-A comprehensive redesign and content upgrade of the Leadzly landing page (leadzly.co) — a B2B outbound sales agency based in Northern Ireland. The site is a static HTML/CSS page. This project adds trust signals, restructures page flow, adds new conversion sections, and polishes the design — all to close the gap against competitors like Belkins, SalesRoads, and Martal Group.
+A fully redesigned and conversion-optimised landing page for Leadzly (leadzly.co) — a B2B outbound sales agency based in Northern Ireland. The static HTML/CSS/JS page was rebuilt from a bare-bones site into a full-funnel conversion page with trust signals, a 14-section flow, inline booking, interactive tools (ROI calculator, FAQ, comparison table), scroll animations, and dashboard-style SVG illustrations.
+
+**v1.0 shipped: 2026-04-28 — live on Vercel via RoseyCoUk/leadzly-new**
 
 ## Core Value
 
@@ -10,56 +12,46 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 
 ## Requirements
 
-### Validated
+### Validated (v1.0)
 
-- ✓ Hero section with headline, sub-copy, and CTA — existing
-- ✓ Services overview section — existing
-- ✓ How it works (4-step process) — existing
-- ✓ Pricing section — existing
-- ✓ Single testimonial — existing
-- ✓ Footer with links — existing
-- ✓ Sticky nav with Book a Strategy Call CTA — existing
-- ✓ Calendly integration (external link to https://calendly.com/allan-chan-elevateoco/30min) — existing
+- ✓ Sticky nav with blur/shadow on scroll (NAV-01) — v1.0 (confirmed already live)
+- ✓ Hamburger menu on mobile (NAV-02) — v1.0 (confirmed already live)
+- ✓ All external links `rel="noopener noreferrer"` (NAV-03) — v1.0 (confirmed already live)
+- ✓ OG tags (title, description, image, URL) and favicon (QWIN-01, QWIN-02) — v1.0
+- ✓ GDPR cookie consent banner with GA4 gating (QWIN-04) — v1.0
+- ✓ 14-section page structure in correct order (PAGE-01) — v1.0
+- ✓ Pain points section — 6 empathy cards (PAGE-02) — v1.0
+- ✓ Multi-channel breakdown — 4 channel cards, dark navy (PAGE-03) — v1.0
+- ✓ Industries served — 12-chip grid with icons (PAGE-04) — v1.0
+- ✓ Section background alternation — white/grey/navy/green-tinted (DSGN-02) — v1.0
+- ✓ Trust bar below hero — partner logos, stat badge, 30-day guarantee (TRST-05) — v1.0
+- ✓ Proven Across Industries — 4 industry outcome cards (TRST-03, TRST-04) — v1.0
+- ✓ About section repositioned above multi-channel, NI-first framing (TRST-06) — v1.0
+- ✓ Hero h1 font-weight 800, clamp ≥3.5rem; green eyebrow labels on all sections (DSGN-01) — v1.0
+- ✓ Comparison table — Leadzly vs In-House vs Other Agencies, 8 rows (SECT-01) — v1.0
+- ✓ FAQ accordion — 7 questions, one open at a time (SECT-02) — v1.0
+- ✓ ROI calculator — 3 inputs, client-side JS, projected revenue output (SECT-03) — v1.0
+- ✓ Inline Calendly embed — two-column layout, sell + calendar (BOOK-01) — v1.0
+- ✓ Floating sticky CTA — pulsing dot, 3s delay, hidden on mobile (BOOK-02) — v1.0
+- ✓ Varied CTA copy across all major sections (BOOK-03) — v1.0
+- ✓ Counter animation in hero — numbers count up on first scroll (QWIN-03) — v1.0
+- ✓ Card hover lift + green border + scroll fade-up animations (DSGN-03) — v1.0
+- ✓ Full mobile responsiveness — single-column grids, horizontal table scroll (DSGN-04) — v1.0
+- ✓ Dashboard-style SVG illustrations — How It Works CRM board, Multi-Channel sequence UI (quick task) — v1.0
 
-### Active
+### Dropped (intentional)
 
-**Priority 1 — Trust & Social Proof**
-- [ ] Expand testimonials to 8–12 with name, title, company, location, star rating, and avatar
-- [ ] Expand case studies to 4–5 rich cards (industry tag, timeframe, metrics, story arc, client quote)
-- [ ] Trust bar below hero: Clutch rating, "Rated #1 Sales Agency NI", client logo strip, 30-Day Guarantee badge
-- [ ] Elevate About section with team info and NI-based differentiator framing
+- ✗ TRST-01 — 8–12 testimonial cards — *dropped: no real testimonial content available; testimonials section deleted entirely to avoid fake social proof*
+- ✗ TRST-02 — Testimonials 3-column grid — *dropped: same reason as TRST-01*
 
-**Priority 2 — Page Structure & Flow**
-- [ ] Restructure page order: hero → trust bar → pain points → services → multi-channel → process → industries → case studies → testimonials → comparison table → pricing → FAQ → booking → footer CTA → footer
-- [ ] Pain points section ("Does this sound familiar?" — 6 empathy cards)
-- [ ] Multi-channel breakdown section (dark navy, 4 channel cards)
-- [ ] Industries served grid (12 industry chips with icons)
+### Active (v1.1 candidates)
 
-**Priority 3 — Booking Experience**
-- [x] Inline Calendly embed section (two-column: sell the call + live calendar) — Validated Phase 5
-- [x] Floating sticky CTA button (bottom-right, pulsing green dot, animates in after 3s) — Validated Phase 5
-- [x] Multiple CTA touchpoints with varied copy throughout the page — Validated Phase 5
-
-**Priority 4 — Design Polish**
-- [x] Typography: hero h1 font-weight 800, clamp ≥3.5rem; consistent green eyebrow labels above each section — Validated Phase 4
-- [ ] Section background alternation (white / light grey / dark navy / green-tinted) for visual rhythm
-- [x] Hover/interaction states: card lift (translateY(-4px)), green border highlight, scroll fade-up animations — Validated Phase 6
-- [x] Mobile responsiveness: all grids → single column, process steps stack, comparison table scrolls, floating CTA hides if overlapping — Validated Phase 6
-
-**Priority 5 — New Sections**
-- [x] Comparison table: Leadzly vs In-House vs Other Agencies (light green background, 8 rows, green highlight column) — Validated Phase 4
-- [x] FAQ accordion (7 questions, max-width 720px centred, one open at a time) — Validated Phase 4
-- [x] ROI calculator (3 inputs → projected revenue output, inline, no separate page) — Validated Phase 4
-
-**Quick Wins**
-- [ ] Meta description and Open Graph tags
-- [ ] Favicon
-- [x] Scroll animations (IntersectionObserver fade-up) — Validated Phase 6
-- [x] Counter animation in hero (numbers count up on scroll) — Validated Phase 5
-- [ ] Cookie/privacy banner (GDPR compliance)
-- [x] Consistent CTA copy across all touchpoints — Validated Phase 5
-- [ ] rel="noopener" on all external links
-- [x] Mobile layout audit and fixes — Validated Phase 6
+- [ ] Testimonials section — when real client testimonials are sourced (TRST-01/02 revival)
+- [ ] Replace stock hero image with NI/UK-specific B2B photography (V2-05)
+- [ ] Team photos in About section (V2-04, blocked on asset sourcing)
+- [ ] Live Clutch review widget if API becomes available (V2-01)
+- [ ] Active section highlighting in nav on scroll (V2-02)
+- [ ] Phone number in nav (V2-03)
 
 ### Out of Scope
 
@@ -71,13 +63,15 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 
 ## Context
 
-- **Live URL:** leadzly.co
-- **Stack:** Pure HTML (`index.html`) + CSS (`style.css`, `base.css`, `page.css`) + vanilla JS (to be added)
+- **Live URL:** leadzly.co (deployed via Vercel — RoseyCoUk/leadzly-new)
+- **Stack:** `index.html` + `style.css`, `base.css`, `page.css` + vanilla JS (inline IIFEs, no separate file)
+- **Size:** ~3,350 LOC across HTML + CSS files
 - **Brand:** Green `#16a34a`, Dark navy `#0f172a`, Light green `#22c55e`, Green bg `#f0fdf4`; Font: Inter (Google Fonts)
-- **Calendly URL:** https://calendly.com/allan-chan-elevateoco/30min (used throughout for all CTAs and the inline embed)
-- **Logos:** `Leadzly-logo_with-text.svg` and `Leadzly-logo_without-text.svg` already in repo
-- **Competitor benchmarks:** Belkins, SalesRoads, Martal Group — research driven by gap analysis in IMPROVEMENTS.md
+- **Calendly URL:** https://calendly.com/allan-chan-leadzly (used throughout for all CTAs and the inline embed)
+- **Logos:** `Leadzly-logo_with-text.svg` and `Leadzly-logo_without-text.svg` in project root
+- **Competitor benchmarks:** Belkins, SalesRoads, Martal Group
 - **Key differentiator:** NI-based team, no offshore — genuine advantage for UK clients burned by overseas call centres
+- **GA4:** Installed via Partytown, gated behind GDPR consent banner
 
 ## Constraints
 
@@ -91,28 +85,25 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Vanilla JS only | Keeps zero build complexity — site stays as drop-in HTML files | Confirmed |
-| All 5 priorities in scope | Full improvement plan delivers maximum conversion uplift vs partial | Confirmed |
-| Inline Calendly embed | External link breaks the booking flow; inline keeps prospect on-page | Confirmed |
-| Floating sticky CTA | Ensures CTA is always reachable without scrolling to top | Confirmed |
-| No dark mode | Added complexity without payoff on a focused B2B landing page; felt inconsistent with the green/white brand | Phase 2 — removed entirely |
-| Light-only palette: white / #f8fafb / #f0fdf4 | Three tones only — no dark mid-page sections. Clean, professional, consistent with competitors like Belkins | Phase 2 — implemented |
-| Green solid nav (#16a34a) | White nav was too plain against the hero; green nav immediately anchors brand colour at top of page | Phase 2 — implemented |
-| Hero: split layout (white+dot-grid left / green right) + meeting card | Typography-only hero on pure white was too bare; no real photos available; meeting card communicates value prop visually | Phase 2 — implemented |
-| Removed fake social proof | Placeholder result cards and SVG logos would undermine credibility with sceptical B2B buyers; replaced with honest coming-soon state | Phase 2 — removed |
-| Multi-channel section: light not dark | Dark navy mid-page sections broke the clean light palette; channels section converted to white with green-tinted cards | Phase 2 — implemented |
-| No real case study data yet | Client is still gathering documented outcomes; case studies section holds coming-soon state with direct CTA | Phase 2 — noted, Phase 3 work |
+| Vanilla JS only | Keeps zero build complexity — site stays as drop-in HTML files | ✓ Good |
+| Inline Calendly embed | External link breaks the booking flow; inline keeps prospect on-page | ✓ Good |
+| Floating sticky CTA | Ensures CTA is always reachable without scrolling to top | ✓ Good |
+| Testimonials deleted entirely | No real content; fake social proof undermines credibility with sceptical B2B buyers | ✓ Good |
+| No dark mode | Added complexity without payoff on a focused B2B landing page | ✓ Good |
+| Light-only palette: white / #f8fafb / #f0fdf4 | Three tones only — clean, professional, consistent with competitors | ✓ Good |
+| Green solid nav (#16a34a) | Immediately anchors brand colour; white nav was too plain against hero | ✓ Good |
+| Multi-channel section: light not dark | Dark mid-page sections broke clean light palette | ✓ Good |
+| Comparison table: light green not dark navy | Reverted after human visual review — consistent with page light theme | ✓ Good |
+| Hero: split layout + meeting card SVG | No real photos; meeting card communicates value prop visually | ✓ Good |
+| About section between Services and Multi-Channel | Credibility narrative precedes evidence sections | ✓ Good |
+| Calendly height 700px desktop / 650px mobile | Eliminates internal scrollbar in widget | ✓ Good |
+| Counter animation — play once per load | observer.disconnect() after first trigger; no replay on re-scroll | ✓ Good |
+| Dashboard SVG illustrations inline | No external images; scales with viewport; matches brand palette | ✓ Good |
+| Inline IIFEs, no separate JS file | Keeps deployment as single index.html drop-in with no asset coordination | ✓ Good |
 
 ## Evolution
 
 This document evolves at phase transitions and milestone boundaries.
-
-**After each phase transition** (via `/gsd:transition`):
-1. Requirements invalidated? → Move to Out of Scope with reason
-2. Requirements validated? → Move to Validated with phase reference
-3. New requirements emerged? → Add to Active
-4. Decisions to log? → Add to Key Decisions
-5. "What This Is" still accurate? → Update if drifted
 
 **After each milestone** (via `/gsd:complete-milestone`):
 1. Full review of all sections
@@ -121,4 +112,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-28 after Phase 4 completion*
+*Last updated: 2026-04-28 after v1.0 milestone*
