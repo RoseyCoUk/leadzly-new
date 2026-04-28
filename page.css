@@ -507,11 +507,14 @@ main > section + section::before {
   border: 1px solid rgba(17, 24, 39, 0.08);
   border-radius: var(--radius-xl);
   padding: var(--space-8);
-  transition: box-shadow var(--transition-interactive), border-color var(--transition-interactive);
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive),
+              border-color var(--transition-interactive);
 }
 .service-card:hover {
-  box-shadow: var(--shadow-md);
-  border-color: rgba(22, 163, 74, 0.2);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
 .service-card__icon {
   display: inline-flex;
@@ -561,6 +564,12 @@ main > section + section::before {
   text-align: center;
   padding: var(--space-6);
   position: relative;
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive);
+}
+.how__step:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 .how__step-num {
   display: inline-flex;
@@ -728,6 +737,14 @@ main > section + section::before {
   display: flex;
   flex-direction: column;
   position: relative;
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive),
+              border-color var(--transition-interactive);
+}
+.pricing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
 .pricing-card--featured {
   border-color: var(--color-primary);
@@ -737,6 +754,9 @@ main > section + section::before {
 @media (min-width: 768px) {
   .pricing-card--featured {
     transform: scale(1.03);
+  }
+  .pricing-card--featured:hover {
+    transform: scale(1.03) translateY(-4px);
   }
 }
 .pricing-card__badge {
@@ -848,6 +868,16 @@ main > section + section::before {
 .about__diff-item {
   text-align: center;
   padding: var(--space-6);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive),
+              border-color var(--transition-interactive);
+}
+.about__diff-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
 .about__diff-icon {
   display: inline-flex;
@@ -1028,6 +1058,14 @@ main > section + section::before {
   border-radius: var(--radius-lg);
   padding: var(--space-8);
   box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive),
+              border-color var(--transition-interactive);
+}
+.pain-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
 
 .pain-card__icon {
@@ -1083,11 +1121,14 @@ main > section + section::before {
   border: 1px solid var(--color-primary-highlight);
   border-radius: var(--radius-lg);
   padding: var(--space-8);
-  transition: box-shadow var(--transition-interactive), border-color var(--transition-interactive);
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive),
+              border-color var(--transition-interactive);
 }
 .channel-card:hover {
-  box-shadow: var(--shadow-md);
-  border-color: rgba(22, 163, 74, 0.3);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
 
 .channel-card__icon {
@@ -1324,6 +1365,14 @@ main > section + section::before {
   border-radius: var(--radius-lg);
   padding: var(--space-6);
   box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive),
+              border-color var(--transition-interactive);
+}
+.proven__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
 .proven__card-tag {
   display: inline-flex;
@@ -1422,6 +1471,14 @@ main > section + section::before {
   box-shadow: var(--shadow-md);
   max-width: 800px;
   margin-inline: auto;
+  transition: transform var(--transition-interactive),
+              box-shadow var(--transition-interactive),
+              border-color var(--transition-interactive);
+}
+.roi__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
 }
 .roi__inputs {
   display: grid;
