@@ -5,6 +5,7 @@ status: draft
 shadcn_initialized: false
 preset: none
 created: 2026-04-27
+revised: 2026-04-27
 ---
 
 # Phase 5 — UI Design Contract
@@ -28,33 +29,47 @@ created: 2026-04-27
 
 ## Spacing Scale
 
-Declared values from `style.css :root` (already established — do not redefine):
+### Standard scale (8-point base)
 
-| Token | Value | Usage |
-|-------|-------|-------|
+| Token | Value | Usage in phase 5 |
+|-------|-------|-----------------|
 | --space-1 | 4px (0.25rem) | Icon gaps, fine-grained nudges |
-| --space-2 | 8px (0.5rem) | Compact inline spacing |
-| --space-3 | 12px (0.75rem) | Tight padding (badges, chips) |
-| --space-4 | 16px (1rem) | Default element spacing, button padding top/bottom |
-| --space-5 | 20px (1.25rem) | Small button horizontal padding |
-| --space-6 | 24px (1.5rem) | Card padding, grid gaps |
-| --space-8 | 32px (2rem) | Larger layout gaps |
-| --space-10 | 40px (2.5rem) | — |
-| --space-12 | 48px (3rem) | Section padding minimum (clamp floor) |
+| --space-2 | 8px (0.5rem) | Compact inline spacing, pulse dot outset |
+| --space-4 | 16px (1rem) | Button padding top/bottom (floating CTA — guarantees 44px touch target) |
+| --space-6 | 24px (1.5rem) | Floating CTA position offset (bottom/right); card padding; benefit list gap |
+| --space-8 | 32px (2rem) | Booking grid column gap |
+| --space-12 | 48px (3rem) | Section padding clamp floor |
 | --space-16 | 64px (4rem) | Scroll padding top |
-| --space-20 | 80px (5rem) | — |
-| --space-24 | 96px (6rem) | Section padding maximum (clamp ceiling) |
 
-Section padding convention (must match all other sections):
+### Project-level exceptions (pre-existing — NOT introduced in phase 5)
+
+The following tokens exist in `style.css :root` and were established in phases 1–4. They are carried forward as inherited values. Phase 5 does not add or remove them. Documented here for completeness only.
+
+| Token | Value | Rationale |
+|-------|-------|-----------|
+| --space-3 | 12px (0.75rem) | Inherited — tight padding for badges and chips from phase 1 |
+| --space-5 | 20px (1.25rem) | Inherited — small button horizontal padding from phase 1 |
+| --space-10 | 40px (2.5rem) | Inherited — layout gap value from prior phases |
+| --space-20 | 80px (5rem) | Inherited — large section rhythm from prior phases |
+| --space-24 | 96px (6rem) | Inherited — section padding clamp ceiling from phase 1 |
+
+These tokens are in `style.css` and must not be removed. Phase 5 does not reference them in new CSS.
+
+### Section padding convention (must match all other sections)
+
 ```css
 padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
 ```
 
-Exceptions:
-- Floating CTA button: fixed position, 24px from bottom-right (`bottom: 24px; right: 24px`)
-- Floating CTA pulse ring: 8px outset beyond button edge
-- Touch target minimum: 44px — floating button must be at minimum 44px × 44px
-- Calendly embed wrapper: no vertical padding override; Calendly iframe manages its own internal spacing
+### Phase-5-specific spacing decisions
+
+| Decision | Value | Reason |
+|----------|-------|--------|
+| Floating CTA position | `bottom: 24px; right: 24px` (--space-6) | Consistent with standard card padding |
+| Floating CTA touch target | `padding: var(--space-4) var(--space-6)` | 16px top/bottom guarantees ≥44px height |
+| Pulse ring outset | 4px beyond dot edge (`inset: -4px`) | 8px dot + 4px ring = proportional visual weight |
+| Benefit list item gap | `var(--space-6)` horizontal flex gap between icon and text | Keeps checkmark clearly separated from copy |
+| Booking grid column gap | `var(--space-8)` | Standard two-column spacing matching other grid sections |
 
 ---
 
@@ -62,17 +77,25 @@ Exceptions:
 
 All sizes use existing CSS clamp tokens from `style.css :root`. No new type tokens introduced.
 
+**Declared scale: 4 sizes, 2 weights.**
+
 | Role | Token | Approx Size | Weight | Line Height | Font Family |
 |------|-------|-------------|--------|-------------|-------------|
-| Body | --text-base | 16–18px | 400 | 1.6 | var(--font-body) — Inter |
 | Label / hint | --text-xs | 12–14px | 400 | 1.5 | var(--font-body) — Inter |
-| Button / UI | --text-sm | 14–16px | 600 | 1 (nowrap) | var(--font-body) — Inter |
-| Heading (section title) | --text-xl | 24–36px | 700 | 1.2 | var(--font-display) — Plus Jakarta Sans |
-| Display (booking benefit headline) | --text-lg | 18–24px | 700 | 1.3 | var(--font-display) — Plus Jakarta Sans |
+| Body / button / UI | --text-base | 16–18px | 400 | 1.6 (body) / 1 nowrap (button) | var(--font-body) — Inter |
+| Section heading | --text-xl | 24–36px | 700 | 1.2 | var(--font-display) — Plus Jakarta Sans |
+| Stat counter / display | --text-2xl | 32–56px | 700 | 1.1 | var(--font-display) — Plus Jakarta Sans |
 
-Eyebrow label (`.section-label`): `--text-xs`, weight 700, uppercase letter-spacing, color `var(--color-primary)` — already globally defined, reuse without override.
+**Consolidation rationale:**
 
-Counter number (QWIN-03 stat animation): `var(--font-display)`, `--text-2xl` (32–56px), weight 800, color `var(--color-primary)` — matches `.hero__card-stat-num` established pattern.
+- `--text-sm` removed — button text mapped to `--text-base`. Buttons at 16px are more readable and the size difference from `--text-sm` was imperceptible in context.
+- `--text-lg` removed — "What to expect on the call" subheading mapped to `--text-xl`. The subheading benefits from stronger visual hierarchy at the section-heading size.
+- Weight 600 removed — button weight mapped to 700 (same weight as headings). Consistent bold intent across all emphatic elements.
+- Weight 800 removed — stat counter weight mapped to 700. The display font (Plus Jakarta Sans) already reads as bold at 700; 800 was redundant.
+
+**Eyebrow label** (`.section-label`): `--text-xs`, weight 700, uppercase letter-spacing, color `var(--color-primary)` — already globally defined, reuse without override.
+
+**Booking benefit reassurance line** ("No hard sell. No obligation."): `--text-xs`, weight 400, `var(--color-text-muted)`.
 
 ---
 
@@ -114,14 +137,14 @@ Mobile (<768px):  grid-template-columns: 1fr  (stack — content above, calendar
 ```
 
 **Left column content:**
-- `<h3>` subheading: "What to expect on the call" — `--text-lg`, weight 700, `var(--font-display)`
+- `<h3>` subheading: "What to expect on the call" — `--text-xl`, weight 700, `var(--font-display)`
 - Benefit list: 5 bullet items with inline SVG checkmark (color `var(--color-primary)`, 16px), `--text-base`, weight 400
   1. "We'll audit your current outbound setup — no fluff"
   2. "You'll get a bespoke meetings forecast for your ICP"
   3. "We'll show you exactly how we'd run your outreach"
   4. "No obligation — cancel or reschedule any time"
   5. "30-minute call, respects your time"
-- Below list: reassurance micro-copy — "No hard sell. No obligation." — `--text-sm`, weight 400, `var(--color-text-muted)`
+- Below list: reassurance micro-copy — "No hard sell. No obligation." — `--text-xs`, weight 400, `var(--color-text-muted)`
 
 **Right column — Calendly embed:**
 - Load Calendly widget script from CDN: `https://assets.calendly.com/assets/external/widget.js`
@@ -133,7 +156,7 @@ Mobile (<768px):  grid-template-columns: 1fr  (stack — content above, calendar
 - `.booking__grid` — two-column grid container
 - `.booking__content` — left column wrapper
 - `.booking__benefits` — `<ul>` list, list-style none, padding 0
-- `.booking__benefit` — `<li>` with flexbox, gap `var(--space-3)`, align-items flex-start
+- `.booking__benefit` — `<li>` with flexbox, gap `var(--space-6)`, align-items flex-start
 - `.booking__benefit-icon` — inline SVG wrapper, flex-shrink 0, color `var(--color-primary)`
 - `.booking__calendar-wrap` — right column, border-radius `var(--radius-xl)`, overflow hidden
 
@@ -217,7 +240,7 @@ Mobile (<768px):  grid-template-columns: 1fr  (stack — content above, calendar
 }
 ```
 
-**Touch target:** Button padding ensures minimum 44px height: `padding: var(--space-3) var(--space-6)` (12px top/bottom + ~14px text = ~40px) — increase to `var(--space-4)` (`16px`) top/bottom to guarantee 44px.
+**Touch target:** Button padding `padding: var(--space-4) var(--space-6)` (16px top/bottom + ~16px text = ≥44px height).
 
 ---
 
