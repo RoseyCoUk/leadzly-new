@@ -14,7 +14,7 @@
 | 2 | Page Restructure & Scaffolding | 1/2 | In Progress|  |
 | 3 | Trust & Social Proof | 3/3 | Complete   | 2026-04-28 |
 | 4 | Conversion Sections | 4/4 | Complete   | 2026-04-28 |
-| 5 | Booking Experience & CTAs | Visitors can book a call inline and CTAs are present throughout the page | BOOK-01, BOOK-02, BOOK-03, QWIN-03 | TBD |
+| 5 | Booking Experience & CTAs | Visitors can book a call inline and CTAs are present throughout the page | BOOK-01, BOOK-02, BOOK-03, QWIN-03 | 4 plans |
 | 6 | Design Polish & Mobile | Every section is visually refined, animated, and works perfectly on mobile | DSGN-03, DSGN-04 | TBD |
 
 ---
@@ -115,7 +115,11 @@
 3. At least 4 distinct CTA variants appear across the page ("Book a Free Strategy Call", "Get Your Meetings Forecast", "See If We're a Fit", "Start Filling Your Calendar")
 4. Hero stat numbers visibly count up from zero when scrolled into view for the first time
 
-**Plans:** TBD
+**Plans:** 4 plans
+- [ ] 05-01-PLAN.md — BOOK-01: Calendly inline embed — two-column booking grid HTML + CSS + Calendly CDN resources
+- [ ] 05-02-PLAN.md — BOOK-02: Floating sticky CTA — HTML + CSS (fixed position, pulse ring, mobile hide) + JS IIFE (3s delay)
+- [ ] 05-03-PLAN.md — BOOK-03: CTA copy variants — hero + pricing copy edits + ROI section CTA addition
+- [ ] 05-04-PLAN.md — QWIN-03: Hero stat counter — data attributes + JS IIFE (IntersectionObserver + rAF) + human verify checkpoint (all Phase 5 changes)
 
 ---
 
@@ -144,7 +148,7 @@
 | 2. Page Restructure & Scaffolding | 2/2 | Complete | 2026-04-27 |
 | 3. Trust & Social Proof | 3/3 | Complete | 2026-04-27 |
 | 4. Conversion Sections | 0/4 | Not started | — |
-| 5. Booking Experience & CTAs | 0/? | Not started | — |
+| 5. Booking Experience & CTAs | 0/4 | Not started | — |
 | 6. Design Polish & Mobile | 0/? | Not started | — |
 
 ---
@@ -185,4 +189,4 @@
 
 ---
 *Roadmap created: 2026-04-24*
-*Last updated: 2026-04-27 — Phase 4 planned (4 plans): 04-01 DSGN-01, 04-02 SECT-01, 04-03 SECT-02, 04-04 SECT-03+checkpoint*
+*Last updated: 2026-04-28 — Phase 5 planned (4 plans): 05-01 BOOK-01, 05-02 BOOK-02, 05-03 BOOK-03, 05-04 QWIN-03+checkpoint*
