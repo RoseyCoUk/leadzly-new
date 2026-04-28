@@ -617,6 +617,25 @@ main > section + section::before {
   }
 }
 
+/* ---- HOW IT WORKS VISUAL ---- */
+.how__visual {
+  display: none;
+}
+@media (min-width: 900px) {
+  .how__visual {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-10);
+  }
+  .how__visual svg {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    filter: drop-shadow(0 4px 16px rgba(0,0,0,0.08));
+    border-radius: 12px;
+  }
+}
+
 /* ============ RESULTS ============ */
 .results {
   padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;
