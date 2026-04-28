@@ -25,9 +25,9 @@ See: .planning/PROJECT.md
 
 ## Current Status
 
-**Phase:** 5
+**Phase:** 6
 **Current Plan:** 1
-**Status:** Executing Phase 05
+**Status:** Phase 05 complete — ready to begin Phase 06
 **Last updated:** 2026-04-28
 
 **Progress bar:**
@@ -37,7 +37,7 @@ Phase 1 [----------] 0%
 Phase 2 [██████████] 100%
 Phase 3 [██████████] 100%
 Phase 4 [██████████] 100%
-Phase 5 [███-------] 33%
+Phase 5 [██████████] 100%
 Phase 6 [----------] 0%
 ```
 
@@ -147,11 +147,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Human verify checkpoint — open index.html in browser and verify all Phase 5 deliverables (BOOK-01, BOOK-02, BOOK-03, QWIN-03). On approval, advance to Phase 6.
+**Next action:** Begin Phase 6 — Design Polish & Mobile.
 
 **Context for next session:**
-Phase 5 Plan 04 implementation complete — hero stat counter IIFE added: numbers count up 0→target over 1200ms ease-out cubic on first scroll-into-view. Awaiting human verify checkpoint for full Phase 5 sign-off (4 plans: Calendly embed, floating CTA, CTA copy variants, stat counter animation).
+Phase 5 complete and human-verified. All 4 plans delivered: inline Calendly embed (BOOK-01), floating sticky CTA (BOOK-02 — fixed on main), CTA copy variants (BOOK-03), hero stat counter animation (QWIN-03). Floating CTA was missing from main due to worktree branch isolation; re-implemented directly on main (commit 09b6cf6). Phase 6 (Design Polish & Mobile) is next.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — Completed: 05-booking-experience-ctas 05-04-PLAN.md (awaiting human-verify checkpoint)*
+*Last session: 2026-04-28 — Completed: 05-booking-experience-ctas 05-04-PLAN.md (Phase 5 fully verified and complete)*

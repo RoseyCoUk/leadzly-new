@@ -178,10 +178,10 @@
 | SECT-02 | Phase 4 | Pending |
 | SECT-03 | Phase 4 | Pending |
 | DSGN-01 | Phase 4 | Pending |
-| BOOK-01 | Phase 5 | Pending |
-| BOOK-02 | Phase 5 | Pending |
-| BOOK-03 | Phase 5 | Pending |
-| QWIN-03 | Phase 5 | Pending |
+| BOOK-01 | Phase 5 | Complete |
+| BOOK-02 | Phase 5 | Complete |
+| BOOK-03 | Phase 5 | Complete |
+| QWIN-03 | Phase 5 | Complete |
 | DSGN-03 | Phase 6 | Pending |
 | DSGN-04 | Phase 6 | Pending |
 
@@ -189,4 +189,4 @@
 
 ---
 *Roadmap created: 2026-04-24*
-*Last updated: 2026-04-28 — Phase 5 planned (4 plans): 05-01 BOOK-01, 05-02 BOOK-02, 05-03 BOOK-03, 05-04 QWIN-03+checkpoint*
+*Last updated: 2026-04-28 — Phase 5 complete: BOOK-01, BOOK-02, BOOK-03, QWIN-03 all verified. Floating CTA bug fixed (09b6cf6). Phase 6 next.*
