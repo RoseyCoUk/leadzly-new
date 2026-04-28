@@ -966,5 +966,29 @@
       });
     })();
   </script>
+  <script>
+  // FAQ Accordion
+  (function() {
+    var items = document.querySelectorAll('.faq__item');
+    items.forEach(function(item) {
+      var btn = item.querySelector('.faq__question');
+      if (!btn) return;
+      btn.addEventListener('click', function() {
+        var isActive = item.classList.contains('faq__item--active');
+        // collapse all
+        items.forEach(function(i) {
+          i.classList.remove('faq__item--active');
+          var b = i.querySelector('.faq__question');
+          if (b) b.setAttribute('aria-expanded', 'false');
+        });
+        // open clicked (unless it was already open)
+        if (!isActive) {
+          item.classList.add('faq__item--active');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+  })();
+  </script>
 </body>
 </html>
