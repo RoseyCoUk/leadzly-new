@@ -11,8 +11,8 @@
 - [x] **META-01**: Site includes `<link rel="canonical" href="https://leadzly.co/">` in `<head>`
 - [x] **META-02**: Site includes `<meta name="robots" content="index, follow">` in `<head>`
 - [x] **META-03**: Site includes all 4 Twitter Card meta tags (`twitter:card`, `twitter:title`, `twitter:description`, `twitter:image`)
-- [ ] **META-04**: `robots.txt` exists at site root, allowing all crawlers and referencing sitemap URL
-- [ ] **META-05**: `sitemap.xml` exists at site root with homepage URL and `<lastmod>` date
+- [x] **META-04**: `robots.txt` exists at site root, allowing all crawlers and referencing sitemap URL
+- [x] **META-05**: `sitemap.xml` exists at site root with homepage URL and `<lastmod>` date
 
 ### Structured Data
 

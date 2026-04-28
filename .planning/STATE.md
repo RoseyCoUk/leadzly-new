@@ -2,9 +2,9 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: SEO & Performance
-current_plan: 1
+current_plan: 2
 status: executing
-last_updated: "2026-04-28T23:32:17.075Z"
+last_updated: "2026-04-28T23:33:00.000Z"
 last_activity: 2026-04-28
 progress:
   total_phases: 3
@@ -34,7 +34,7 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 **Progress bar:**
 
 ```
-v1.1 Phase 7 [----------]   0%  Meta Hygiene
+v1.1 Phase 7 [██████████] 100%  Meta Hygiene
 v1.1 Phase 8 [----------]   0%  Structured Data
 v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 ```
@@ -45,7 +45,7 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 
 | Phase | Name | Status | Completed |
 |-------|------|--------|-----------|
-| 7 | Meta Hygiene | Not started | — |
+| 7 | Meta Hygiene | Complete | 2026-04-28 |
 | 8 | Structured Data | Not started | — |
 | 9 | Performance & Core Web Vitals | Not started | — |
 
@@ -116,6 +116,8 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 - Twitter card type summary chosen (not summary_large_image) — logo is square, summary_large_image expects 2:1 landscape ratio [07-01]
 - twitter:site omitted from Twitter Card tags — Leadzly X handle unconfirmed, optional tag excluded per plan [07-01]
 - Canonical href uses trailing slash https://leadzly.co/ — consistent with og:url and upcoming sitemap.xml [07-01]
+- Allow: / without Disallow in robots.txt — fully public site, no pages to block [07-02]
+- sitemap.xml uses trailing slash on loc URL — matches canonical href from 07-01 to avoid Google URL mismatch [07-02]
 
 ### Technical Notes
 
