@@ -38,7 +38,7 @@
 
 - [x] **SECT-01**: Comparison table section (dark navy background) with rows comparing Leadzly vs In-House vs Other Agencies across 8 criteria, Leadzly column highlighted in green
 - [x] **SECT-02**: FAQ accordion with 7 questions, one open at a time, max-width 720px centred
-- [ ] **SECT-03**: ROI calculator with 3 inputs (average deal value, current meetings/month, target meetings/month) and outputs (projected additional monthly revenue, projected annual pipeline), all client-side JS
+- [x] **SECT-03**: ROI calculator with 3 inputs (average deal value, current meetings/month, target meetings/month) and outputs (projected additional monthly revenue, projected annual pipeline), all client-side JS
 
 ### Navigation & Global
 
@@ -97,7 +97,7 @@
 | TRST-06 | Phase 3 — Trust & Social Proof | Complete |
 | SECT-01 | Phase 4 — Conversion Sections | Complete |
 | SECT-02 | Phase 4 — Conversion Sections | Complete |
-| SECT-03 | Phase 4 — Conversion Sections | Pending |
+| SECT-03 | Phase 4 — Conversion Sections | Complete |
 | DSGN-01 | Phase 4 — Conversion Sections | Complete |
 | BOOK-01 | Phase 5 — Booking Experience & CTAs | Pending |
 | BOOK-02 | Phase 5 — Booking Experience & CTAs | Pending |

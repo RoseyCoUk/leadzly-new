@@ -13,7 +13,7 @@
 | 1 | Foundation & Hygiene | Site is clean, crawlable, and navigable before any structural work | NAV-01, NAV-02, NAV-03, QWIN-01, QWIN-02, QWIN-04 | 2 plans |
 | 2 | Page Restructure & Scaffolding | 1/2 | In Progress|  |
 | 3 | Trust & Social Proof | 3/3 | Complete   | 2026-04-28 |
-| 4 | Conversion Sections | 3/4 | In Progress|  |
+| 4 | Conversion Sections | 4/4 | Complete   | 2026-04-28 |
 | 5 | Booking Experience & CTAs | Visitors can book a call inline and CTAs are present throughout the page | BOOK-01, BOOK-02, BOOK-03, QWIN-03 | TBD |
 | 6 | Design Polish & Mobile | Every section is visually refined, animated, and works perfectly on mobile | DSGN-03, DSGN-04 | TBD |
 
@@ -94,11 +94,11 @@
 3. An ROI calculator accepts 3 inputs (average deal value, current meetings/month, target meetings/month) and outputs projected additional monthly revenue and annual pipeline — all calculated in-browser with no server call
 4. Every section on the page has a consistent eyebrow label (small caps, green) above the main heading, and the hero h1 is bold at ≥3.5rem
 
-**Plans:** 3/4 plans executed
+**Plans:** 4/4 plans complete
 - [x] 04-01-PLAN.md — DSGN-01: hero h1 clamp fix (2.4rem → 3.5rem) + .section-label weight fix (600 → 700)
 - [x] 04-02-PLAN.md — SECT-01: comparison table HTML + CSS (dark navy background, 8 rows, Leadzly column green)
 - [x] 04-03-PLAN.md — SECT-02: FAQ accordion HTML + CSS + JS IIFE (7 questions, one-at-a-time, max-height animation)
-- [ ] 04-04-PLAN.md — SECT-03: ROI calculator HTML + CSS + JS IIFE + human verify checkpoint (all Phase 4 changes)
+- [x] 04-04-PLAN.md — SECT-03: ROI calculator HTML + CSS + JS IIFE + human verify checkpoint (all Phase 4 changes) (completed 2026-04-28)
 
 ---
 

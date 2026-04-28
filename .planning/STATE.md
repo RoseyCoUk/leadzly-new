@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: 3
+current_plan: 4
 status: executing
-last_updated: "2026-04-28T01:31:52.713Z"
+last_updated: "2026-04-28T04:36:46.408Z"
 progress:
   total_phases: 6
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 9
-  completed_plans: 10
+  completed_plans: 11
 ---
 
 # Project State
@@ -73,6 +73,7 @@ Phase 6 [----------] 0%
 | Phase 04-conversion-sections P01 | 5 | 2 tasks | 1 files |
 | Phase 04-conversion-sections P02 | 8 | 2 tasks | 2 files |
 | Phase 04-conversion-sections P03 | 8 | 2 tasks | 2 files |
+| Phase 04-conversion-sections P04 | 30 | 3 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -104,6 +105,9 @@ Phase 6 [----------] 0%
 - .comparison section-title/subtitle/label have explicit colour overrides — dark background requires white text for readability [04-02]
 - FAQ IIFE added as separate script block — isolates concern from existing nav/cookie script block [04-03]
 - max-height: 400px used for FAQ answer CSS transition target (not auto) — required for CSS transition to animate; sufficient for all answer lengths [04-03]
+- Comparison table reverted from dark navy to var(--color-primary-soft) light green — consistent with page light theme after human visual review [04-04]
+- FAQ answer transition upgraded to 0.4s ease with 600px ceiling; font-size reduced to 0.95rem; padding-left 1.5rem added [04-04]
+- ROI inputs given explicit height: 48px for cross-browser rendering parity across all three number inputs [04-04]
 
 ### Technical Notes
 
