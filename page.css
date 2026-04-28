@@ -1129,6 +1129,39 @@ main > section + section::before {
   .channels__grid { grid-template-columns: repeat(4, 1fr); }
 }
 
+/* ---- CHANNELS SPLIT LAYOUT + VISUAL ---- */
+.channels__split {
+  display: contents;
+}
+.channels__visual {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .channels__split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-12);
+    align-items: center;
+    margin-top: var(--space-6);
+  }
+  /* Inside the split, channels grid goes 2-column instead of 4 */
+  .channels__split .channels__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .channels__visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .channels__visual svg {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    filter: drop-shadow(0 4px 20px rgba(0,0,0,0.10));
+    border-radius: 12px;
+  }
+}
+
 .channel-card {
   background: var(--color-primary-soft);
   border: 1px solid var(--color-primary-highlight);
