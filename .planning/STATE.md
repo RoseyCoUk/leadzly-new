@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: Not started
-status: planning
-last_updated: "2026-04-28T00:29:33.764Z"
+current_plan: 2
+status: executing
+last_updated: "2026-04-27T00:05:00.000Z"
 progress:
   total_phases: 6
   completed_phases: 2
-  total_plans: 5
-  completed_plans: 7
+  total_plans: 9
+  completed_plans: 8
 ---
 
 # Project State
@@ -19,15 +19,15 @@ progress:
 See: .planning/PROJECT.md
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 03 — trust-social-proof
+**Current focus:** Phase 04 — conversion-sections
 
 ---
 
 ## Current Status
 
 **Phase:** 4
-**Current Plan:** Not started
-**Status:** Ready to plan
+**Current Plan:** 2
+**Status:** Executing Phase 04
 **Last updated:** 2026-04-27
 
 **Progress bar:**
@@ -36,7 +36,7 @@ See: .planning/PROJECT.md
 Phase 1 [----------] 0%
 Phase 2 [██████████] 100%
 Phase 3 [██████████] 100%
-Phase 4 [----------] 0%
+Phase 4 [█████████░] 89%
 Phase 5 [----------] 0%
 Phase 6 [----------] 0%
 ```
@@ -70,6 +70,7 @@ Phase 6 [----------] 0%
 | Phase 02-page-restructure-scaffolding P01 | 12 | 1 tasks | 1 files |
 | Phase 03-trust-social-proof P01 | 12 | 2 tasks | 7 files |
 | Phase 03-trust-social-proof P02 | 12 | 2 tasks | 2 files |
+| Phase 04-conversion-sections P01 | 5 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -94,6 +95,8 @@ Phase 6 [----------] 0%
 - fade-in class added to all 4 proven cards as Phase 6 animation hook — zero cost now, saves rework later [03-02]
 - About section moved from post-Pricing to between Services and Multi-Channel — credibility narrative now precedes evidence sections (TRST-06) [03-03]
 - id="about" preserved after repositioning — all nav and footer anchor links remain functional [03-03]
+- Hero h1 clamp maximum also raised from 4.25rem to 4.75rem alongside the minimum — gives more visual headroom at large desktop viewports [04-01]
+- Single .section-label rule confirmed in page.css — no overrides in style.css or base.css, single edit is authoritative [04-01]
 
 ### Technical Notes
 
@@ -118,11 +121,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Begin Phase 4 — Conversion Sections (comparison table, FAQ accordion, ROI calculator, typography)
+**Next action:** Continue Phase 4 — Plan 02 (comparison table: Leadzly vs In-House vs Other Agencies)
 
 **Context for next session:**
-Phase 3 complete — all 3 plans executed and human checkpoint approved (all 8 visual checks passed). Trust bar (logos + badges), Proven Across Industries section, and About repositioning all in place. Phase 4 (SECT-01, SECT-02, SECT-03, DSGN-01) is next: comparison table vs In-House/Other Agencies, FAQ accordion, ROI calculator, and typographic hierarchy fixes.
+Phase 4 Plan 01 complete — typography baseline set: hero h1 clamp min 3.5rem, .section-label font-weight 700 across all sections. DSGN-01 satisfied. Plans 02–04 (comparison table, FAQ accordion, ROI calculator) can now proceed with consistent typographic hierarchy established.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-27 — Completed: 03-trust-social-proof 03-03-PLAN.md (human-verify checkpoint approved)*
+*Last session: 2026-04-27 — Completed: 04-conversion-sections 04-01-PLAN.md*
