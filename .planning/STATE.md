@@ -4,12 +4,12 @@ milestone: v1.0
 milestone_name: milestone
 current_plan: 2
 status: executing
-last_updated: "2026-04-27T00:05:00.000Z"
+last_updated: "2026-04-28T01:27:15.806Z"
 progress:
   total_phases: 6
   completed_phases: 2
   total_plans: 9
-  completed_plans: 8
+  completed_plans: 9
 ---
 
 # Project State
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md
 ## Current Status
 
 **Phase:** 4
-**Current Plan:** 2
+**Current Plan:** 3
 **Status:** Executing Phase 04
 **Last updated:** 2026-04-27
 
@@ -36,7 +36,7 @@ See: .planning/PROJECT.md
 Phase 1 [----------] 0%
 Phase 2 [██████████] 100%
 Phase 3 [██████████] 100%
-Phase 4 [█████████░] 89%
+Phase 4 [██████████] 100%
 Phase 5 [----------] 0%
 Phase 6 [----------] 0%
 ```
@@ -71,6 +71,7 @@ Phase 6 [----------] 0%
 | Phase 03-trust-social-proof P01 | 12 | 2 tasks | 7 files |
 | Phase 03-trust-social-proof P02 | 12 | 2 tasks | 2 files |
 | Phase 04-conversion-sections P01 | 5 | 2 tasks | 1 files |
+| Phase 04-conversion-sections P02 | 8 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -97,6 +98,9 @@ Phase 6 [----------] 0%
 - id="about" preserved after repositioning — all nav and footer anchor links remain functional [03-03]
 - Hero h1 clamp maximum also raised from 4.25rem to 4.75rem alongside the minimum — gives more visual headroom at large desktop viewports [04-01]
 - Single .section-label rule confirmed in page.css — no overrides in style.css or base.css, single edit is authoritative [04-01]
+- comparison__cell--leadzly uses display: table-cell to ensure consistent cell rendering alongside other td elements [04-02]
+- color-primary-highlight used for Leadzly thead cell — green tint visually separates the column header at a glance [04-02]
+- .comparison section-title/subtitle/label have explicit colour overrides — dark background requires white text for readability [04-02]
 
 ### Technical Notes
 
@@ -121,11 +125,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Continue Phase 4 — Plan 02 (comparison table: Leadzly vs In-House vs Other Agencies)
+**Next action:** Continue Phase 4 — Plan 03 (FAQ accordion)
 
 **Context for next session:**
-Phase 4 Plan 01 complete — typography baseline set: hero h1 clamp min 3.5rem, .section-label font-weight 700 across all sections. DSGN-01 satisfied. Plans 02–04 (comparison table, FAQ accordion, ROI calculator) can now proceed with consistent typographic hierarchy established.
+Phase 4 Plan 02 complete — comparison table built: 8 rows on dark navy background (var(--color-dark)), Leadzly column with green highlight (var(--color-primary-highlight) header, var(--color-primary-soft) cells), mobile overflow-x scroll. SECT-01 satisfied. Plans 03–04 (FAQ accordion, ROI calculator) remain.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-27 — Completed: 04-conversion-sections 04-01-PLAN.md*
+*Last session: 2026-04-27 — Completed: 04-conversion-sections 04-02-PLAN.md*
