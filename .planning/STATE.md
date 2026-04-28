@@ -4,12 +4,12 @@ milestone: v1.0
 milestone_name: milestone
 current_plan: 1
 status: executing
-last_updated: "2026-04-28T15:33:31.272Z"
+last_updated: "2026-04-28T15:36:24.925Z"
 progress:
   total_phases: 6
   completed_phases: 3
   total_plans: 13
-  completed_plans: 13
+  completed_plans: 14
 ---
 
 # Project State
@@ -76,6 +76,7 @@ Phase 6 [----------] 0%
 | Phase 04-conversion-sections P04 | 30 | 3 tasks | 2 files |
 | Phase 05-booking-experience-ctas P01 | 73 | 2 tasks | 2 files |
 | Phase 05-booking-experience-ctas P02 | 5 | 2 tasks | 2 files |
+| Phase 05-booking-experience-ctas P03 | 5 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -115,6 +116,9 @@ Phase 6 [----------] 0%
 - Calendly height 700px desktop / 650px mobile — eliminates internal scrollbar in widget [05-01]
 - Floating CTA reveal uses CSS transition on --visible modifier class (opacity + translateY) toggled by JS IIFE setTimeout 3000ms [05-02]
 - Floating CTA hidden via display none at max-width 639px — no overlap on mobile [05-02]
+- Hero secondary CTA changed from #services to #booking — reduces friction by directing mid-page visitors straight to calendar embed [05-03]
+- All three pricing card CTAs unified as 'Start Filling Your Calendar' — consistent intent signal at the pricing decision point [05-03]
+- ROI CTA uses .roi__cta wrapper div with CSS token margin — layout isolation, no inline styles [05-03]
 
 ### Technical Notes
 
@@ -139,11 +143,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Continue Phase 5 — Plan 03 or next plan (if any)
+**Next action:** Phase 5 complete — advance to Phase 6 or confirm if additional plans remain
 
 **Context for next session:**
-Phase 5 Plan 02 complete — Floating sticky CTA button added: fixed bottom-right, 3s entrance delay via JS IIFE, pulsing green dot keyframe animation, hidden on mobile (<640px). BOOK-02 satisfied.
+Phase 5 Plan 03 complete — CTA copy variants deployed: 4 distinct CTAs across hero, pricing, and ROI sections. Hero secondary CTA now links to #booking. ROI section has its own forecast CTA. BOOK-03 satisfied.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — Completed: 04-conversion-sections 04-03-PLAN.md*
+*Last session: 2026-04-28 — Completed: 05-booking-experience-ctas 05-03-PLAN.md*
