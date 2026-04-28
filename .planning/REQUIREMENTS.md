@@ -29,14 +29,14 @@
 
 ### Design Polish
 
-- [x] **DSGN-01**: Hero h1 uses font-weight 900 and clamps to at least 3.5rem; every section has a consistent eyebrow label (small caps, green) above the heading
+- [x] **DSGN-01**: Hero h1 uses font-weight 800 and clamps to at least 3.5rem; every section has a consistent eyebrow label (small caps, green) above the heading
 - [x] **DSGN-02**: Page sections alternate between white, light grey (#fafafa), dark navy (#0f172a), and green-tinted (#f0fdf4) backgrounds to create visual rhythm
 - [ ] **DSGN-03**: All cards lift on hover (translateY(-4px) + box-shadow) and show a green border highlight; sections fade up on scroll via IntersectionObserver
 - [ ] **DSGN-04**: All grids collapse to single column on mobile; process steps stack vertically without arrows; comparison table scrolls horizontally on small screens
 
 ### New Sections
 
-- [x] **SECT-01**: Comparison table section (dark navy background) with rows comparing Leadzly vs In-House vs Other Agencies across 8 criteria, Leadzly column highlighted in green
+- [x] **SECT-01**: Comparison table section (light green background) with rows comparing Leadzly vs In-House vs Other Agencies across 8 criteria, Leadzly column highlighted in green
 - [x] **SECT-02**: FAQ accordion with 7 questions, one open at a time, max-width 720px centred
 - [x] **SECT-03**: ROI calculator with 3 inputs (average deal value, current meetings/month, target meetings/month) and outputs (projected additional monthly revenue, projected annual pipeline), all client-side JS
 
