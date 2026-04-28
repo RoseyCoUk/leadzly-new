@@ -629,7 +629,7 @@ main > section + section::before {
   }
   .how__visual svg {
     width: 100%;
-    max-width: 860px;
+    max-width: 960px;
     height: auto;
     filter: drop-shadow(0 6px 24px rgba(0,0,0,0.10));
     border-radius: 12px;
@@ -1155,7 +1155,6 @@ main > section + section::before {
   }
   .channels__visual svg {
     width: 100%;
-    max-width: 480px;
     height: auto;
     filter: drop-shadow(0 6px 24px rgba(0,0,0,0.10));
     border-radius: 12px;
