@@ -31,8 +31,8 @@
 
 - [x] **DSGN-01**: Hero h1 uses font-weight 800 and clamps to at least 3.5rem; every section has a consistent eyebrow label (small caps, green) above the heading
 - [x] **DSGN-02**: Page sections alternate between white, light grey (#fafafa), dark navy (#0f172a), and green-tinted (#f0fdf4) backgrounds to create visual rhythm
-- [ ] **DSGN-03**: All cards lift on hover (translateY(-4px) + box-shadow) and show a green border highlight; sections fade up on scroll via IntersectionObserver
-- [ ] **DSGN-04**: All grids collapse to single column on mobile; process steps stack vertically without arrows; comparison table scrolls horizontally on small screens
+- [x] **DSGN-03**: All cards lift on hover (translateY(-4px) + box-shadow) and show a green border highlight; sections fade up on scroll via IntersectionObserver
+- [x] **DSGN-04**: All grids collapse to single column on mobile; process steps stack vertically without arrows; comparison table scrolls horizontally on small screens
 
 ### New Sections
 
@@ -103,8 +103,8 @@
 | BOOK-02 | Phase 5 — Booking Experience & CTAs | Complete |
 | BOOK-03 | Phase 5 — Booking Experience & CTAs | Complete |
 | QWIN-03 | Phase 5 — Booking Experience & CTAs | Complete |
-| DSGN-03 | Phase 6 — Design Polish & Mobile | Pending |
-| DSGN-04 | Phase 6 — Design Polish & Mobile | Pending |
+| DSGN-03 | Phase 6 — Design Polish & Mobile | Complete |
+| DSGN-04 | Phase 6 — Design Polish & Mobile | Complete |
 
 **Coverage:**
 - v1 requirements: 27 total

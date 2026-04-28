@@ -15,7 +15,7 @@
 | 3 | Trust & Social Proof | 3/3 | Complete   | 2026-04-28 |
 | 4 | Conversion Sections | 4/4 | Complete   | 2026-04-28 |
 | 5 | Booking Experience & CTAs | 4/4 | Complete   | 2026-04-28 |
-| 6 | Design Polish & Mobile | Every section is visually refined, animated, and works perfectly on mobile | DSGN-03, DSGN-04 | 2 plans |
+| 6 | Design Polish & Mobile | 1/2 | In Progress|  |
 
 ---
 
@@ -136,8 +136,8 @@
 3. On a 375px mobile viewport, all grids collapse to single column, process steps stack vertically without arrows visible, and the comparison table scrolls horizontally
 4. The floating sticky CTA button does not obscure content on mobile (hides or repositions when overlapping)
 
-**Plans:** 2 plans
-- [ ] 06-01-PLAN.md — DSGN-03 + DSGN-04: card hover lift effects (all 8 card classes) + fade-in translateY upgrade in page.css
+**Plans:** 1/2 plans executed
+- [x] 06-01-PLAN.md — DSGN-03 + DSGN-04: card hover lift effects (all 8 card classes) + fade-in translateY upgrade in page.css
 - [ ] 06-02-PLAN.md — DSGN-03: add fade-in class to 13 section elements in index.html + human verify checkpoint
 
 ---

@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: Not started
-status: planning
-last_updated: "2026-04-28T15:52:04.987Z"
+current_plan: 2
+status: executing
+last_updated: "2026-04-28T17:43:46Z"
 progress:
   total_phases: 6
   completed_phases: 4
-  total_plans: 13
-  completed_plans: 15
+  total_plans: 15
+  completed_plans: 16
 ---
 
 # Project State
@@ -19,15 +19,15 @@ progress:
 See: .planning/PROJECT.md
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 05 — booking-experience-ctas
+**Current focus:** Phase 06 — design-polish-mobile
 
 ---
 
 ## Current Status
 
 **Phase:** 6
-**Current Plan:** Not started
-**Status:** Ready to plan
+**Current Plan:** 1
+**Status:** Executing Phase 06
 **Last updated:** 2026-04-28
 
 **Progress bar:**
@@ -78,6 +78,7 @@ Phase 6 [----------] 0%
 | Phase 05-booking-experience-ctas P02 | 5 | 2 tasks | 2 files |
 | Phase 05-booking-experience-ctas P03 | 5 | 2 tasks | 2 files |
 | Phase 05-booking-experience-ctas P04 | 1 | 1 tasks | 1 files |
+| Phase 06-design-polish-mobile P01 | 2 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -123,6 +124,9 @@ Phase 6 [----------] 0%
 - Hero stat counter uses animated flag + observer.disconnect() to play exactly once per page load — no replay on re-scroll [05-04]
 - ease-out cubic (1 - Math.pow(1-progress,3)) chosen for natural deceleration — data feels live and real [05-04]
 - data-count-to / data-count-suffix attributes keep animation targets declarative in HTML — no hardcoded values in scripts [05-04]
+- No will-change added to card hover rules — avoids GPU layer overhead on mobile [06-01]
+- .about__diff-item requires border: 1px solid transparent baseline for border-color hover transition to be visible [06-01]
+- .pricing-card--featured:hover on desktop uses scale(1.03) translateY(-4px) compound transform to preserve existing desktop scale [06-01]
 
 ### Technical Notes
 
@@ -147,11 +151,11 @@ Phase 6 [----------] 0%
 
 ## Session Continuity
 
-**Next action:** Begin Phase 6 — Design Polish & Mobile.
+**Next action:** Continue Phase 6 — Plan 02 (section animations) next.
 
 **Context for next session:**
-Phase 5 complete and human-verified. All 4 plans delivered: inline Calendly embed (BOOK-01), floating sticky CTA (BOOK-02 — fixed on main), CTA copy variants (BOOK-03), hero stat counter animation (QWIN-03). Floating CTA was missing from main due to worktree branch isolation; re-implemented directly on main (commit 09b6cf6). Phase 6 (Design Polish & Mobile) is next.
+Phase 6 Plan 01 complete. Card hover lift effects added to all 8 card classes (translateY(-4px) + shadow-lg + primary border). .fade-in animation upgraded to include translateY(20px) slide-up. Featured pricing card desktop hover preserved at scale(1.03) translateY(-4px). DSGN-04 mobile breakpoints confirmed present via grep. Two commits: 028b4c6 (fade-in upgrade), 39f1402 (8 card hover rules).
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — Completed: 05-booking-experience-ctas 05-04-PLAN.md (Phase 5 fully verified and complete)*
+*Last session: 2026-04-28 — Completed: 06-design-polish-mobile 06-01-PLAN.md*
