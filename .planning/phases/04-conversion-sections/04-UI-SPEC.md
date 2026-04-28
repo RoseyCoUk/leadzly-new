@@ -34,7 +34,7 @@ All spacing uses CSS custom properties declared in `style.css :root`. Executor M
 | Token | Value | Usage in this phase |
 |-------|-------|---------------------|
 | `--space-2` | 8px | Table cell icon gaps; FAQ toggle icon gap |
-| `--space-3` | 12px | Section-label margin-bottom (existing pattern); table cell padding vertical |
+| `--space-3` | 12px | Section-label margin-bottom (existing pattern); table cell padding vertical; `.roi__output-label` margin-bottom |
 | `--space-4` | 16px | FAQ item padding vertical; ROI input label spacing; table cell padding horizontal |
 | `--space-6` | 24px | FAQ accordion item gap (between questions); ROI output block padding; card-like inner padding |
 | `--space-8` | 32px | ROI calculator container padding; comparison table outer padding |
@@ -42,6 +42,14 @@ All spacing uses CSS custom properties declared in `style.css :root`. Executor M
 | `--space-12` | 48px | Section padding minimum (via clamp) |
 | `--space-16` | 64px | Section header margin-bottom (max via clamp) |
 | `--space-24` | 96px | Section padding maximum on large viewport (via clamp) |
+
+**Existing design system exceptions (non-standard scale values):**
+
+The following tokens fall outside the strict 8-point standard set (4, 8, 16, 24, 32, 48, 64px) but are **inherited from the project's `style.css :root`** and are in active use across all existing page sections. They are part of the base design system for this project. Replacing them would require modifying `style.css` and would break existing sections that are already implemented and tested. They are retained as-is:
+
+- `--space-3` = 12px — **Design system exception.** Inherited from `style.css :root`. Used by `.section-label` margin-bottom across all existing sections and by table cell padding vertical. Changing this token would break multiple existing components.
+- `--space-10` = 40px — **Design system exception.** Inherited from `style.css :root`. Used as the `clamp()` minimum for `.section-header` margin-bottom across all existing sections. Changing this token would break the section header rhythm project-wide.
+- `--space-24` = 96px — **Design system exception.** Inherited from `style.css :root`. Used as the `clamp()` maximum for section vertical padding across all existing sections (`padding: clamp(var(--space-12), 8vw, var(--space-24)) 0`). Changing this token would break the section padding contract for all existing and new sections.
 
 **Pattern for section padding (MUST match all existing sections):**
 `padding: clamp(var(--space-12), 8vw, var(--space-24)) 0;`
@@ -60,7 +68,7 @@ All font sizes use fluid clamp tokens from `style.css`. Executor MUST use tokens
 | Role | Token | Min/Max (approx) | Weight | Line Height | Usage in this phase |
 |------|-------|-----------------|--------|-------------|---------------------|
 | Eyebrow / section label | `--text-xs` | 12px / 14px | 700 | n/a (single line) | `.section-label` on all three new sections + hero eyebrow pattern (DSGN-01); table header labels; ROI input labels |
-| Body / supporting text | `--text-sm` | 14px / 16px | 400 | 1.6 | Table cell content text; FAQ answer body; ROI helper text; comparison row labels |
+| Body / supporting text | `--text-sm` | 14px / 16px | 400 | 1.6 | Table cell content text; FAQ answer body; ROI helper text; comparison row labels; ROI input text |
 | Card heading / FAQ question | `--text-lg` | 18px / 24px | 700 | 1.3 | FAQ question text (closed state); comparison table section heading (if used); ROI output values |
 | Section title | `--text-xl` | 24px / 36px | 700 | 1.15 | `.section-title` on all three section headers |
 
@@ -306,7 +314,7 @@ The ROI calculator is a **new section** not yet scaffolded in HTML. Insert it be
 | `.roi__card` | background `var(--color-bg)` (#ffffff), border `1px solid var(--color-border)`, border-radius `var(--radius-xl)`, padding `var(--space-8)`, box-shadow `var(--shadow-md)`, max-width 800px, margin-inline auto |
 | `.roi__inputs` | CSS grid, `grid-template-columns: 1fr` (mobile), `repeat(3, 1fr)` at ≥768px, gap `var(--space-6)` |
 | `.roi__label` | `--text-sm`, weight 700, `var(--color-text)`, display block, margin-bottom `var(--space-2)` |
-| `.roi__input` | width 100%, padding `var(--space-3) var(--space-4)`, border `1px solid var(--color-border)`, border-radius `var(--radius-md)`, font-size `--text-base`, color `var(--color-text)`, background `var(--color-bg)` |
+| `.roi__input` | width 100%, padding `var(--space-3) var(--space-4)`, border `1px solid var(--color-border)`, border-radius `var(--radius-md)`, font-size `var(--text-sm)`, color `var(--color-text)`, background `var(--color-bg)` |
 | `.roi__input:focus` | outline `2px solid var(--color-primary)`, outline-offset 2px (inherits from `base.css :focus-visible`) |
 | `.roi__hint` | `--text-xs`, weight 400, `var(--color-text-faint)`, display block, margin-top `var(--space-2)` |
 | `.roi__outputs` | CSS grid, `grid-template-columns: 1fr` (mobile), `repeat(2, 1fr)` at ≥640px, gap `var(--space-6)`, margin-top `var(--space-8)` |
@@ -455,4 +463,5 @@ After this phase completes, the page section order must be:
 
 *Phase: 04-conversion-sections*
 *UI-SPEC created: 2026-04-27*
+*UI-SPEC revised: 2026-04-27 — fixed --text-base → var(--text-sm) (Issue 1); added design system exception notes for --space-3, --space-10, --space-24 (Issue 2)*
 *Sources: REQUIREMENTS.md (SECT-01, SECT-02, SECT-03, DSGN-01), ROADMAP.md Phase 4 success criteria, STATE.md accumulated context, style.css (all design tokens), page.css (component patterns), base.css (typography base), 03-UI-SPEC.md (typography and spacing conventions carried forward)*
