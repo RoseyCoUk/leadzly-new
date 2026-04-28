@@ -19,7 +19,7 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 - ✓ Single testimonial — existing
 - ✓ Footer with links — existing
 - ✓ Sticky nav with Book a Strategy Call CTA — existing
-- ✓ Calendly integration (external link to https://calendly.com/allan-chan-leadzly) — existing
+- ✓ Calendly integration (external link to https://calendly.com/allan-chan-elevateoco/30min) — existing
 
 ### Active
 
@@ -74,7 +74,7 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 - **Live URL:** leadzly.co
 - **Stack:** Pure HTML (`index.html`) + CSS (`style.css`, `base.css`, `page.css`) + vanilla JS (to be added)
 - **Brand:** Green `#16a34a`, Dark navy `#0f172a`, Light green `#22c55e`, Green bg `#f0fdf4`; Font: Inter (Google Fonts)
-- **Calendly URL:** https://calendly.com/allan-chan-leadzly (used throughout for all CTAs and the inline embed)
+- **Calendly URL:** https://calendly.com/allan-chan-elevateoco/30min (used throughout for all CTAs and the inline embed)
 - **Logos:** `Leadzly-logo_with-text.svg` and `Leadzly-logo_without-text.svg` already in repo
 - **Competitor benchmarks:** Belkins, SalesRoads, Martal Group — research driven by gap analysis in IMPROVEMENTS.md
 - **Key differentiator:** NI-based team, no offshore — genuine advantage for UK clients burned by overseas call centres
