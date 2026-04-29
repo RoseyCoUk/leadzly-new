@@ -94,7 +94,7 @@ Plans:
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete | 2026-04-28 |
 | 8. Structured Data | v1.1 | 2/2 | Complete | 2026-04-29 |
 | 9. Performance & Core Web Vitals | v1.1 | 2/2 | Complete | 2026-04-29 |
-| 10. Schema Authority Layer | v1.2 | 1/1 | Complete   | 2026-04-29 |
+| 10. Schema Authority Layer | v1.2 | 1/1 | Complete    | 2026-04-29 |
 | 11. Visible Identity & Contact | v1.2 | 0/? | Not started | - |
 | 12. AEO Copy Optimisation | v1.2 | 0/? | Not started | - |
 
