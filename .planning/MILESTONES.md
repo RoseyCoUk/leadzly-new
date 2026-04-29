@@ -1,5 +1,20 @@
 # Milestones
 
+## v1.1 SEO & Performance (Shipped: 2026-04-29)
+
+**Phases completed:** 3 phases, 6 plans, 13 tasks
+
+**Key accomplishments:**
+
+- Canonical URL, robots index/follow directive, and four Twitter Card meta tags added to index.html head — Google confirms preferred URL, all crawlers receive explicit index directive, X/Twitter renders branded summary card
+- Static robots.txt (allow-all + Sitemap pointer) and sitemap.xml (sitemaps.org 0.9, single homepage URL with lastmod) created at project root
+- Organization + LocalBusiness JSON-LD block with @type ["LocalBusiness","ProfessionalService"], areaServed UK/NI, and Calendly contactPoint inserted into index.html head
+- FAQPage JSON-LD (7 Q&A pairs) and Service JSON-LD (@graph of 4 services) inserted into index.html head, completing all three SCHEMA-01/02/03 requirements for Phase 8
+- Google Fonts trimmed to 7 weight variants, both inline SVG mockups externalised as lazy-loaded img files (~320 lines removed from HTML), and Calendly container pre-reserves 700px/650px to eliminate layout shift
+- page.css minified from 1,693 lines to a single line via CleanCSS DEFAULT level, with cache-bust version bump to ?v=14 and PERF-04 (floating CTA CLS absence) confirmed by grep
+
+---
+
 ## v1.0 Full Website Overhaul (Shipped: 2026-04-28)
 
 **Phases completed:** 6 phases, 15 plans, 26 tasks
