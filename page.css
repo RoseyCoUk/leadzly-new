@@ -1676,6 +1676,7 @@ main > section + section::before {
 .booking__calendar-wrap {
   border-radius: var(--radius-xl);
   overflow: hidden;
+  min-height: 700px; /* pre-reserves space before Calendly iframe loads — prevents CLS */
 }
 @media (max-width: 767px) {
   .booking__grid {
@@ -1683,6 +1684,9 @@ main > section + section::before {
   }
   .booking__calendar-wrap .calendly-inline-widget {
     height: 650px !important;
+  }
+  .booking__calendar-wrap {
+    min-height: 650px; /* matches mobile widget height override */
   }
 }
 
