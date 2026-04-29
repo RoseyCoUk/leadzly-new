@@ -65,8 +65,10 @@ Plans:
   1. Footer displays the full postal address (1 Hollycroft Avenue, Belfast, BT5 5JE, United Kingdom) as readable text
   2. Footer phone number is a working `tel:` link showing +1 307 400 9814, replacing any placeholder text
   3. About section names Allan Chan as founder with a visible, clickable LinkedIn link pointing to the correct profile URL
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 1 plan
+
+Plans:
+- [ ] 11-01-PLAN.md — Add footer NAP address/phone and About founder byline
 
 ### Phase 12: AEO Copy Optimisation
 **Goal**: Every FAQ answer opens with a self-contained answer, and hero/About copy contains specific verifiable claims that AI systems can extract and cite
@@ -95,7 +97,7 @@ Plans:
 | 8. Structured Data | v1.1 | 2/2 | Complete | 2026-04-29 |
 | 9. Performance & Core Web Vitals | v1.1 | 2/2 | Complete | 2026-04-29 |
 | 10. Schema Authority Layer | v1.2 | 1/1 | Complete    | 2026-04-29 |
-| 11. Visible Identity & Contact | v1.2 | 0/? | Not started | - |
+| 11. Visible Identity & Contact | v1.2 | 0/1 | Not started | - |
 | 12. AEO Copy Optimisation | v1.2 | 0/? | Not started | - |
 
 ---
