@@ -79,7 +79,11 @@ Plans:
   2. Hero sub-headline or services copy contains at least 2 specific statistics (e.g. meetings booked per month, sector count, or response rate) with concrete numbers
   3. About section paragraph contains at least 2 specific, verifiable claims (NI team composition, years of experience, or named client outcomes) with no vague agency language
   4. page.css link in index.html shows `?v=15` if any CSS-touching changes were made during this phase
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 12-01-PLAN.md — FAQ answer restructure: 7 answers + FAQPage JSON-LD sync (AEO-01)
+- [ ] 12-02-PLAN.md — Hero and About copy update with verifiable statistics (AEO-02 + AEO-03)
 
 ---
 
