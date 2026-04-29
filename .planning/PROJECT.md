@@ -1,10 +1,18 @@
 # Leadzly Website Overhaul
 
+## Current Milestone: v1.2 E-E-A-T & AI Search Signals
+
+**Goal:** Strengthen leadzly.co's authority and AI citability by adding real contact details, founder identity, additional schema, and AEO-optimised copy — all within the existing static page.
+
+**Target features:**
+- NAP on page: full postal address (1 Hollycroft Avenue, Belfast, BT5 5JE) and WhatsApp phone in footer + LocalBusiness schema
+- Founder signals: Allan Chan name and LinkedIn link in About section + Person JSON-LD
+- Schema additions: HowTo JSON-LD for How It Works section; LocalBusiness updated with full address and telephone
+- AEO/LLMO copy: FAQ answers restructured for direct AI extraction; hero and services copy with specific citable statistics
+
 ## Current State
 
 **v1.1 shipped: 2026-04-29** — Both milestones complete. leadzly.co is a fully rebuilt, conversion-optimised, SEO-ready B2B landing page live on Vercel via RoseyCoUk/leadzly-new.
-
-**Planning next milestone:** Run `/gsd:new-milestone` to define v1.2.
 
 ---
 
@@ -128,4 +136,4 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 | Inline IIFEs, no separate JS file | Single index.html drop-in, no asset coordination | ✓ Good |
 
 ---
-*Last updated: 2026-04-29 — v1.1 milestone archived (SEO & Performance: meta hygiene, structured data, Core Web Vitals)*
+*Last updated: 2026-04-29 — v1.2 milestone started (E-E-A-T & AI Search Signals)*
