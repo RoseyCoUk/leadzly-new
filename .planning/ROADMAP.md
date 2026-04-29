@@ -88,7 +88,7 @@ Plans:
 | 5. Booking Experience & CTAs | v1.0 | 4/4 | Complete | 2026-04-28 |
 | 6. Design Polish & Mobile | v1.0 | 2/2 | Complete | 2026-04-28 |
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete   | 2026-04-28 |
-| 8. Structured Data | v1.1 | 2/2 | Complete   | 2026-04-29 |
+| 8. Structured Data | v1.1 | 2/2 | Complete    | 2026-04-29 |
 | 9. Performance & Core Web Vitals | v1.1 | 0/? | Not started | — |
 
 ---
