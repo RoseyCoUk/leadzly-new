@@ -58,7 +58,7 @@ Plans:
   4. All three JSON-LD blocks are in `<head>` and produce zero validation errors in schema.org validator
 **Plans**: 2 plans
 Plans:
-- [ ] 08-01-PLAN.md — Insert Organization + LocalBusiness JSON-LD block into index.html head (SCHEMA-01)
+- [x] 08-01-PLAN.md — Insert Organization + LocalBusiness JSON-LD block into index.html head (SCHEMA-01)
 - [ ] 08-02-PLAN.md — Insert FAQPage (7 Q&A) and Service (4 services) JSON-LD blocks into index.html head (SCHEMA-02, SCHEMA-03)
 **UI hint**: no
 
@@ -88,7 +88,7 @@ Plans:
 | 5. Booking Experience & CTAs | v1.0 | 4/4 | Complete | 2026-04-28 |
 | 6. Design Polish & Mobile | v1.0 | 2/2 | Complete | 2026-04-28 |
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete   | 2026-04-28 |
-| 8. Structured Data | v1.1 | 0/2 | Not started | — |
+| 8. Structured Data | v1.1 | 1/2 | In Progress|  |
 | 9. Performance & Core Web Vitals | v1.1 | 0/? | Not started | — |
 
 ---

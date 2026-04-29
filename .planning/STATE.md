@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: SEO & Performance
-current_plan: Not started
-status: planning
-last_updated: "2026-04-28T23:38:09.678Z"
-last_activity: 2026-04-28
+current_plan: 2
+status: executing
+last_updated: "2026-04-29T00:33:00Z"
+last_activity: 2026-04-29
 progress:
   total_phases: 3
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 4
+  completed_plans: 3
 ---
 
 # Project State
@@ -20,15 +20,15 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 07 — meta-hygiene
+**Current focus:** Phase 08 — structured-data
 
 ---
 
 ## Current Status
 
 **Phase:** 8
-**Current Plan:** Not started
-**Status:** Ready to plan
+**Current Plan:** 1
+**Status:** Executing Phase 08
 **Last updated:** 2026-04-28
 
 **Progress bar:**
@@ -63,6 +63,8 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 ---
 | Phase 07-meta-hygiene P01 | 5 | 2 tasks | 1 files |
 | Phase 07-meta-hygiene P02 | 5 | 2 tasks | 2 files |
+| Phase 08-structured-data P01 | 5 | 1 tasks | 1 files |
+| Phase 08-structured-data P01 | 5 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -118,6 +120,10 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 - Canonical href uses trailing slash https://leadzly.co/ — consistent with og:url and upcoming sitemap.xml [07-01]
 - Allow: / without Disallow in robots.txt — fully public site, no pages to block [07-02]
 - sitemap.xml uses trailing slash on loc URL — matches canonical href from 07-01 to avoid Google URL mismatch [07-02]
+- contactPoint in SCHEMA-01 uses Calendly URL not email/phone — no visible contact info on page, schema-content mismatch avoided [08-01]
+- areaServed in SCHEMA-01: United Kingdom + Northern Ireland only — Republic of Ireland excluded (not claimed on page) [08-01]
+- JSON-LD blocks: separate <script type="application/ld+json"> per schema type (not combined @graph) — easier to validate individually [08-01]
+- SCHEMA-01 address uses only addressRegion/addressCountry — no street address on page, fabrication avoided [08-01]
 
 ### Technical Notes
 
@@ -133,7 +139,7 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 
 ### Todos
 
-- [ ] Confirm exact FAQ question/answer text before writing SCHEMA-02 (source from index.html FAQ section)
+- [x] Confirm exact FAQ question/answer text before writing SCHEMA-02 — resolved: all 7 Q&A pairs extracted verbatim in 08-RESEARCH.md [08-01]
 - [x] Confirm OG image URL for Twitter Card meta tags (twitter:image must be absolute URL) — resolved: https://leadzly.co/Leadzly-logo_with-text.png [07-01]
 
 ### Blockers
@@ -152,11 +158,11 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 
 ## Session Continuity
 
-**Next action:** Execute Phase 07 Plan 02 (robots.txt + sitemap.xml — META-04, META-05).
-Last activity: 2026-04-28
+**Next action:** Execute Phase 08 Plan 02 (FAQPage JSON-LD — SCHEMA-02).
+Last activity: 2026-04-29
 
 **Context for next session:**
-Phase 07 Plan 01 complete: canonical (META-01), robots meta (META-02), and 4 Twitter Card tags (META-03) added to index.html head at lines 37–42. Plan 02 is next: create robots.txt and sitemap.xml at project root (META-04, META-05). Both are plain text/XML new files — no HTML changes needed.
+Phase 08 Plan 01 complete: Organization + LocalBusiness JSON-LD block (SCHEMA-01) inserted into index.html head at lines 121–150 (before </head> at line 151). @type ["LocalBusiness","ProfessionalService"], contactPoint uses Calendly URL, areaServed UK+NI, no phone/email/street address. Plan 02 is next: FAQPage JSON-LD block covering all 7 FAQ Q&A pairs (already extracted verbatim in 08-RESEARCH.md). Plan 03 after that: Service JSON-LD for 3 services.
 
 ---
 *State initialised: 2026-04-24*
