@@ -14,15 +14,12 @@
           <!-- Col 1: ICP Audit -->
           <rect x="14" y="60" width="144" height="26" rx="7" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
           <text x="86" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#16a34a">ICP Audit</text>
-          <text x="152" y="77" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">4</text>
           <!-- Col 2: Scripting -->
           <rect x="172" y="60" width="144" height="26" rx="7" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
           <text x="244" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#16a34a">Scripting</text>
-          <text x="310" y="77" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">3</text>
           <!-- Col 3: Live Outreach -->
           <rect x="330" y="60" width="144" height="26" rx="7" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
           <text x="402" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#16a34a">Live Outreach</text>
-          <text x="468" y="77" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">4</text>
           <!-- Col 4: Meetings Booked -->
           <rect x="484" y="60" width="142" height="26" rx="7" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
           <text x="555" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#15803d">Meetings Booked</text>
