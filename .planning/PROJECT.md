@@ -65,11 +65,11 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 - [x] SCHEMA-01: Organization + LocalBusiness JSON-LD — Validated in Phase 08: structured-data
 - [x] SCHEMA-02: FAQPage JSON-LD — Validated in Phase 08: structured-data
 - [x] SCHEMA-03: Service JSON-LD — Validated in Phase 08: structured-data
-- [ ] PERF-01: Font weight trim (400/600/700 only)
-- [ ] PERF-02: SVG lazy-loading (pipeline + outreach mockups)
-- [ ] PERF-03: Calendly CLS fix
-- [ ] PERF-04: Floating CTA CLS fix
-- [ ] PERF-05: page.css minification
+- [x] PERF-01: Font weight trim (400/600/700 only) — Validated in Phase 09: performance-core-web-vitals
+- [x] PERF-02: SVG lazy-loading (pipeline + outreach mockups) — Validated in Phase 09: performance-core-web-vitals
+- [x] PERF-03: Calendly CLS fix — Validated in Phase 09: performance-core-web-vitals
+- [x] PERF-04: Floating CTA CLS fix — Validated in Phase 09: performance-core-web-vitals (satisfied by absence)
+- [x] PERF-05: page.css minification — Validated in Phase 09: performance-core-web-vitals
 
 ### Future (v1.2 candidates)
 
@@ -126,6 +126,8 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 | Calendly height 700px desktop / 650px mobile | Eliminates internal scrollbar in widget | ✓ Good |
 | Counter animation — play once per load | observer.disconnect() after first trigger; no replay on re-scroll | ✓ Good |
 | Dashboard SVG illustrations inline | No external images; scales with viewport; matches brand palette | ✓ Good |
+| SVG mockups externalised (Phase 09) | Lazy-loading external SVG files reduces initial HTML parse by ~320 lines and defers off-screen resource fetch | ✓ Good |
+| CleanCSS DEFAULT level for minification | Preserves var(--...) custom property references; "advanced" level strips them | ✓ Good |
 | Inline IIFEs, no separate JS file | Keeps deployment as single index.html drop-in with no asset coordination | ✓ Good |
 
 ## Evolution
@@ -139,4 +141,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-29 — Phase 08 complete (structured-data: Organization+LocalBusiness, FAQPage, Service JSON-LD blocks)*
+*Last updated: 2026-04-29 — Phase 09 complete (performance-core-web-vitals: font trim, SVG lazy-loading, Calendly CLS fix, CSS minification, cache-bust v=14). v1.1 milestone fully delivered.*
