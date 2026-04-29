@@ -24,7 +24,7 @@ Full details: [.planning/milestones/v1.0-ROADMAP.md](./milestones/v1.0-ROADMAP.m
 ### v1.1 SEO & Performance
 
 - [x] **Phase 7: Meta Hygiene** — Canonical, robots, Twitter Cards, robots.txt, sitemap.xml added to head and root (completed 2026-04-28)
-- [ ] **Phase 8: Structured Data** — Organization/LocalBusiness, FAQPage, and Service JSON-LD blocks live in head
+- [x] **Phase 8: Structured Data** — Organization/LocalBusiness, FAQPage, and Service JSON-LD blocks live in head (completed 2026-04-29)
 - [ ] **Phase 9: Performance & Core Web Vitals** — Font weights trimmed, SVGs lazy-loaded, CLS eliminated, CSS minified
 
 ---
@@ -59,7 +59,7 @@ Plans:
 **Plans**: 2 plans
 Plans:
 - [x] 08-01-PLAN.md — Insert Organization + LocalBusiness JSON-LD block into index.html head (SCHEMA-01)
-- [ ] 08-02-PLAN.md — Insert FAQPage (7 Q&A) and Service (4 services) JSON-LD blocks into index.html head (SCHEMA-02, SCHEMA-03)
+- [x] 08-02-PLAN.md — Insert FAQPage (7 Q&A) and Service (4 services) JSON-LD blocks into index.html head (SCHEMA-02, SCHEMA-03)
 **UI hint**: no
 
 ### Phase 9: Performance & Core Web Vitals
@@ -88,7 +88,7 @@ Plans:
 | 5. Booking Experience & CTAs | v1.0 | 4/4 | Complete | 2026-04-28 |
 | 6. Design Polish & Mobile | v1.0 | 2/2 | Complete | 2026-04-28 |
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete   | 2026-04-28 |
-| 8. Structured Data | v1.1 | 1/2 | In Progress|  |
+| 8. Structured Data | v1.1 | 2/2 | Complete   | 2026-04-29 |
 | 9. Performance & Core Web Vitals | v1.1 | 0/? | Not started | — |
 
 ---

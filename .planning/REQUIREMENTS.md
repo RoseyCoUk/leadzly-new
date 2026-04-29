@@ -17,8 +17,8 @@
 ### Structured Data
 
 - [x] **SCHEMA-01**: Organization + LocalBusiness JSON-LD block in `<head>` (name, URL, logo, contactPoint, areaServed UK/NI)
-- [ ] **SCHEMA-02**: FAQPage JSON-LD block mapping all 7 existing FAQ questions and answers
-- [ ] **SCHEMA-03**: Service JSON-LD block covering telesales, meeting booking, and BDM provision offerings
+- [x] **SCHEMA-02**: FAQPage JSON-LD block mapping all 7 existing FAQ questions and answers
+- [x] **SCHEMA-03**: Service JSON-LD block covering telesales, meeting booking, and BDM provision offerings
 
 ### Performance (Core Web Vitals)
 
