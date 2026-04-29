@@ -72,7 +72,10 @@ Plans:
   3. Calendly embed container has explicit `min-height` set — no layout shift is visible when the widget loads
   4. Floating CTA appears without any measurable page reflow — CLS score contribution from this element is 0
   5. `page.css` is served as a minified file with a version-bump query string or filename suffix
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 09-01-PLAN.md — Font trim, SVG externalise + lazy-load, Calendly min-height (PERF-01, PERF-02, PERF-03)
+- [ ] 09-02-PLAN.md — Verify floating CTA absent, CSS minification + version bump (PERF-04, PERF-05)
 **UI hint**: no
 
 ---
