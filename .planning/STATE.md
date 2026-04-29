@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: SEO & Performance
-current_plan: Not started
-status: planning
-last_updated: "2026-04-29T00:41:16.186Z"
+current_plan: 2
+status: executing
+last_updated: "2026-04-29T01:47:40.202Z"
 last_activity: 2026-04-29
 progress:
   total_phases: 3
   completed_phases: 2
-  total_plans: 4
-  completed_plans: 4
+  total_plans: 6
+  completed_plans: 5
 ---
 
 # Project State
@@ -20,15 +20,15 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 08 — structured-data
+**Current focus:** Phase 09 — performance-core-web-vitals
 
 ---
 
 ## Current Status
 
 **Phase:** 9
-**Current Plan:** Not started
-**Status:** Ready to plan
+**Current Plan:** 1
+**Status:** Executing Phase 09
 **Last updated:** 2026-04-29
 
 **Progress bar:**
@@ -36,7 +36,7 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ```
 v1.1 Phase 7 [██████████] 100%  Meta Hygiene
 v1.1 Phase 8 [██████████] 100%  Structured Data (2/2 plans complete)
-v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
+v1.1 Phase 9 [████████░░]  83%  Performance & Core Web Vitals (1/2 plans complete)
 ```
 
 ---
@@ -47,7 +47,7 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 |-------|------|--------|-----------|
 | 7 | Meta Hygiene | Complete | 2026-04-28 |
 | 8 | Structured Data | Complete | 2026-04-29 |
-| 9 | Performance & Core Web Vitals | Not started | — |
+| 9 | Performance & Core Web Vitals | In progress | — |
 
 ---
 
@@ -66,6 +66,7 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 | Phase 08-structured-data P01 | 5 | 1 tasks | 1 files |
 | Phase 08-structured-data P02 | 8 | 2 tasks | 1 files |
 | Phase 08-structured-data P02 | 10 | 2 tasks | 1 files |
+| Phase 09-performance-core-web-vitals P01 | 15 | 3 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -129,6 +130,9 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 - Service JSON-LD uses @graph array grouping 4 Service nodes (Telesales Outsourcing, Meeting Booking, BDM Provision, Sales Enablement) — all 4 visible services included [08-02]
 - Service description values match .service-card__desc text exactly — em-dashes are Unicode, not HTML entities [08-02]
 - All JSON-LD text values are plain Unicode — no HTML entities permitted in JSON string values (pattern established across all three blocks) [08-02]
+- Font weight 500 upgraded to 600 for all Inter and PJS rules — nearest loaded weight above 500, avoids synthetic bold fallback [09-01]
+- SVG mockups externalised as standalone files loaded via lazy img tags — reduces HTML parse payload by ~320 lines [09-01]
+- Calendly container uses min-height not height — allows iframe expansion if widget renders taller content [09-01]
 
 ### Technical Notes
 
@@ -163,11 +167,11 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 
 ## Session Continuity
 
-**Next action:** Execute Phase 09 — Performance & Core Web Vitals (font weight trim, SVG lazy-loading, Calendly CLS fix, floating CTA CLS fix, CSS minification).
+**Next action:** Execute Phase 09 Plan 02 — Floating CTA CLS fix (PERF-04) and CSS minification (PERF-05).
 Last activity: 2026-04-29
 
 **Context for next session:**
-Phase 08 complete (both plans): All three JSON-LD blocks inserted in index.html head — Organization+LocalBusiness (SCHEMA-01, lines 121–150), FAQPage with 7 Q&A pairs (SCHEMA-02), Service with 4-node @graph (SCHEMA-03). All blocks validated: zero HTML entities in JSON values, valid syntax. Ready for Google Rich Results Test after deployment. Phase 09 performance work is next: PERF-01 font trim, PERF-02 SVG lazy-loading, PERF-03 Calendly CLS, PERF-04 floating CTA CLS, PERF-05 CSS minification.
+Phase 09 Plan 01 complete: Google Fonts trimmed to 7 variants (PJS 400/600/700/800, Inter 400/600/700), weight 500 removed from 5 CSS rules (all now 600). Both inline SVGs externalised — outreach-sequence.svg (480x520) and pipeline-board.svg (640x500) — as lazy-loaded img tags with explicit width/height. CSS selectors updated from svg to img. Calendly container gets min-height: 700px desktop / 650px mobile. PERF-01, PERF-02, PERF-03 complete. Remaining: PERF-04 (floating CTA CLS fix) and PERF-05 (CSS minification).
 
 ---
 *State initialised: 2026-04-24*

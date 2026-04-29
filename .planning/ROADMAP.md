@@ -74,7 +74,7 @@ Plans:
   5. `page.css` is served as a minified file with a version-bump query string or filename suffix
 **Plans**: 2 plans
 Plans:
-- [ ] 09-01-PLAN.md — Font trim, SVG externalise + lazy-load, Calendly min-height (PERF-01, PERF-02, PERF-03)
+- [x] 09-01-PLAN.md — Font trim, SVG externalise + lazy-load, Calendly min-height (PERF-01, PERF-02, PERF-03)
 - [ ] 09-02-PLAN.md — Verify floating CTA absent, CSS minification + version bump (PERF-04, PERF-05)
 **UI hint**: no
 
@@ -92,7 +92,7 @@ Plans:
 | 6. Design Polish & Mobile | v1.0 | 2/2 | Complete | 2026-04-28 |
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete   | 2026-04-28 |
 | 8. Structured Data | v1.1 | 2/2 | Complete    | 2026-04-29 |
-| 9. Performance & Core Web Vitals | v1.1 | 0/? | Not started | — |
+| 9. Performance & Core Web Vitals | v1.1 | 1/2 | In Progress|  |
 
 ---
 *v1.0 shipped: 2026-04-28 | v1.1 active — Phase 8 planned, ready to execute*
