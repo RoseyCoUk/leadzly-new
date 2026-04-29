@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.2
 milestone_name: E-E-A-T & AI Search Signals
-current_plan: Not started
-status: planning
-last_updated: "2026-04-29T06:53:42.341Z"
+current_plan: 1
+status: executing
+last_updated: "2026-04-29T07:24:32.760Z"
 last_activity: 2026-04-29
 progress:
   total_phases: 3
-  completed_phases: 1
-  total_plans: 1
-  completed_plans: 1
+  completed_phases: 2
+  total_plans: 2
+  completed_plans: 2
 ---
 
 # Project State
@@ -20,22 +20,22 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-29)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 10 — schema-authority-layer
+**Current focus:** Phase 12 — AEO Copy Optimisation
 
 ---
 
 ## Current Status
 
-**Phase:** 11
-**Current Plan:** Not started
-**Status:** Ready to plan
+**Phase:** 12
+**Current Plan:** 1
+**Status:** Phase 11 complete — ready for Phase 12
 **Last updated:** 2026-04-29
 
 **Progress bar:**
 
 ```
-v1.2 Phase 10 [          ]   0%  Schema Authority Layer
-v1.2 Phase 11 [          ]   0%  Visible Identity & Contact
+v1.2 Phase 10 [██████████] 100%  Schema Authority Layer
+v1.2 Phase 11 [██████████] 100%  Visible Identity & Contact
 v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 ```
 
@@ -49,7 +49,7 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 | 8 | Structured Data | Complete | 2026-04-29 |
 | 9 | Performance & Core Web Vitals | Complete | 2026-04-29 |
 | 10 | Schema Authority Layer | In progress | - |
-| 11 | Visible Identity & Contact | Not started | - |
+| 11 | Visible Identity & Contact | Complete | 2026-04-29 |
 | 12 | AEO Copy Optimisation | Not started | - |
 
 ---
@@ -72,6 +72,7 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 | Phase 09-performance-core-web-vitals P01 | 15 | 3 tasks | 4 files |
 | Phase 09-performance-core-web-vitals P02 | 15 | 3 tasks | 2 files |
 | Phase 10-schema-authority-layer P01 | 2 | 2 tasks | 1 files |
+| Phase 11-visible-identity-contact P01 | 1 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -145,6 +146,9 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 - telephone in SCHEMA-01 uses E.164 format +13074009814 (no spaces, no dashes) — schema.org best practice for LocalBusiness [10-01]
 - HowTo step property is singular "step" not "steps"; position values are strings not integers — schema.org anti-pattern avoided [10-01]
 - JSON-LD comment anchors follow pattern: "Structured Data: Type — Description (REQ-ID)" for easy grep identification [10-01]
+- No new CSS added for Phase 11 — footer address block and founder byline inherit existing styles [11-01]
+- Postal address wrapped in <address> semantic element for browser/crawler recognition [11-01]
+- about__founder and about__founder-link classes applied for future CSS targeting without immediate CSS changes [11-01]
 
 ### Technical Notes
 
@@ -184,11 +188,11 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 
 ## Session Continuity
 
-**Next action:** Run `/gsd:execute-phase 11` to execute Phase 11: Visible Identity & Contact (footer NAP + About founder name/LinkedIn)
+**Next action:** Run `/gsd:execute-phase 12` to execute Phase 12: AEO Copy Optimisation (FAQ answer restructure + citable stats)
 Last activity: 2026-04-29
 
 **Context for next session:**
-Phase 10 Plan 01 complete. Three JSON-LD blocks updated/added: LocalBusiness now has full Belfast PostalAddress + telephone E.164; Person entity for Allan Chan with LinkedIn; HowTo 4-step process block. Total JSON-LD blocks in head = 5. Phase 11 should add matching visible NAP (address + phone) to footer and founder name/LinkedIn link to About section. Phase 12 follows with FAQ restructure and citable stats in hero/About.
+Phase 11 Plan 01 complete. Footer Connect column now shows real phone number (tel:+13074009814), full postal address (1 Hollycroft Avenue, Belfast, BT5 5JE, United Kingdom) as an <address> element, and LinkedIn link pointing to Allan Chan's profile. About section now shows "Founded by Allan Chan" byline with LinkedIn link. Visible NAP now matches Phase 10 JSON-LD declarations exactly. Phase 12 follows with FAQ restructure for direct AI extraction and citable stats in hero/About.
 
 ---
 *State initialised: 2026-04-24*

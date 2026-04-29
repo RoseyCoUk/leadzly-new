@@ -8,13 +8,13 @@
 
 ### Contact & Local Presence (NAP)
 
-- [ ] **NAP-01**: Footer displays company address (1 Hollycroft Avenue, Belfast, BT5 5JE, United Kingdom) as visible, readable text
-- [ ] **NAP-02**: Footer displays WhatsApp phone number (+1 307 400 9814) as a clickable `tel:` link replacing the current placeholder
+- [x] **NAP-01**: Footer displays company address (1 Hollycroft Avenue, Belfast, BT5 5JE, United Kingdom) as visible, readable text
+- [x] **NAP-02**: Footer displays WhatsApp phone number (+1 307 400 9814) as a clickable `tel:` link replacing the current placeholder
 - [x] **NAP-03**: Existing `LocalBusiness` JSON-LD block updated with full `streetAddress`, `addressLocality` (Belfast), `postalCode` (BT5 5JE), `addressCountry` (GB), and `telephone` fields
 
 ### Founder & E-E-A-T Signals (EEAT)
 
-- [ ] **EEAT-01**: About section names Allan Chan as founder with a visible LinkedIn profile link (`https://www.linkedin.com/in/allan-chan-865422216/`)
+- [x] **EEAT-01**: About section names Allan Chan as founder with a visible LinkedIn profile link (`https://www.linkedin.com/in/allan-chan-865422216/`)
 - [x] **EEAT-02**: `Person` JSON-LD block added to `<head>` for Allan Chan (name, jobTitle "Founder", url `https://leadzly.co`, sameAs LinkedIn URL)
 
 ### Additional Schema (SCHEMA)
