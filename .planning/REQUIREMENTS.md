@@ -25,8 +25,8 @@
 - [x] **PERF-01**: Google Fonts request trimmed to weights 400, 600, 700 only (removes 5 unused weight variants)
 - [x] **PERF-02**: Below-fold decorative SVG mockups (pipeline board, outreach sequence) lazy-loaded — no longer blocking initial HTML parse
 - [x] **PERF-03**: Calendly embed container given explicit `min-height` so no layout shift on load
-- [ ] **PERF-04**: Floating CTA inject causes zero CLS (container pre-reserved or transition adjusted)
-- [ ] **PERF-05**: `page.css` minified — served as minified file, version-bumped
+- [x] **PERF-04**: Floating CTA inject causes zero CLS (container pre-reserved or transition adjusted)
+- [x] **PERF-05**: `page.css` minified — served as minified file, version-bumped
 
 ---
 

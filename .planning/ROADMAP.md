@@ -25,7 +25,7 @@ Full details: [.planning/milestones/v1.0-ROADMAP.md](./milestones/v1.0-ROADMAP.m
 
 - [x] **Phase 7: Meta Hygiene** — Canonical, robots, Twitter Cards, robots.txt, sitemap.xml added to head and root (completed 2026-04-28)
 - [x] **Phase 8: Structured Data** — Organization/LocalBusiness, FAQPage, and Service JSON-LD blocks live in head (completed 2026-04-29)
-- [ ] **Phase 9: Performance & Core Web Vitals** — Font weights trimmed, SVGs lazy-loaded, CLS eliminated, CSS minified
+- [x] **Phase 9: Performance & Core Web Vitals** — Font weights trimmed, SVGs lazy-loaded, CLS eliminated, CSS minified (completed 2026-04-29)
 
 ---
 
@@ -75,7 +75,7 @@ Plans:
 **Plans**: 2 plans
 Plans:
 - [x] 09-01-PLAN.md — Font trim, SVG externalise + lazy-load, Calendly min-height (PERF-01, PERF-02, PERF-03)
-- [ ] 09-02-PLAN.md — Verify floating CTA absent, CSS minification + version bump (PERF-04, PERF-05)
+- [x] 09-02-PLAN.md — Verify floating CTA absent, CSS minification + version bump (PERF-04, PERF-05)
 **UI hint**: no
 
 ---
@@ -92,7 +92,7 @@ Plans:
 | 6. Design Polish & Mobile | v1.0 | 2/2 | Complete | 2026-04-28 |
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete   | 2026-04-28 |
 | 8. Structured Data | v1.1 | 2/2 | Complete    | 2026-04-29 |
-| 9. Performance & Core Web Vitals | v1.1 | 1/2 | In Progress|  |
+| 9. Performance & Core Web Vitals | v1.1 | 2/2 | Complete   | 2026-04-29 |
 
 ---
 *v1.0 shipped: 2026-04-28 | v1.1 active — Phase 8 planned, ready to execute*

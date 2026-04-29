@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: SEO & Performance
-current_plan: 2
+current_plan: 1
 status: executing
-last_updated: "2026-04-29T01:47:40.202Z"
+last_updated: "2026-04-29T04:01:56.927Z"
 last_activity: 2026-04-29
 progress:
   total_phases: 3
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 6
-  completed_plans: 5
+  completed_plans: 6
 ---
 
 # Project State
@@ -20,15 +20,15 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-28)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Phase 09 — performance-core-web-vitals
+**Current focus:** Phase 09 complete — all v1.1 phases done
 
 ---
 
 ## Current Status
 
 **Phase:** 9
-**Current Plan:** 1
-**Status:** Executing Phase 09
+**Current Plan:** 2 (complete)
+**Status:** Phase 09 Complete — v1.1 milestone done
 **Last updated:** 2026-04-29
 
 **Progress bar:**
@@ -36,7 +36,7 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ```
 v1.1 Phase 7 [██████████] 100%  Meta Hygiene
 v1.1 Phase 8 [██████████] 100%  Structured Data (2/2 plans complete)
-v1.1 Phase 9 [████████░░]  83%  Performance & Core Web Vitals (1/2 plans complete)
+v1.1 Phase 9 [██████████] 100%  Performance & Core Web Vitals (2/2 plans complete)
 ```
 
 ---
@@ -47,7 +47,7 @@ v1.1 Phase 9 [████████░░]  83%  Performance & Core Web Vital
 |-------|------|--------|-----------|
 | 7 | Meta Hygiene | Complete | 2026-04-28 |
 | 8 | Structured Data | Complete | 2026-04-29 |
-| 9 | Performance & Core Web Vitals | In progress | — |
+| 9 | Performance & Core Web Vitals | Complete | 2026-04-29 |
 
 ---
 
@@ -67,6 +67,7 @@ v1.1 Phase 9 [████████░░]  83%  Performance & Core Web Vital
 | Phase 08-structured-data P02 | 8 | 2 tasks | 1 files |
 | Phase 08-structured-data P02 | 10 | 2 tasks | 1 files |
 | Phase 09-performance-core-web-vitals P01 | 15 | 3 tasks | 4 files |
+| Phase 09-performance-core-web-vitals P02 | 15 | 3 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -133,6 +134,9 @@ v1.1 Phase 9 [████████░░]  83%  Performance & Core Web Vital
 - Font weight 500 upgraded to 600 for all Inter and PJS rules — nearest loaded weight above 500, avoids synthetic bold fallback [09-01]
 - SVG mockups externalised as standalone files loaded via lazy img tags — reduces HTML parse payload by ~320 lines [09-01]
 - Calendly container uses min-height not height — allows iframe expansion if widget renders taller content [09-01]
+- CleanCSS DEFAULT optimisation level used for page.css minification — preserves var(--...) custom property references intact, advanced level risks inlining design tokens [09-02]
+- PERF-04 satisfied by absence — floating CTA removed in commit 909aaf2 before Phase 7, confirmed by grep returning zero matches in both index.html and page.css [09-02]
+- page.css cache-bust via query string: version bumped to ?v=14 whenever page.css is updated — consistent pattern across all phases [09-02]
 
 ### Technical Notes
 
@@ -167,12 +171,12 @@ v1.1 Phase 9 [████████░░]  83%  Performance & Core Web Vital
 
 ## Session Continuity
 
-**Next action:** Execute Phase 09 Plan 02 — Floating CTA CLS fix (PERF-04) and CSS minification (PERF-05).
+**Next action:** v1.1 milestone complete — all 3 phases (07, 08, 09) done.
 Last activity: 2026-04-29
 
 **Context for next session:**
-Phase 09 Plan 01 complete: Google Fonts trimmed to 7 variants (PJS 400/600/700/800, Inter 400/600/700), weight 500 removed from 5 CSS rules (all now 600). Both inline SVGs externalised — outreach-sequence.svg (480x520) and pipeline-board.svg (640x500) — as lazy-loaded img tags with explicit width/height. CSS selectors updated from svg to img. Calendly container gets min-height: 700px desktop / 650px mobile. PERF-01, PERF-02, PERF-03 complete. Remaining: PERF-04 (floating CTA CLS fix) and PERF-05 (CSS minification).
+Phase 09 complete: PERF-04 confirmed by absence (floating CTA removed pre-Phase 7, zero grep matches), PERF-05 delivered (page.css minified from 1,693 lines to single line via CleanCSS DEFAULT, version bumped to ?v=14). v1.1 milestone fully executed: Meta Hygiene (Phase 7), Structured Data (Phase 8), Performance & Core Web Vitals (Phase 9) — all 6 plans complete.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-29 — Phase 08 Plan 02 complete (SCHEMA-02, SCHEMA-03) — Phase 08 done*
+*Last session: 2026-04-29 — Phase 09 Plan 02 complete (PERF-04, PERF-05) — Phase 09 done — v1.1 milestone complete*
