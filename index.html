@@ -118,6 +118,36 @@
   </style>
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <!-- Structured Data: Organization + LocalBusiness (SCHEMA-01) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "name": "Leadzly",
+    "url": "https://leadzly.co/",
+    "logo": "https://leadzly.co/Leadzly-logo_with-text.png",
+    "description": "B2B sales outsourcing agency based in Northern Ireland. We book 20+ qualified meetings per month through dedicated telesales, appointment booking, and BDM provision.",
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "United Kingdom" },
+      { "@type": "AdministrativeArea", "name": "Northern Ireland" }
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "url": "https://calendly.com/allan-chan-leadzly",
+      "availableLanguage": "English"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Northern Ireland",
+      "addressCountry": "GB"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Elevateo Co"
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- Skip to content -->
