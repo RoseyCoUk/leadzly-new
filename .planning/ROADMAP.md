@@ -37,7 +37,7 @@ Full details: [.planning/milestones/v1.1-ROADMAP.md](./milestones/v1.1-ROADMAP.m
 
 - [x] **Phase 10: Schema Authority Layer** - Add three new JSON-LD blocks (Person, HowTo, updated LocalBusiness) to index.html head (completed 2026-04-29)
 - [x] **Phase 11: Visible Identity & Contact** - Surface founder name, LinkedIn, and full NAP contact details as visible on-page elements (completed 2026-04-29)
-- [ ] **Phase 12: AEO Copy Optimisation** - Restructure FAQ answers and sharpen hero/About copy with direct sentences and citable statistics
+- [x] **Phase 12: AEO Copy Optimisation** - Restructure FAQ answers and sharpen hero/About copy with direct sentences and citable statistics (completed 2026-04-29)
 
 ---
 
@@ -102,7 +102,7 @@ Plans:
 | 9. Performance & Core Web Vitals | v1.1 | 2/2 | Complete | 2026-04-29 |
 | 10. Schema Authority Layer | v1.2 | 1/1 | Complete    | 2026-04-29 |
 | 11. Visible Identity & Contact | v1.2 | 1/1 | Complete    | 2026-04-29 |
-| 12. AEO Copy Optimisation | v1.2 | 0/? | Not started | - |
+| 12. AEO Copy Optimisation | v1.2 | 0/? | Complete    | 2026-04-29 |
 
 ---
 *v1.0 shipped: 2026-04-28 | v1.1 shipped: 2026-04-29 | v1.2 planning in progress*
