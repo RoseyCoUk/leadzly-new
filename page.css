@@ -1695,7 +1695,7 @@ main > section + section::before {
 .floating-cta {
   position: fixed;
   bottom: 24px;
-  right: 24px;
+  left: 24px;
   z-index: 9999;
   opacity: 0;
   transform: translateY(16px);
