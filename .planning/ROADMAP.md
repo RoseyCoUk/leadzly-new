@@ -35,7 +35,7 @@ Full details: [.planning/milestones/v1.1-ROADMAP.md](./milestones/v1.1-ROADMAP.m
 
 ### 📋 v1.2 E-E-A-T & AI Search Signals (Phases 10–12)
 
-- [ ] **Phase 10: Schema Authority Layer** - Add three new JSON-LD blocks (Person, HowTo, updated LocalBusiness) to index.html head
+- [x] **Phase 10: Schema Authority Layer** - Add three new JSON-LD blocks (Person, HowTo, updated LocalBusiness) to index.html head (completed 2026-04-29)
 - [ ] **Phase 11: Visible Identity & Contact** - Surface founder name, LinkedIn, and full NAP contact details as visible on-page elements
 - [ ] **Phase 12: AEO Copy Optimisation** - Restructure FAQ answers and sharpen hero/About copy with direct sentences and citable statistics
 
@@ -55,7 +55,7 @@ Full details: [.planning/milestones/v1.1-ROADMAP.md](./milestones/v1.1-ROADMAP.m
 **Plans**: 1 plan
 
 Plans:
-- [ ] 10-01-PLAN.md — Update LocalBusiness address/telephone + add Person and HowTo JSON-LD blocks
+- [x] 10-01-PLAN.md — Update LocalBusiness address/telephone + add Person and HowTo JSON-LD blocks
 
 ### Phase 11: Visible Identity & Contact
 **Goal**: Visitors and search crawlers can see Leadzly's physical address, phone number, and named founder directly on the page
@@ -94,7 +94,7 @@ Plans:
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete | 2026-04-28 |
 | 8. Structured Data | v1.1 | 2/2 | Complete | 2026-04-29 |
 | 9. Performance & Core Web Vitals | v1.1 | 2/2 | Complete | 2026-04-29 |
-| 10. Schema Authority Layer | v1.2 | 0/1 | Not started | - |
+| 10. Schema Authority Layer | v1.2 | 1/1 | Complete   | 2026-04-29 |
 | 11. Visible Identity & Contact | v1.2 | 0/? | Not started | - |
 | 12. AEO Copy Optimisation | v1.2 | 0/? | Not started | - |
 

@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.2
 milestone_name: E-E-A-T & AI Search Signals
-current_plan: Not started
-status: roadmap defined — ready for phase planning
-last_updated: "2026-04-28T00:00:00.000Z"
-last_activity: 2026-04-28
+current_plan: 2
+status: executing
+last_updated: "2026-04-29T06:49:06.714Z"
+last_activity: 2026-04-29
 progress:
   total_phases: 3
-  completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  completed_phases: 1
+  total_plans: 1
+  completed_plans: 1
 ---
 
 # Project State
@@ -20,16 +20,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-29)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Milestone v1.2 roadmap defined — Phase 10 (Schema Authority Layer) is next
+**Current focus:** Phase 10 — schema-authority-layer
 
 ---
 
 ## Current Status
 
-**Phase:** 10 (not started)
-**Current Plan:** Not started
-**Status:** v1.2 roadmap defined — ready for plan-phase
-**Last updated:** 2026-04-28
+**Phase:** 10 (in progress — Plan 01 complete)
+**Current Plan:** 2
+**Status:** Executing Phase 10
+**Last updated:** 2026-04-29
 
 **Progress bar:**
 
@@ -48,7 +48,7 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 | 7 | Meta Hygiene | Complete | 2026-04-28 |
 | 8 | Structured Data | Complete | 2026-04-29 |
 | 9 | Performance & Core Web Vitals | Complete | 2026-04-29 |
-| 10 | Schema Authority Layer | Not started | - |
+| 10 | Schema Authority Layer | In progress | - |
 | 11 | Visible Identity & Contact | Not started | - |
 | 12 | AEO Copy Optimisation | Not started | - |
 
@@ -71,6 +71,7 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 | Phase 08-structured-data P02 | 10 | 2 tasks | 1 files |
 | Phase 09-performance-core-web-vitals P01 | 15 | 3 tasks | 4 files |
 | Phase 09-performance-core-web-vitals P02 | 15 | 3 tasks | 2 files |
+| Phase 10-schema-authority-layer P01 | 2 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -140,6 +141,10 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 - CleanCSS DEFAULT optimisation level used for page.css minification — preserves var(--...) custom property references intact, advanced level risks inlining design tokens [09-02]
 - PERF-04 satisfied by absence — floating CTA removed in commit 909aaf2 before Phase 7, confirmed by grep returning zero matches in both index.html and page.css [09-02]
 - page.css cache-bust via query string: version bumped to ?v=14 whenever page.css is updated — consistent pattern across all phases [09-02]
+- 4 HowToStep entries included to match all 4 visible How It Works steps — RESEARCH.md and visible section both show 4, not 3 [10-01]
+- telephone in SCHEMA-01 uses E.164 format +13074009814 (no spaces, no dashes) — schema.org best practice for LocalBusiness [10-01]
+- HowTo step property is singular "step" not "steps"; position values are strings not integers — schema.org anti-pattern avoided [10-01]
+- JSON-LD comment anchors follow pattern: "Structured Data: Type — Description (REQ-ID)" for easy grep identification [10-01]
 
 ### Technical Notes
 
@@ -179,11 +184,11 @@ v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 
 ## Session Continuity
 
-**Next action:** Run `/gsd:plan-phase 10` to plan Phase 10: Schema Authority Layer (NAP-03, EEAT-02, SCHEMA-04)
-Last activity: 2026-04-28
+**Next action:** Run `/gsd:execute-phase 11` to execute Phase 11: Visible Identity & Contact (footer NAP + About founder name/LinkedIn)
+Last activity: 2026-04-29
 
 **Context for next session:**
-v1.2 roadmap defined. Three phases: Phase 10 (JSON-LD additions to head — LocalBusiness update, Person block, HowTo block), Phase 11 (visible footer NAP + About founder name/LinkedIn), Phase 12 (FAQ answer restructure + hero/About copy with stats). All 9 requirements mapped. Start with Phase 10.
+Phase 10 Plan 01 complete. Three JSON-LD blocks updated/added: LocalBusiness now has full Belfast PostalAddress + telephone E.164; Person entity for Allan Chan with LinkedIn; HowTo 4-step process block. Total JSON-LD blocks in head = 5. Phase 11 should add matching visible NAP (address + phone) to footer and founder name/LinkedIn link to About section. Phase 12 follows with FAQ restructure and citable stats in hero/About.
 
 ---
 *State initialised: 2026-04-24*
