@@ -52,7 +52,10 @@ Full details: [.planning/milestones/v1.1-ROADMAP.md](./milestones/v1.1-ROADMAP.m
   2. A Person entity for Allan Chan is present in `<head>` with jobTitle, url, and sameAs (LinkedIn) fields
   3. A HowTo block is present in `<head>` with 3 steps whose names and descriptions match the visible "How It Works" section content
   4. All three new JSON-LD blocks validate without errors in schema.org validator
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 10-01-PLAN.md — Update LocalBusiness address/telephone + add Person and HowTo JSON-LD blocks
 
 ### Phase 11: Visible Identity & Contact
 **Goal**: Visitors and search crawlers can see Leadzly's physical address, phone number, and named founder directly on the page
@@ -91,7 +94,7 @@ Full details: [.planning/milestones/v1.1-ROADMAP.md](./milestones/v1.1-ROADMAP.m
 | 7. Meta Hygiene | v1.1 | 2/2 | Complete | 2026-04-28 |
 | 8. Structured Data | v1.1 | 2/2 | Complete | 2026-04-29 |
 | 9. Performance & Core Web Vitals | v1.1 | 2/2 | Complete | 2026-04-29 |
-| 10. Schema Authority Layer | v1.2 | 0/? | Not started | - |
+| 10. Schema Authority Layer | v1.2 | 0/1 | Not started | - |
 | 11. Visible Identity & Contact | v1.2 | 0/? | Not started | - |
 | 12. AEO Copy Optimisation | v1.2 | 0/? | Not started | - |
 
