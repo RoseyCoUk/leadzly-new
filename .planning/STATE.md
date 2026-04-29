@@ -3,40 +3,40 @@ gsd_state_version: 1.0
 milestone: v1.2
 milestone_name: E-E-A-T & AI Search Signals
 current_plan: Not started
-status: defining requirements
-last_updated: "2026-04-29T04:39:40.578Z"
-last_activity: 2026-04-29
+status: roadmap defined — ready for phase planning
+last_updated: "2026-04-28T00:00:00.000Z"
+last_activity: 2026-04-28
 progress:
   total_phases: 3
-  completed_phases: 3
-  total_plans: 6
-  completed_plans: 6
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
 ---
 
 # Project State
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-04-28)
+See: .planning/PROJECT.md (updated 2026-04-29)
 
 **Core value:** A prospect visiting leadzly.co should leave with enough trust and urgency to book a strategy call — the page must convert sceptical UK/NI B2B decision-makers.
-**Current focus:** Milestone v1.2 started — defining requirements
+**Current focus:** Milestone v1.2 roadmap defined — Phase 10 (Schema Authority Layer) is next
 
 ---
 
 ## Current Status
 
-**Phase:** 09
+**Phase:** 10 (not started)
 **Current Plan:** Not started
-**Status:** v1.1 milestone complete
-**Last updated:** 2026-04-29
+**Status:** v1.2 roadmap defined — ready for plan-phase
+**Last updated:** 2026-04-28
 
 **Progress bar:**
 
 ```
-v1.1 Phase 7 [██████████] 100%  Meta Hygiene
-v1.1 Phase 8 [██████████] 100%  Structured Data (2/2 plans complete)
-v1.1 Phase 9 [██████████] 100%  Performance & Core Web Vitals (2/2 plans complete)
+v1.2 Phase 10 [          ]   0%  Schema Authority Layer
+v1.2 Phase 11 [          ]   0%  Visible Identity & Contact
+v1.2 Phase 12 [          ]   0%  AEO Copy Optimisation
 ```
 
 ---
@@ -48,6 +48,9 @@ v1.1 Phase 9 [██████████] 100%  Performance & Core Web Vital
 | 7 | Meta Hygiene | Complete | 2026-04-28 |
 | 8 | Structured Data | Complete | 2026-04-29 |
 | 9 | Performance & Core Web Vitals | Complete | 2026-04-29 |
+| 10 | Schema Authority Layer | Not started | - |
+| 11 | Visible Identity & Contact | Not started | - |
+| 12 | AEO Copy Optimisation | Not started | - |
 
 ---
 
@@ -149,11 +152,16 @@ v1.1 Phase 9 [██████████] 100%  Performance & Core Web Vital
 - v1.1 note: JSON-LD blocks go in `<head>` before closing `</head>` tag
 - v1.1 note: robots.txt and sitemap.xml are new files at project root (served by Vercel as static assets)
 - v1.1 note: page.css minification is hand-applied — no build tool; version bump via query string on link tag in index.html
+- v1.2 note: LocalBusiness JSON-LD already exists in head (SCHEMA-01) — Phase 10 updates it with address + telephone fields
+- v1.2 note: page.css version bump target is ?v=15 if any CSS changes are made in this milestone
+- v1.2 note: Allan Chan LinkedIn URL: https://www.linkedin.com/in/allan-chan-865422216/
+- v1.2 note: NAP address: 1 Hollycroft Avenue, Belfast, BT5 5JE, United Kingdom | Phone: +1 307 400 9814
 
 ### Todos
 
 - [x] Confirm exact FAQ question/answer text before writing SCHEMA-02 — resolved: all 7 Q&A pairs extracted verbatim in 08-RESEARCH.md [08-01]
 - [x] Confirm OG image URL for Twitter Card meta tags (twitter:image must be absolute URL) — resolved: https://leadzly.co/Leadzly-logo_with-text.png [07-01]
+- [ ] Confirm all 7 FAQ answer texts before AEO-01 restructure (Phase 12) — extract from current index.html
 
 ### Blockers
 
@@ -171,12 +179,12 @@ v1.1 Phase 9 [██████████] 100%  Performance & Core Web Vital
 
 ## Session Continuity
 
-**Next action:** v1.1 milestone complete — all 3 phases (07, 08, 09) done.
-Last activity: 2026-04-29
+**Next action:** Run `/gsd:plan-phase 10` to plan Phase 10: Schema Authority Layer (NAP-03, EEAT-02, SCHEMA-04)
+Last activity: 2026-04-28
 
 **Context for next session:**
-Phase 09 complete: PERF-04 confirmed by absence (floating CTA removed pre-Phase 7, zero grep matches), PERF-05 delivered (page.css minified from 1,693 lines to single line via CleanCSS DEFAULT, version bumped to ?v=14). v1.1 milestone fully executed: Meta Hygiene (Phase 7), Structured Data (Phase 8), Performance & Core Web Vitals (Phase 9) — all 6 plans complete.
+v1.2 roadmap defined. Three phases: Phase 10 (JSON-LD additions to head — LocalBusiness update, Person block, HowTo block), Phase 11 (visible footer NAP + About founder name/LinkedIn), Phase 12 (FAQ answer restructure + hero/About copy with stats). All 9 requirements mapped. Start with Phase 10.
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-29 — Phase 09 Plan 02 complete (PERF-04, PERF-05) — Phase 09 done — v1.1 milestone complete*
+*Last session: 2026-04-28 — v1.2 roadmap defined — Phase 10, 11, 12 identified*

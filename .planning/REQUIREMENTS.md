@@ -53,12 +53,12 @@
 
 | REQ-ID | Phase | Plan |
 |--------|-------|------|
-| NAP-01 | — | — |
-| NAP-02 | — | — |
-| NAP-03 | — | — |
-| EEAT-01 | — | — |
-| EEAT-02 | — | — |
-| SCHEMA-04 | — | — |
-| AEO-01 | — | — |
-| AEO-02 | — | — |
-| AEO-03 | — | — |
+| NAP-01 | Phase 11 | — |
+| NAP-02 | Phase 11 | — |
+| NAP-03 | Phase 10 | — |
+| EEAT-01 | Phase 11 | — |
+| EEAT-02 | Phase 10 | — |
+| SCHEMA-04 | Phase 10 | — |
+| AEO-01 | Phase 12 | — |
+| AEO-02 | Phase 12 | — |
+| AEO-03 | Phase 12 | — |
