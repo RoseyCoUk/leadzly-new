@@ -62,9 +62,9 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 - [x] META-03: Twitter Card meta tags — Validated in Phase 07: meta-hygiene
 - [x] META-04: robots.txt — Validated in Phase 07: meta-hygiene
 - [x] META-05: sitemap.xml — Validated in Phase 07: meta-hygiene
-- [ ] SCHEMA-01: Organization + LocalBusiness JSON-LD
-- [ ] SCHEMA-02: FAQPage JSON-LD
-- [ ] SCHEMA-03: Service JSON-LD
+- [x] SCHEMA-01: Organization + LocalBusiness JSON-LD — Validated in Phase 08: structured-data
+- [x] SCHEMA-02: FAQPage JSON-LD — Validated in Phase 08: structured-data
+- [x] SCHEMA-03: Service JSON-LD — Validated in Phase 08: structured-data
 - [ ] PERF-01: Font weight trim (400/600/700 only)
 - [ ] PERF-02: SVG lazy-loading (pipeline + outreach mockups)
 - [ ] PERF-03: Calendly CLS fix
@@ -139,4 +139,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-28 — Phase 07 complete (meta-hygiene: canonical, robots, Twitter Cards, robots.txt, sitemap.xml)*
+*Last updated: 2026-04-29 — Phase 08 complete (structured-data: Organization+LocalBusiness, FAQPage, Service JSON-LD blocks)*
