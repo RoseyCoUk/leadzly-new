@@ -12,7 +12,7 @@
 
 ## Current State
 
-**v1.1 shipped: 2026-04-29** — Both milestones complete. leadzly.co is a fully rebuilt, conversion-optimised, SEO-ready B2B landing page live on Vercel via RoseyCoUk/leadzly-new.
+**v1.2 in progress: 2026-04-29** — Phase 11 complete. Visible NAP (address + phone) and Allan Chan founder byline now in page body, matching Phase 10 JSON-LD declarations.
 
 ---
 
@@ -72,6 +72,12 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 ### Dropped (intentional)
 
 - ✗ TRST-01/02 — Testimonials — *no real content available; fake social proof undermines credibility*
+
+### Validated (v1.2)
+
+- ✓ LocalBusiness NAP schema + Person JSON-LD + HowTo JSON-LD (NAP-03, EEAT-02, SCHEMA-04) — v1.2 Phase 10
+- ✓ Footer visible NAP: full postal address + real phone `tel:` link (NAP-01, NAP-02) — v1.2 Phase 11
+- ✓ About section founder byline: Allan Chan + LinkedIn link (EEAT-01) — v1.2 Phase 11
 
 ### Active (v1.2 candidates)
 
@@ -136,4 +142,4 @@ A prospect visiting leadzly.co should leave with enough trust and urgency to boo
 | Inline IIFEs, no separate JS file | Single index.html drop-in, no asset coordination | ✓ Good |
 
 ---
-*Last updated: 2026-04-29 — v1.2 milestone started (E-E-A-T & AI Search Signals)*
+*Last updated: 2026-04-29 — Phase 11 complete (visible NAP + founder byline)*
