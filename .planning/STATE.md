@@ -27,15 +27,15 @@ See: .planning/PROJECT.md (updated 2026-04-28)
 ## Current Status
 
 **Phase:** 8
-**Current Plan:** 1
+**Current Plan:** 2
 **Status:** Executing Phase 08
-**Last updated:** 2026-04-28
+**Last updated:** 2026-04-29
 
 **Progress bar:**
 
 ```
 v1.1 Phase 7 [██████████] 100%  Meta Hygiene
-v1.1 Phase 8 [----------]   0%  Structured Data
+v1.1 Phase 8 [███░░░░░░░]  33%  Structured Data (1/3 plans complete)
 v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 ```
 
@@ -46,7 +46,7 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 | Phase | Name | Status | Completed |
 |-------|------|--------|-----------|
 | 7 | Meta Hygiene | Complete | 2026-04-28 |
-| 8 | Structured Data | Not started | — |
+| 8 | Structured Data | In Progress | — |
 | 9 | Performance & Core Web Vitals | Not started | — |
 
 ---
@@ -63,7 +63,6 @@ v1.1 Phase 9 [----------]   0%  Performance & Core Web Vitals
 ---
 | Phase 07-meta-hygiene P01 | 5 | 2 tasks | 1 files |
 | Phase 07-meta-hygiene P02 | 5 | 2 tasks | 2 files |
-| Phase 08-structured-data P01 | 5 | 1 tasks | 1 files |
 | Phase 08-structured-data P01 | 5 | 1 tasks | 1 files |
 
 ## Accumulated Context
@@ -166,4 +165,4 @@ Phase 08 Plan 01 complete: Organization + LocalBusiness JSON-LD block (SCHEMA-01
 
 ---
 *State initialised: 2026-04-24*
-*Last session: 2026-04-28 — Phase 07 Plan 01 complete (META-01, META-02, META-03)*
+*Last session: 2026-04-29 — Phase 08 Plan 01 complete (SCHEMA-01)*
