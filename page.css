@@ -627,7 +627,7 @@ main > section + section::before {
     justify-content: center;
     margin-top: var(--space-10);
   }
-  .how__visual svg {
+  .how__visual img {
     width: 100%;
     max-width: 960px;
     height: auto;
@@ -1153,7 +1153,7 @@ main > section + section::before {
     justify-content: center;
     align-items: flex-start;
   }
-  .channels__visual svg {
+  .channels__visual img {
     width: 100%;
     height: auto;
     filter: drop-shadow(0 6px 24px rgba(0,0,0,0.10));

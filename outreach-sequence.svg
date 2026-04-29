@@ -1,0 +1,119 @@
+<svg viewBox="0 0 480 520" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+            <!-- Card background -->
+            <rect x="0" y="0" width="480" height="520" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+            <!-- Green top bar -->
+            <rect x="0" y="0" width="480" height="4" rx="2" fill="#16a34a"/>
+            <!-- Header row -->
+            <text x="20" y="30" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0f172a">Outreach Sequence</text>
+            <rect x="340" y="16" width="120" height="22" rx="11" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+            <circle cx="354" cy="27" r="4" fill="#16a34a"/>
+            <text x="362" y="31" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#16a34a">Active · 5 steps</text>
+            <!-- Divider -->
+            <line x1="0" y1="48" x2="480" y2="48" stroke="#e2e8f0" stroke-width="1"/>
+            <!-- Column labels -->
+            <text x="20" y="68" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">TOUCHPOINT</text>
+            <text x="152" y="68" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">CHANNEL</text>
+            <text x="276" y="68" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">MESSAGE PREVIEW</text>
+            <text x="420" y="68" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#94a3b8">STATUS</text>
+            <line x1="0" y1="74" x2="480" y2="74" stroke="#f1f5f9" stroke-width="1"/>
+            <!-- === ROW 1: Day 1 — Cold Call === -->
+            <rect x="14" y="82" width="46" height="20" rx="5" fill="#f0fdf4"/>
+            <text x="37" y="96" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#16a34a">Day 1</text>
+            <!-- Vertical dashed connector -->
+            <line x1="37" y1="102" x2="37" y2="116" stroke="#bbf7d0" stroke-width="2" stroke-dasharray="3,2"/>
+            <!-- Channel icon: phone -->
+            <circle cx="168" cy="92" r="13" fill="#dcfce7"/>
+            <path d="M163.5 93.5 c0.5-1 1.5-2 2.5-2 s2 0.5 2 1.5 l-0.5 1 c-0.5 1 0 1.5 0.5 2 a6 6 0 0 0 2 2 c0.5 0.5 1 0.5 1.5 0 l1-0.5 c1-0.5 2-0.5 2 1 v1.5 a1 1 0 0 1-1 1 c-4 0-8-4-8-8 a1 1 0 0 1 1-1 z" fill="none" stroke="#16a34a" stroke-width="1.4" stroke-linecap="round"/>
+            <text x="186" y="97" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Cold Call</text>
+            <!-- Message preview -->
+            <text x="276" y="89" font-family="Inter,sans-serif" font-size="10" fill="#64748b">"Hi [Name], I help B2B companies</text>
+            <text x="276" y="103" font-family="Inter,sans-serif" font-size="10" fill="#64748b">book qualified sales meetings..."</text>
+            <!-- Status badge -->
+            <rect x="410" y="82" width="56" height="20" rx="10" fill="#dcfce7"/>
+            <text x="438" y="96" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#16a34a">Sent</text>
+            <!-- Row 2: Day 3 — Email -->
+            <rect x="14" y="118" width="46" height="20" rx="5" fill="#f0fdf4"/>
+            <text x="37" y="132" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#16a34a">Day 3</text>
+            <line x1="37" y1="138" x2="37" y2="152" stroke="#bbf7d0" stroke-width="2" stroke-dasharray="3,2"/>
+            <!-- Channel icon: email -->
+            <circle cx="168" cy="128" r="13" fill="#dbeafe"/>
+            <path d="M161,122 h14 a1,1 0 0 1 1,1 v8 a1,1 0 0 1-1,1 h-14 a1,1 0 0 1-1-1 v-8 a1,1 0 0 1 1-1 z" fill="none" stroke="#3b82f6" stroke-width="1.4"/>
+            <polyline points="161,123 168,129 175,123" fill="none" stroke="#3b82f6" stroke-width="1.4" stroke-linecap="round"/>
+            <text x="186" y="133" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Cold Email</text>
+            <text x="276" y="125" font-family="Inter,sans-serif" font-size="10" fill="#64748b">"Following my call — wanted to</text>
+            <text x="276" y="139" font-family="Inter,sans-serif" font-size="10" fill="#64748b">share a quick case study..."</text>
+            <rect x="410" y="118" width="56" height="20" rx="10" fill="#dcfce7"/>
+            <text x="438" y="132" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#16a34a">Sent</text>
+            <!-- Row 3: Day 5 — LinkedIn -->
+            <rect x="14" y="154" width="46" height="20" rx="5" fill="#f0fdf4"/>
+            <text x="37" y="168" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#16a34a">Day 5</text>
+            <line x1="37" y1="174" x2="37" y2="188" stroke="#bbf7d0" stroke-width="2" stroke-dasharray="3,2"/>
+            <!-- Channel icon: LinkedIn -->
+            <circle cx="168" cy="164" r="13" fill="#dbeafe"/>
+            <rect x="161" y="157" width="14" height="14" rx="3" fill="none" stroke="#3b82f6" stroke-width="1.4"/>
+            <text x="168" y="167" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#3b82f6">in</text>
+            <text x="186" y="169" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">LinkedIn DM</text>
+            <text x="276" y="161" font-family="Inter,sans-serif" font-size="10" fill="#64748b">"Noticed we're connected — would</text>
+            <text x="276" y="175" font-family="Inter,sans-serif" font-size="10" fill="#64748b">love 15 mins on your pipeline..."</text>
+            <rect x="410" y="154" width="56" height="20" rx="10" fill="#dcfce7"/>
+            <text x="438" y="168" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#16a34a">Sent</text>
+            <!-- Row 4: Day 8 — Email Follow-Up -->
+            <rect x="14" y="190" width="46" height="20" rx="5" fill="#f0fdf4"/>
+            <text x="37" y="204" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#16a34a">Day 8</text>
+            <line x1="37" y1="210" x2="37" y2="224" stroke="#bbf7d0" stroke-width="2" stroke-dasharray="3,2"/>
+            <circle cx="168" cy="200" r="13" fill="#dbeafe"/>
+            <path d="M161,194 h14 a1,1 0 0 1 1,1 v8 a1,1 0 0 1-1,1 h-14 a1,1 0 0 1-1-1 v-8 a1,1 0 0 1 1-1 z" fill="none" stroke="#3b82f6" stroke-width="1.4"/>
+            <polyline points="161,195 168,201 175,195" fill="none" stroke="#3b82f6" stroke-width="1.4" stroke-linecap="round"/>
+            <text x="186" y="205" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Follow-Up Email</text>
+            <text x="276" y="197" font-family="Inter,sans-serif" font-size="10" fill="#64748b">"Just bumping this up — are you</text>
+            <text x="276" y="211" font-family="Inter,sans-serif" font-size="10" fill="#64748b">the right person to speak to?"</text>
+            <rect x="410" y="190" width="66" height="20" rx="10" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+            <text x="443" y="204" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#64748b">Queued</text>
+            <!-- Row 5: Day 12 — Final Call -->
+            <rect x="14" y="226" width="46" height="20" rx="5" fill="#f0fdf4"/>
+            <text x="37" y="240" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#16a34a">Day 12</text>
+            <circle cx="168" cy="236" r="13" fill="#dcfce7"/>
+            <path d="M163.5 237.5 c0.5-1 1.5-2 2.5-2 s2 0.5 2 1.5 l-0.5 1 c-0.5 1 0 1.5 0.5 2 a6 6 0 0 0 2 2 c0.5 0.5 1 0.5 1.5 0 l1-0.5 c1-0.5 2-0.5 2 1 v1.5 a1 1 0 0 1-1 1 c-4 0-8-4-8-8 a1 1 0 0 1 1-1 z" fill="none" stroke="#16a34a" stroke-width="1.4" stroke-linecap="round"/>
+            <text x="186" y="241" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Close Call</text>
+            <text x="276" y="233" font-family="Inter,sans-serif" font-size="10" fill="#64748b">"One last attempt — happy to send</text>
+            <text x="276" y="247" font-family="Inter,sans-serif" font-size="10" fill="#64748b">a calendar link if easier?"</text>
+            <rect x="410" y="226" width="66" height="20" rx="10" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+            <text x="443" y="240" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#64748b">Queued</text>
+            <!-- Footer divider -->
+            <line x1="0" y1="264" x2="480" y2="264" stroke="#e2e8f0" stroke-width="1"/>
+            <!-- Stats footer area -->
+            <rect x="0" y="264" width="480" height="256" rx="0" fill="#f8fafc"/>
+            <rect x="0" y="500" width="480" height="20" rx="0" fill="#f8fafc"/>
+            <!-- Stats title -->
+            <text x="20" y="290" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#0f172a">Sequence Performance</text>
+            <rect x="340" y="278" width="120" height="20" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+            <text x="400" y="292" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Last 30 days</text>
+            <!-- Open rate bar -->
+            <text x="20" y="318" font-family="Inter,sans-serif" font-size="11" fill="#0f172a">Open Rate</text>
+            <text x="460" y="318" text-anchor="end" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#16a34a">74%</text>
+            <rect x="20" y="324" width="440" height="10" rx="5" fill="#e2e8f0"/>
+            <rect x="20" y="324" width="326" height="10" rx="5" fill="#16a34a"/>
+            <!-- Reply rate bar -->
+            <text x="20" y="356" font-family="Inter,sans-serif" font-size="11" fill="#0f172a">Reply Rate</text>
+            <text x="460" y="356" text-anchor="end" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#16a34a">36%</text>
+            <rect x="20" y="362" width="440" height="10" rx="5" fill="#e2e8f0"/>
+            <rect x="20" y="362" width="158" height="10" rx="5" fill="#22c55e"/>
+            <!-- Booked rate bar -->
+            <text x="20" y="394" font-family="Inter,sans-serif" font-size="11" fill="#0f172a">Meeting Booked</text>
+            <text x="460" y="394" text-anchor="end" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#16a34a">19%</text>
+            <rect x="20" y="400" width="440" height="10" rx="5" fill="#e2e8f0"/>
+            <rect x="20" y="400" width="84" height="10" rx="5" fill="#16a34a"/>
+            <!-- Summary stats -->
+            <rect x="20" y="424" width="132" height="56" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+            <text x="86" y="448" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#0f172a">312</text>
+            <text x="86" y="464" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Prospects Touched</text>
+            <rect x="168" y="424" width="132" height="56" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+            <text x="234" y="448" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#0f172a">113</text>
+            <text x="234" y="464" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Replies Received</text>
+            <rect x="316" y="424" width="144" height="56" rx="8" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+            <text x="388" y="448" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="700" fill="#15803d">59</text>
+            <text x="388" y="464" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">Meetings Booked</text>
+            <!-- Footer label -->
+            <text x="20" y="510" font-family="Inter,sans-serif" font-size="9" fill="#94a3b8">5 touchpoints · Avg close on touch 4</text>
+            <text x="460" y="510" text-anchor="end" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">● Live</text>
+          </svg>

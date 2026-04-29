@@ -1,0 +1,170 @@
+<svg viewBox="0 0 640 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+          <!-- Card background -->
+          <rect x="0" y="0" width="640" height="500" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+          <!-- Green top bar -->
+          <rect x="0" y="0" width="640" height="4" rx="2" fill="#16a34a"/>
+          <!-- Title row -->
+          <text x="20" y="30" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0f172a">Pipeline Board</text>
+          <rect x="496" y="16" width="128" height="22" rx="11" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+          <circle cx="510" cy="27" r="4" fill="#16a34a"/>
+          <text x="518" y="31" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#16a34a">Live · Updated now</text>
+          <!-- Divider -->
+          <line x1="0" y1="48" x2="640" y2="48" stroke="#e2e8f0" stroke-width="1"/>
+          <!-- Column headers -->
+          <!-- Col 1: ICP Audit -->
+          <rect x="14" y="60" width="144" height="26" rx="7" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+          <text x="86" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#16a34a">ICP Audit</text>
+          <text x="152" y="77" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">4</text>
+          <!-- Col 2: Scripting -->
+          <rect x="172" y="60" width="144" height="26" rx="7" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+          <text x="244" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#16a34a">Scripting</text>
+          <text x="310" y="77" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">3</text>
+          <!-- Col 3: Live Outreach -->
+          <rect x="330" y="60" width="144" height="26" rx="7" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+          <text x="402" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#16a34a">Live Outreach</text>
+          <text x="468" y="77" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">4</text>
+          <!-- Col 4: Meetings Booked -->
+          <rect x="484" y="60" width="142" height="26" rx="7" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+          <text x="555" y="77" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#15803d">Meetings Booked</text>
+          <!-- Vertical dividers -->
+          <line x1="162" y1="54" x2="162" y2="460" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="320" y1="54" x2="320" y2="460" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="478" y1="54" x2="478" y2="460" stroke="#e2e8f0" stroke-width="1"/>
+          <!-- === COL 1 CARDS === -->
+          <!-- Card 1a -->
+          <rect x="14" y="98" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="24" y="114" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Acme Corp Ltd</text>
+          <text x="24" y="129" font-family="Inter,sans-serif" font-size="9" fill="#64748b">CEO · SaaS · 45 employees</text>
+          <rect x="24" y="136" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="24" y="136" width="36" height="6" rx="3" fill="#16a34a" opacity="0.5"/>
+          <!-- Card 1b -->
+          <rect x="14" y="158" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="24" y="174" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Bright Solutions</text>
+          <text x="24" y="189" font-family="Inter,sans-serif" font-size="9" fill="#64748b">MD · Digital Agency</text>
+          <rect x="24" y="196" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="24" y="196" width="22" height="6" rx="3" fill="#16a34a" opacity="0.5"/>
+          <!-- Card 1c -->
+          <rect x="14" y="218" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="24" y="234" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Nexus Digital</text>
+          <text x="24" y="249" font-family="Inter,sans-serif" font-size="9" fill="#64748b">CTO · Fintech · Series A</text>
+          <rect x="24" y="256" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="24" y="256" width="30" height="6" rx="3" fill="#16a34a" opacity="0.5"/>
+          <!-- Card 1d -->
+          <rect x="14" y="278" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="24" y="294" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Vertex Systems</text>
+          <text x="24" y="309" font-family="Inter,sans-serif" font-size="9" fill="#64748b">COO · Managed IT</text>
+          <rect x="24" y="316" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="24" y="316" width="14" height="6" rx="3" fill="#f59e0b" opacity="0.7"/>
+          <!-- === COL 2 CARDS === -->
+          <!-- Card 2a -->
+          <rect x="172" y="98" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="182" y="114" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">TechVision UK</text>
+          <text x="182" y="129" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Founder · B2B SaaS</text>
+          <rect x="182" y="136" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="182" y="136" width="38" height="6" rx="3" fill="#16a34a" opacity="0.6"/>
+          <!-- Card 2b -->
+          <rect x="172" y="158" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="182" y="174" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">BlueWave Agency</text>
+          <text x="182" y="189" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Director · Marketing</text>
+          <rect x="182" y="196" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="182" y="196" width="28" height="6" rx="3" fill="#16a34a" opacity="0.6"/>
+          <!-- Card 2c -->
+          <rect x="172" y="218" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="182" y="234" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Pinnacle Recruit</text>
+          <text x="182" y="249" font-family="Inter,sans-serif" font-size="9" fill="#64748b">CEO · Recruitment</text>
+          <rect x="182" y="256" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="182" y="256" width="20" height="6" rx="3" fill="#f59e0b" opacity="0.7"/>
+          <!-- === COL 3 CARDS === -->
+          <!-- Card 3a -->
+          <rect x="330" y="98" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="340" y="114" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Orbit Systems</text>
+          <text x="340" y="129" font-family="Inter,sans-serif" font-size="9" fill="#64748b">VP Sales · Cloud SaaS</text>
+          <rect x="340" y="136" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="340" y="136" width="40" height="6" rx="3" fill="#16a34a" opacity="0.7"/>
+          <!-- Card 3b -->
+          <rect x="330" y="158" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="340" y="174" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Crestview SaaS</text>
+          <text x="340" y="189" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Head of Sales · SaaS</text>
+          <rect x="340" y="196" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="340" y="196" width="34" height="6" rx="3" fill="#16a34a" opacity="0.7"/>
+          <!-- Card 3c -->
+          <rect x="330" y="218" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="340" y="234" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">PeakForce Ltd</text>
+          <text x="340" y="249" font-family="Inter,sans-serif" font-size="9" fill="#64748b">MD · E-Commerce</text>
+          <rect x="340" y="256" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="340" y="256" width="26" height="6" rx="3" fill="#16a34a" opacity="0.7"/>
+          <!-- Card 3d -->
+          <rect x="330" y="278" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="340" y="294" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Sterling Logistics</text>
+          <text x="340" y="309" font-family="Inter,sans-serif" font-size="9" fill="#64748b">CEO · Logistics &amp; Supply</text>
+          <rect x="340" y="316" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="340" y="316" width="18" height="6" rx="3" fill="#f59e0b" opacity="0.6"/>
+          <!-- === COL 4 CARDS (green tint) === -->
+          <!-- Card 4a -->
+          <rect x="484" y="98" width="142" height="50" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+          <circle cx="496" cy="116" r="7" fill="#16a34a"/>
+          <polyline points="493,116 495,118 500,113" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="510" y="114" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#15803d">Apex Ventures</text>
+          <text x="510" y="129" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">Booked · Thu 2pm</text>
+          <text x="510" y="143" font-family="Inter,sans-serif" font-size="8" fill="#64748b">CEO · VC-backed SaaS</text>
+          <!-- Card 4b -->
+          <rect x="484" y="158" width="142" height="50" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+          <circle cx="496" cy="176" r="7" fill="#16a34a"/>
+          <polyline points="493,176 495,178 500,173" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="510" y="174" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#15803d">Zenith Partners</text>
+          <text x="510" y="189" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">Booked · Fri 10am</text>
+          <text x="510" y="203" font-family="Inter,sans-serif" font-size="8" fill="#64748b">MD · Professional Svcs</text>
+          <!-- Card 4c -->
+          <rect x="484" y="218" width="142" height="50" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+          <circle cx="496" cy="236" r="7" fill="#16a34a"/>
+          <polyline points="493,236 495,238 500,233" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="510" y="234" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#15803d">Forte Group</text>
+          <text x="510" y="249" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">Booked · Mon 3pm</text>
+          <text x="510" y="263" font-family="Inter,sans-serif" font-size="8" fill="#64748b">Director · Construction</text>
+          <!-- Card 4d -->
+          <rect x="484" y="278" width="142" height="50" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+          <circle cx="496" cy="296" r="7" fill="#16a34a"/>
+          <polyline points="493,296 495,298 500,293" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="510" y="294" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#15803d">Meridian Health</text>
+          <text x="510" y="309" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">Booked · Tue 11am</text>
+          <text x="510" y="323" font-family="Inter,sans-serif" font-size="8" fill="#64748b">CEO · Healthcare Tech</text>
+          <!-- === ROW 5 CARDS === -->
+          <!-- Card 1e -->
+          <rect x="14" y="338" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="24" y="354" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Halcyon Group</text>
+          <text x="24" y="369" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Founder · Consultancy</text>
+          <rect x="24" y="376" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="24" y="376" width="10" height="6" rx="3" fill="#f59e0b" opacity="0.7"/>
+          <!-- Card 2d -->
+          <rect x="172" y="338" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="182" y="354" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Atlas Logistics</text>
+          <text x="182" y="369" font-family="Inter,sans-serif" font-size="9" fill="#64748b">COO · Supply Chain</text>
+          <rect x="182" y="376" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="182" y="376" width="42" height="6" rx="3" fill="#16a34a" opacity="0.6"/>
+          <!-- Card 3e -->
+          <rect x="330" y="338" width="138" height="50" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="340" y="354" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0f172a">Vantage Capital</text>
+          <text x="340" y="369" font-family="Inter,sans-serif" font-size="9" fill="#64748b">CFO · Financial Services</text>
+          <rect x="340" y="376" width="42" height="6" rx="3" fill="#e2e8f0"/>
+          <rect x="340" y="376" width="38" height="6" rx="3" fill="#16a34a" opacity="0.7"/>
+          <!-- Card 4e -->
+          <rect x="484" y="338" width="142" height="50" rx="6" fill="#dcfce7" stroke="#bbf7d0" stroke-width="1"/>
+          <circle cx="496" cy="356" r="7" fill="#16a34a"/>
+          <polyline points="493,356 495,358 500,353" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="510" y="354" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#15803d">Solus Tech Ltd</text>
+          <text x="510" y="369" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">Booked · Wed 9am</text>
+          <text x="510" y="383" font-family="Inter,sans-serif" font-size="8" fill="#64748b">CTO · IT Services</text>
+          <!-- Stats divider -->
+          <line x1="0" y1="460" x2="640" y2="460" stroke="#e2e8f0" stroke-width="1"/>
+          <rect x="0" y="460" width="640" height="40" rx="0" fill="#f8fafc"/>
+          <!-- Stats summary -->
+          <text x="20" y="486" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">22 leads in pipeline</text>
+          <line x1="138" y1="474" x2="138" y2="492" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="150" y="486" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">5 meetings booked this week</text>
+          <line x1="320" y1="474" x2="320" y2="492" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="332" y="486" font-family="Inter,sans-serif" font-size="10" fill="#94a3b8">£46k est. pipeline value</text>
+          <circle cx="596" cy="482" r="4" fill="#16a34a"/>
+          <text x="606" y="486" font-family="Inter,sans-serif" font-size="9" fill="#16a34a">Live</text>
+          <!-- Bottom radius fill -->
+          <rect x="0" y="488" width="640" height="12" rx="0" fill="#f8fafc"/>
+        </svg>
